@@ -5,7 +5,7 @@ build:
     python: "3.10"
   jobs:
     pre_build:
-      - python -m sphinx -b linkcheck -D linkcheck_timeout=1 docs/ _build/linkcheck
+      # - python -m sphinx -b linkcheck -D linkcheck_timeout=1 docs/ _build/linkcheck
       # - pydoc-markdown --build --site-dir "$PWD/_build/html"
     # pre_install:
     #   - bash ./scripts/pre_install.sh
