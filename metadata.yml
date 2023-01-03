@@ -1,0 +1,27 @@
+---
+title:  Documentation application e-carnet de maternelle
+subtitle: application pour professeur du cycle maternelle
+
+institute: TR e-solutions
+author: support@tr-esolutions.com
+date: Version 1.9.16v117 du 14 mars 2021, édition du 20 juin 2021
+language: fr-FR
+lang: fr-FR
+
+output:
+  html_document:
+    toc: true
+    toc_float: true
+---
+
+# abstract: Logiciel pour tablettes (Android) destiné aux instituteurs de maternelle pour produire avec leurs élèves les cahiers de reussite
+
+# mainfont: DejaVu Sans
+#rights: MIT License
+# tags: [book, my-book, etc]
+# abstract: |
+#   Your summary.
+# voir https://bookdown.org/yihui/rmarkdown/pdf-document.html
+
+
+

@@ -1,0 +1,70 @@
+## Tutoriels
+
+
+screenshots/2020-05-03-16-38-26.png
+<!-- [!embed?max_width=300&max_height=200](https://www.youtube.com/watch?v=xxx) -->
+
+
+
+## Copier automatiquement les fichiers de la tablette vers un espace de stockage partageable
+
+Prérequis : 
+
+1 - avoir installé sur sa tablette ou smartphone le logiciel d'accès à votre espace de stockage. Exemples : 
+- Google Drive
+- Microsoft OneDrive
+- NExtCloud/OwnCloud
+- ...
+
+2 - En fonction de votre solution de stockage dans le cloud, il existe plusieurs solutions, gratuites ou payantes, qui vont vous permettre de mettre en place un mécanisme de recopie automatique de vos fichiers e-carnet dans votre espace de stockage cloud. Ces applications n'ont aucun lien avec l'éditeur du logiciel e-carnet maternelle.
+
+- Si vous utilisez Google Drive, le logiciel de recopie automatique à installer sur votre tablette ou smartphone est : Autosync for Google Drive (https://play.google.com/store/apps/details?id=com.ttxapps.drivesync&gl=FR). Application gratuite, avec publicité.
+
+![Google drive et DriveSync (=AutoSync for Google drive)](screenshots/2021-06-27-14-06-00.png)
+
+- Si vous utilisez Microsoft OneDrive, le logiciel est : Autosync for OneDrive (https://play.google.com/store/search?q=autosync%20for%20onedrive&c=apps). Application gratuite, avec publicité.
+
+- Idem si Dropbox : Autosync for Dropbox - Dropsync (https://play.google.com/store/apps/details?id=com.ttxapps.dropsync)
+
+- Si vous utiliser d'autres solutions, l'application à installer est : 	Autosync - Universal cloud sync and backup. Elle peut être payante.
+
+Le principe consiste ensuite à paramétrer l'une de ces applications avec votre compte d'acces à votre espace de stockage et d'indiquer les 2 répertoires : 
+- le répertoire "e-carnet maternelle" situé sur la tablette
+- un répertoire situé à distance dans votre espace de stockage cloud dans lequel tous les fichiers du dossier précédent vont se recopier automatiquement.
+
+Bien choisir "Envoyer uniquement", ce qui a l'avantage de conserver dans l'espace distant tous les fichiers, y compris ceux que vous pouvez supprimer sur votre tablette pour faire du ménage de temps en temps ...
+
+Voici ci-dessous quelques copies d'écran de la version "recopie vers Google drive" (Autosync for Google Drive)
+
+![Installation depuis PlayStore](screenshots/2021-06-27-12-04-46.png)
+
+![Paramétrage de votre compte](screenshots/2021-06-27-12-05-46.png)
+
+![Exemple de compte](screenshots/2021-06-27-12-06-16.png)
+
+![Accorder l'autorisation du logiciel à se connecter à votre compte](screenshots/2021-06-27-12-06-40.png)
+
+![Paramétrage des 2 répertoires source > cible](screenshots/2021-06-27-12-07-16.png)
+
+![Paramétrage des 2 répertoires source > cible (sans passer par le test)](screenshots/2021-06-27-12-08-11.png)
+
+![Selection d'un répertoire cible, au choix](screenshots/2021-06-27-12-09-27.png)
+
+![Sélection répertoire cible](screenshots/2021-06-27-12-10-08.png)
+
+![Sélection du répertoire local : le répertoire e-carnet maternelle de la tablette](screenshots/2021-06-27-12-10-44.png)
+
+![Situé dans le dossier Download](screenshots/2021-06-27-12-11-19.png)
+
+![Le répertoire e-carnet : cliquer pour ouvrir avant de sélectionner](screenshots/2021-06-27-12-11-55.png)
+
+![Sélectionnez quand vous voyez tous les sous répertoires](screenshots/2021-06-27-12-12-44.png)
+
+![Récapitulatif](screenshots/2021-06-27-12-13-42.png)
+
+![Démarrer la recopie (synchronysation)](screenshots/2021-06-27-14-01-29.png)
+
+![Vérifier et activer de façon permanente](screenshots/2021-06-27-14-02-20.png)
+
+![Coup d'oeil à l'état de la synchronisation](screenshots/2021-06-27-14-04-26.png)
+

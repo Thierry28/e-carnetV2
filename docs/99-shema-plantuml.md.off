@@ -1,0 +1,117 @@
+# Structure du logiciel 
+
+
+pandoc md/99-shema-plantuml.md.off --metadata pagetitle="..." --metadata=pythonPath:"/Users/thierrygaillot/opt/anaconda3/bin/python" --metadata=activatePythonPath:"/Users/thierrygaillot/opt/anaconda3/bin/activate" --metadata=plantumlPath:scripts/pandoc/plantuml.jar -f markdown -t html5 --self-contained --standalone --lua-filter=scripts/pandoc/diagram-generator.lua -o md/99-shema-plantuml.html
+
+
+```{.plantuml caption="This is an image, created by **PlantUML**."}
+@startuml
+'plantUML wsd architecture arborescence
+'default
+'autonumber
+
+title \ne-carnet maternelle\n
+
+legend
+	1 truc
+	2 bidulle
+end legend
+
+scale 0.8
+'scale 1.5
+'scale 2/3
+'scale 200 width
+'scale 200 height
+'scale 200*100
+
+
+skinparam minClassWidth 400 'only for class
+
+skinparam backgroundColor LightGray
+
+skinparam packageStyle rectangle
+
+skinparam rectangle {
+    roundCorner<<Panneau gauche>> 25
+    roundCorner<<barreNavEntete>> 50
+}
+
+skinparam rectangle {
+	minSwimlaneWidth 200
+}
+
+top to bottom direction
+
+rectangle "Menu Enseignant" <<Panneau gauche>> {
+	rectangle "Accueil"  as acceuil  #green 
+	rectangle "Mes eleves"  as MesEleves #green
+	rectangle "Mes documents" as MesDocs #green
+	rectangle "Compétences" as Competences #green
+
+	rectangle "Prendre photo" as PrendrePhoto #green
+	rectangle "Prendre video" as PrendreVideo #green
+	rectangle "Prendre note" as PrendreNote #green
+	rectangle "Dessiner" as Dessiner #green
+
+	rectangle "A propos" as Apropos #green
+	rectangle "Réglages" as Reglages #green
+}
+
+
+rectangle "Menu Eleve" <<Panneau gauche>> {
+	rectangle "Accueil"  as acceuil2  #green 
+
+	rectangle "Prendre photo" as PrendrePhoto2 #green
+	rectangle "Prendre video" as PrendreVideo2 #green
+	rectangle "Prendre note" as PrendreNote2 #green
+	rectangle "Dessiner" as Dessiner2 #green
+}
+
+left to right direction
+
+package "Ecran liste eleves\n" as Liste_Eleves
+package "Ecran Mes documents\n" as Liste_Docs
+package "Ecran Compétences\n" as CatalogueCompetences
+package "Photo\n" as EcranPhoto
+package "Vidéo\n" as EcranVideo
+package "Note\n" as EcranNote
+package "Dessiner\n" as EcranDessiner
+package "A propos\n" as PageAPropos
+package "Réglages\n" as PageReglages
+
+MesEleves -> Liste_Eleves
+Liste_Eleves --> EnteteListeEleve
+MesDocs -> Liste_Docs
+Competences -> CatalogueCompetences
+PrendrePhoto  -> EcranPhoto
+PrendreVideo -> EcranVideo
+PrendreNote -> EcranNote
+Dessiner -> EcranDessiner
+Apropos -> PageAPropos
+Reglages -> PageReglages
+
+
+PrendrePhoto2  -left-> EcranPhoto
+PrendreVideo2 -left-> EcranVideo
+PrendreNote2 -left-> EcranNote
+Dessiner2 -left-> EcranDessiner
+
+note bottom of PageReglages 
+  This note is <u>also</u>
+  <b><color:royalBlue>on several</color>
+  <s>words</s> lines
+  And this is hosted by <img:sourceforge.jpg>
+end note
+
+header
+<font color=red>Warning:</font>
+Do not use in production.
+endheader
+center footer Generated for demonstration
+
+
+@enduml
+
+```
+
+
