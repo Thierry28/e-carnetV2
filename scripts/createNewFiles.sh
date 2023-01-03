@@ -1,0 +1,11 @@
+cp ./md/85-tutorielsParMomentsCles.md ./md/8501-tutoPremierLancement.md
+cp ./md/85-tutorielsParMomentsCles.md ./md/8502-tutoDebutAnnee.md
+cp ./md/85-tutorielsParMomentsCles.md ./md/8503-tutoDebutDePeriode.md
+cp ./md/85-tutorielsParMomentsCles.md ./md/8504-tutoAvantLaClasse.md
+cp ./md/85-tutorielsParMomentsCles.md ./md/8505-tutoPendantLaClasse.md
+cp ./md/85-tutorielsParMomentsCles.md ./md/8506-tutoApresLaClasse.md
+cp ./md/85-tutorielsParMomentsCles.md ./md/8507-tutoEnFinDePeriode.md
+cp ./md/85-tutorielsParMomentsCles.md ./md/8508-tutoEnReunionParents.md
+cp ./md/85-tutorielsParMomentsCles.md ./md/8509-tutoMiseAJourApplication.md
+cp ./md/85-tutorielsParMomentsCles.md ./md/8510-tutoEnFinDannee.md
+cp ./md/85-tutorielsParMomentsCles.md ./md/8511-tutoChangerTablette.md
