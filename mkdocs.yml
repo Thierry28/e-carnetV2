@@ -81,7 +81,7 @@ extra_css: [css/mkdocs_extra.css]
 # edit_uri: "edit/master/src/"
 
 # Theme Configuration
-docs_dir: md
+docs_dir: docs
 theme:
   name: readthedocs
   highlightjs: true
