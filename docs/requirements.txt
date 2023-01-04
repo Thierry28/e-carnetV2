@@ -12,7 +12,8 @@ griffe==0.22.0
     # via mkdocstrings-python
 importlib-metadata==4.12.0
     # via mkdocs
-jinja2==3.0.3
+jinja2==3.0.0
+    # 3.0.3 fail
     # via
     #   mkdocs
     #   mkdocstrings
@@ -31,7 +32,8 @@ markupsafe==2.1.1
     #   mkdocstrings
 mergedeep==1.3.4
     # via mkdocs
-mkdocs==1.3.0
+mkdocs==1.4.2
+    # WAS 1.3.0 IN THE TEMPLATE
     # via
     #   -r docs/requirements.in
     #   mkdocs-autorefs
