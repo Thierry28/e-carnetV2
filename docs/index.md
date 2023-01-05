@@ -21,7 +21,7 @@ Le logiciel est le votre, il évolue au gré de vos remontées et suggestions. N
 
 Pour plus d'informations, voir le site web [e-carnet-maternelle](https://e-carnet-maternelle.jimdofree.com).
 
-Quelques exemples de contenus produit par le logiciel : 
+Quelques exemples de contenus produits par le logiciel : 
 
 <!-- ![e-carnet avec logo](screenshots/2020-04-23-18-02-32.png) -->
 
