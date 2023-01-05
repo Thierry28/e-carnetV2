@@ -162,8 +162,8 @@ plugins:
       lang:
         - fr
   #- git-revision-date-localized
-  - minify:
-      minify_html: true
+  #- minify:
+      #minify_html: true
   - mkdocstrings:
     handlers:
       # See: https://mkdocstrings.github.io/python/usage/
