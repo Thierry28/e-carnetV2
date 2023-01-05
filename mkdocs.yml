@@ -156,20 +156,20 @@ markdown_extensions:
   # list of extensions https://github.com/Python-Markdown/markdown/wiki/Third-Party-Extensions
 
 # Plugins
-plugins:
-  - search:
-      separator: '[\s\-\.]+'
-      lang:
-        - fr
+#plugins:
+#  - search:
+      #separator: '[\s\-\.]+'
+      #lang:
+       # - fr
   #- git-revision-date-localized
   #- minify:
       #minify_html: true
-  - mkdocstrings:
-    handlers:
+ # - mkdocstrings:
+ #   handlers:
       # See: https://mkdocstrings.github.io/python/usage/
-      python:
-        options:
-          docstring_style: sphinx
+  #    python:
+   #     options:
+    #      docstring_style: sphinx
 # Google Analytics
 # google_analytics:
 #   - "UA-xxx"
