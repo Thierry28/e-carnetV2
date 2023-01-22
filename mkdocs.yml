@@ -47,22 +47,22 @@ nav:
   - Infos:
     - RGPD: 90-RGDP.md
     - Crédits: 91-Credits.md
-    - Evolutions: 92-Evolutions.md
-    - Bugs: 93-Bugs.md
-    - Référentiel builder:
+    # - Evolutions: 92-Evolutions.md
+    # - Bugs: 93-Bugs.md
+    # - Référentiel builder:
         # Introduction: RB-00-Ecm_referentiel_builder_guide.md
         # Préambule: RB-01-Preambule.md
-        - Avertissement: RB-03-Avertissement.md
-        - Téléchargement: RB-02-Telechargement.md
-        - Principe: RB-04-Principe.md
-        - Mode d'emploi: RB-05-ModeEmploi.md
-        # - Mode d'emploi sans video: RB-05-ModeEmploi.sansVideo.md
-        # En savoir plus: RB-06-EnSavoirPlus.md
-        - Versions: RB-07-Versions.md
-        # RGPD: RB-08-RGPD.md
-        - Crédits: RB-09-Credits.md
-        - Evolutions: RB-10-Evolutions.md
-        - Bugs: RB-11-Bugs.md
+        # - Avertissement: RB-03-Avertissement.md
+        # - Téléchargement: RB-02-Telechargement.md
+        # - Principe: RB-04-Principe.md
+        # - Mode d'emploi: RB-05-ModeEmploi.md
+        # # - Mode d'emploi sans video: RB-05-ModeEmploi.sansVideo.md
+        # # En savoir plus: RB-06-EnSavoirPlus.md
+        # - Versions: RB-07-Versions.md
+        # # RGPD: RB-08-RGPD.md
+        # - Crédits: RB-09-Credits.md
+        # - Evolutions: RB-10-Evolutions.md
+        # - Bugs: RB-11-Bugs.md
 
 
 # Site information
