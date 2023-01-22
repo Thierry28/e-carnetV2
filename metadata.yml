@@ -11,7 +11,7 @@ lang: fr-FR
 output:
   html_document:
     toc: true
-    toc_float: true
+    toc_float: false
 ---
 
 # abstract: Logiciel pour tablettes (Android) destiné aux instituteurs de maternelle pour produire avec leurs élèves les cahiers de reussite
