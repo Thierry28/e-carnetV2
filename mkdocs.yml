@@ -70,7 +70,7 @@ nav:
 site_name: "Guide e-carnet maternelle v2"
 site_url: "https://e-carnet-maternelle.jimdofree.com/"
 site_description: "Guide logiciel e-carnet maternelle v2"
-site_author: "Thierry Gaillot"
+site_author: "Thierry Gaillot, thierry(at)tr-esolutions.com"
 
 # CSS
 extra_css: [css/mkdocs_extra.css]
