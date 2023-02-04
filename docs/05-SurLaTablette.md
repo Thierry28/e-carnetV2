@@ -2,6 +2,13 @@
 
 Après l'installation, retrouvez l'application quelque part par ici ...
 
+
+IOs : 
+
+![Lancement depuis iPad](screenshots/2023-01-29-11-07-31.png)
+
+Android : 
+
 ![Lancement depuis la tablette](screenshots/2018-02-18-16-01-54.png)
 
 Android 7.1.1 : 

@@ -82,13 +82,13 @@ Le logiciel e-carnet-maternelle tel que nous le connaissons restera gratuit, san
 
 Vos multiples retours positifs et encouragements sont notre carburant !
 
-
+<!-- 
 ## Autres versions de cette documentation
 
 - [Format html 1 seule page](Ecm_guide.html)
 - [Format pdf orientation paysage (A4 vertical)](files/Ecm_guide_portrait.pdf)
 - [Format pdf orientation portrait (A4 horizontal)](files/Ecm_guide_paysage.pdf)
-- [Format epub](files/Ecm_guide.epub)
+- [Format epub](files/Ecm_guide.epub) -->
 
 <!-- 
 E:\VS\Projects\templateFM7Cordova-CDR1\_notesTGA\screenshots\2018-01-27-18-00-46.png

@@ -150,6 +150,10 @@ Oui, pour cela il faut utiliser le dossier éléve au format "epub".
 
 Voici une version du fichier remplacements.json qui peut être utilisé en remplacement du fichier par défaut situé dans le répertoire "réglages" du dossier e-carnet de maternelle"
 
+La syntaxe utilisée est celle des "regular expressions" ou "regex" compatibles avec la fonction replace du javascript.
+
+Toutes les modifications, ou presques, sont envisageables. Ce mécanisme peut permettre des changements de contenus et de mise en page sginificatifs.
+
 ```
 [
   {
