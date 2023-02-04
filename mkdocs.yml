@@ -4,29 +4,29 @@
 nav:
   # - Accueil: 00-CoverPage.md
   - Accueil: index.md
-  - Guide:
-    - Introduction:
-      - Référence: 02-Reference.md
-      - Avertissement: 03-Avertissement.md
-      - En savoir plus: 04-EnSavoirPlus.md
-      - Sur la tablette: 05-SurLaTablette.md
-      - Nouveautés: 06-Nouveautes.md
+  # - Guide:
+  - Introduction:
+    - Référence: 02-Reference.md
+    - Avertissement: 03-Avertissement.md
+    - En savoir plus: 04-EnSavoirPlus.md
+    - Sur la tablette: 05-SurLaTablette.md
+    - Nouveautés: 06-Nouveautes.md
     - Les 2 modes: 09-LesDeuxModes.md
-    - Le parcours élève: 10-ParcoursEleve.md
-    - Le parcours professeur: 
-      - Côté professeur: 20-ParcoursProfesseur.md
-      - Boutons médias: 21-BoutonsMedias.md
-      - Mes élèves: 22-MesEleves.md
-      - Mes documents: 23-MesDocuments.md
-      - Observables: 24-Observables.md
-      - Réglages: 25-Reglages.md
-      - Aide: 26-Aide.md
-      - A propos: 27-APropos.md
-      - Page élève: 28-PageEleve.md
-      - Page document: 29-PageDocument.md
-      - Trouver les fichiers : 83-Fichiers.md
-      - Générer e-carnet: 30-GenererECarnet.md
-      - Manipulations diverses: 80-ManipulationsDiverses.md
+  - Le parcours élève: 10-ParcoursEleve.md
+  - Le parcours professeur: 
+    - Côté professeur: 20-ParcoursProfesseur.md
+    - Boutons médias: 21-BoutonsMedias.md
+    - Mes élèves: 22-MesEleves.md
+    - Mes documents: 23-MesDocuments.md
+    - Observables: 24-Observables.md
+    - Réglages: 25-Reglages.md
+    - Aide: 26-Aide.md
+    - A propos: 27-APropos.md
+    - Page élève: 28-PageEleve.md
+    - Page document: 29-PageDocument.md
+    - Trouver les fichiers : 83-Fichiers.md
+    - Générer e-carnet: 30-GenererECarnet.md
+    - Manipulations diverses: 80-ManipulationsDiverses.md
   - FAQ: 70-FAQ.md
   - Tutos par moments clés: 
     - Premier lancement: 85-01-tutoPremierLancement.md
