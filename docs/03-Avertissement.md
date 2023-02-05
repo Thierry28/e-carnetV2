@@ -56,7 +56,7 @@ Par conséquent il est fortement recommander de mettre l'application à jour tr�
 
 ***Android :*** Vous pouvez aussi activer la fonction Android "Mettre à jour automatiquement"
 
-***IOs :*** Idem
+***iOS :*** Idem
 
 ## Sauvegarder vos données régulièrement
 

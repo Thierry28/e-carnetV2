@@ -3,7 +3,7 @@
 Après l'installation, retrouvez l'application quelque part par ici ...
 
 
-IOs : 
+iOS : 
 
 ![Lancement depuis iPad](screenshots/2023-01-29-11-07-31.png)
 

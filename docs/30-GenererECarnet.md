@@ -107,6 +107,8 @@ A partir du bouton "export" en haut à droite, vous pouvez enregistrer le fichie
 
 ![Exporter e-carnet](screenshots/2018-01-28-09-24-52.png)
 
+#### Version Android : 
+
 Pour cela choisir une destination parmi celles qui apparaissent dans le menu proposé : 
 
 
@@ -121,6 +123,8 @@ Localiser le fichier parmi  les derniers enregistrés :
 ![e-carnet dans Google drive](screenshots/2018-01-28-09-29-35.png)
 
 NB :  en fonction des paramètres de votre drive ou de votre tablette, il est possible que le document ne s'affiche pas correctement. Dans ce cas, le document reste visualisable correctement sur tout PC, mac ou Linux. Evolutions prévues.
+
+#### Version iOS : 
 
 
 

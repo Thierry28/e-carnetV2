@@ -3,13 +3,18 @@
 Les 4 boutons : 
 
 - `Prendre photo`
-- `Prendre vidéo`
-- `Enregistre audio`
+- `Importer photo`
+- `Importer vidéo `
+<!-- - `Prendre vidéo` -->
+<!-- - `Enregistre audio` -->
 - `Note`
+
 
 Ont des fonctions similaires à ceux du `mode élève` aux différences pres suivantes : 
 
-![Boutons capture](screenshots/2018-01-27-18-35-23.png)
+<!-- ![Boutons capture](screenshots/2018-01-27-18-35-23.png) -->
+
+![Barre de navigation en mode professeur, iOS, réduite](screenshots/2023-02-04-16-28-09.png)
 
 Il est possible de choisir l'élève à associer : 
 

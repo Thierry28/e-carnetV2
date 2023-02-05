@@ -11,6 +11,14 @@ Découvrez les tutoriels !
 
 Consignes de téléchargement de cette documentation et de l'application : 
 
+## Version Android
+
 ![Téléchargement](screenshots/2019-12-31-14-50-38.png)
 
+
+## Version iOS
+
+Version de test en cours : 
+
+https://testflight.apple.com/join/y4feG5pH
 

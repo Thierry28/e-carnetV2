@@ -4,6 +4,8 @@ L'aide est accessible depuis le bouton du menu principal :
 
 ![Bouton aide](screenshots/2018-02-25-08-51-39.png)
 
+(*description obsolète à mettre à jour*)
+
 ### Le tableau de bord
 
 `Tableau de bord` 

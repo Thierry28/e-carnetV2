@@ -25,6 +25,8 @@ Vous accédez alors à tous les répertoires utilisés pour stocker les fichiers
 
 Contient les fichiers des enregistrements audio.
 
+Pas utilisé dans la version courante.
+
 ### avatars
 
 Contient les fichiers des avatars "animaux" fournis par défaut.
@@ -101,7 +103,7 @@ Contient un fichier de type Excel contenant un exemple de tableau d'élèves à 
 
 ### exemples
 
-(description à mettre à jour)
+Pas utilisé dans la version courante.
 
 ### journaux
 
@@ -135,7 +137,8 @@ Contient les fichiers produits par la fonction "sauvergarder base de données".
 
 ### signatures
 
-
+Contient des fichiers images qui permettent de tester et d'illustre l'insertion de signatures scannées dans le carnet de suivi des apprentissages
 
 ### videos
 
+Pas utilisé dans la version courante.

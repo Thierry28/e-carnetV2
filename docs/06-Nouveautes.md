@@ -1,14 +1,49 @@
 # Nouveautés
 
 
+## Version iOS
+
+La premiere version est 2.0.4
+
+Elle est semblable fonctionnellement à la version Android, exceptés les lieux de stockage des fichiers qui diffèrent avec le système Android. Mais le principe reste similaire.
+
+Version courante : en test uniquement : https://testflight.apple.com/join/y4feG5pH
+
+
+## Version Android 
+
 Sur Android Play store : https://play.google.com/store/apps/details?id=org.tre.eportfolio&gl=FR
 
 
-## Version 1.9.16v117 du 14 mars 2021
+### Version de dépannange. Attention, retour arriere impossible.
+
+A n'utiliser que sur recommandation du support.
+
+Version 1.11.11v133
+
+https://drive.google.com/file/d/1A-SxaqSyTQ5kwhtRYza3lZaRJ7XCCzcT/view?usp=sharing
+
+### Version de dépannange. Attention, retour arriere impossible
+
+A n'utiliser que sur recommandation du support.
+
+Version non publiée
+
+Version  1.11.8v133
+https://drive.google.com/file/d/1GTQW1rQ4utEJ6EwO60EtzO_xod_PL4Ey/view?usp=sharing
+
+### Version courante officielle :
+
+1.11.6v128 En ligne sur le playstore depuis le 23 oct. 2021.
+
+Pas d'autres version publiée depuis, suite changement de règles de Google qui ont conduit à la réécriture partielle de l'application et la publication en cours d'une version 2.x.x.
+
+
+### Version 1.9.16v117 du 14 mars 2021
 
 - Amélioration conformité RGPD : suppression des permissions Android non nécessaires.
 
-## Version 1.9.15v115 du 15 février 2021
+### Version 1.9.15v115 du 15 février 2021
 
 - Simplification saisie commentaires et gestion conservation commentaires périodes précédentes (utiliser séparateur --- entre les différentes versions, seule les commentaires situés apres --- seront restitués dans les documents.)
 - Les versions "imprimées" des e-carnets ont une mise en page optimisée. (Impression ou génération pdf depuis un navigateur ou versions pdf automatiques dans les versions PC)
@@ -35,7 +70,7 @@ Liste des permissions nécessaires au fonctionnement de l'application Android :
 
 
 
-## Version 1.9.14v113 du 6 décembre 2020
+### Version 1.9.14v113 du 6 décembre 2020
 
 - Correction bug bouton envoyer e-carnet
 - Correction du bug arrivant parfois au démarrage de l'application pour les tablettes lentes.
@@ -59,7 +94,7 @@ Prochaine version :
 - versions Windows, Mac, Linux.
   
 
-## Version 1.9.13v112 du 28 novembre 2020
+### Version 1.9.13v112 du 28 novembre 2020
 
 Mise à jour de cette documentation : ajout de 47 "tutos" video. Perfectibles ... mais disponibles !
 
@@ -85,7 +120,7 @@ NB : les nouvelles versions Windows, MacOs et Linux seront disponibles mi-décem
 - comme la version Android, fonctionnement sans serveur (connectivité internet permanente non nécessaire)
 
 
-## Version 1.9.10v106 du 25 mai 2020
+### Version 1.9.10v106 du 25 mai 2020
 
 Ajout du bouton « importer photo » dans le volet de gauche
 
@@ -99,7 +134,7 @@ Mise à jour fichier des remplacements pour la personnalisation du e-carnet.
 
 Ajout d'un bouton "mise à jour fichier remplacements"
 
-## Version 1.9.9v105 du 19 avril 2020
+### Version 1.9.9v105 du 19 avril 2020
 
 Amélioration de la fonction de personnalisation des e-carnets. Exemples : suppression bloc signature direction, suppression mode 2 colonnes dans les appréciations, augmentation taille police, remplacement de libellés, ...
 
@@ -107,11 +142,11 @@ Amélioration de la fonction de gestion des ateliers : désactivation par défau
 
 Mise à jour parties Aide, A propos.
 
-## Version 1.9.8v104 du 29 mars 2020
+### Version 1.9.8v104 du 29 mars 2020
 
 Correction d'un bug.
 
-## Version 1.9.6v102 du 28 mars 2020
+### Version 1.9.6v102 du 28 mars 2020
 
 Spécial travail à distance : Ajout d'une fonction permettant d'envoyer une consigne à tous les parents.
 
@@ -122,7 +157,7 @@ Diminution des causes de plantage.
 Vous pouvez continuer d'utiliser e-carnet à distance en incorporant des photos que les parents pourraient vous envoyer.
 
 
-## Version 1.8.9v101 du 1er mars 2020
+### Version 1.8.9v101 du 1er mars 2020
 
 Possibilité de pré sélectionner jusqu'à 8 observables par défaut, 1 par "atelier" pour une affectation automatique lors de la capture par les élèves.
 
@@ -132,28 +167,28 @@ Possibilité d'ajouter des "étiquettes" (tags) à chaque observable pour facili
 
 Corrections de bugs et optimisations diverses.
 
-## Version 1.8.7v100 du 18 février 2020
+### Version 1.8.7v100 du 18 février 2020
 
 Em mode élève, affectation des photos à un observable par défaut. Evite d'avoir a affecter les photos à posteriori. Sélection à partir de la grille de suivi.
 Le clic sur le bouton retour ne fait plus quitter prématurément.
 Optimisations multiples pour diminuer le risque de plantage lorsque le nombre de photos devient important (> 500).
 
-## Version 1.8.6v99 du 10 février 2020
+### Version 1.8.6v99 du 10 février 2020
 
 Optimisation et correction bug d'affichage de la grille de suivi.
 
-## Version 1.8.5v98 du 2 février 2020
+### Version 1.8.5v98 du 2 février 2020
 
 Optimisation de la gestion mémoire pour diminuer les risques de plantage dans le cas de grand nombre de photos. D'autres optimisations sont en cours de préparation.
 Correction de bugs.
 
-## Version 1.8.3v96 du 7 janvier 2020
+### Version 1.8.3v96 du 7 janvier 2020
 
 Mise à jour du lien vers la documentation dans la page Aide.
 
 La lecture des vidéos est de nouveau opérationnelle (correction bug).
 
-## Version 1.8.2v95 du 4 janvier 2020
+### Version 1.8.2v95 du 4 janvier 2020
 
 La grille de suivi est maintenant affichée pour les élèves d'une même section.
 
@@ -179,7 +214,7 @@ Ajouter message d'alerte si le filtre de date dans le e-carnet conduit à 0 medi
 
 
  
-## Version 1.8.0v93 du 1er janvier 2020
+### Version 1.8.0v93 du 1er janvier 2020
 
 Le catalogue de référence est maintenant personnalisable grâce à une application windows et MacOs (voir notre site web). Le fichier résultant s'importe dans la tablette depuis "réglages/Gestion observables".
 
@@ -196,11 +231,11 @@ Correction du bug Supprimer document.
 
 
 
-## Version 1.7.5v92
+### Version 1.7.5v92
 
 Optimisation gestion taille des images, agrandissement dans le blog.
 
-## Version 1.7.3v91
+### Version 1.7.3v91
 
 Grille de suivi : ajout sélecteur de media.
 
@@ -210,13 +245,13 @@ Correction bug lié à utilisation d'une période de sélection.
 
 Correction bug grille de suivi qui ne s'affichait plus
 
-## Version 1.7.2v90
+### Version 1.7.2v90
 
 Réactivation de la synthèse vocale.
 
 Correction bug lié à la rotation des photos dans le e-carnet et les fichiers epub.
 
-## Version 1.5.0v70
+### Version 1.5.0v70
 
 Cette nouvelle version a fait l'objet de nombreuses optimisations techniques visant à augmenter les performances en situation d'un grand nombre de medias (plusieurs centaines de photos par exemple).
 
@@ -246,9 +281,7 @@ qui peut être facilement consultable et envoyé par email pour support.
 L'affichage de ce popup journal est gérable dans Réglages/Journal.
 
 
-
-<!--
-## Version 1.2.0v23 du 6 mai 2018
+### Version 1.2.0v23 du 6 mai 2018
 
 Principale nouveauté : association d'un observable à plusieurs élèves : 
 
@@ -292,9 +325,9 @@ NB : Penser à tourner votre smartphone pour adapter la largeur de l'écran.
 ![Catalogue des observables](screenshots/2018-05-06-11-28-02.png)
 
 
-## Version 1.1.14v21 du 2 avril 2018
+### Version 1.1.14v21 du 2 avril 2018
 
-### Suppression du bouton retour
+#### Suppression du bouton retour
 
 Pour une navigation simplifiée, le bouton en bas à gauche a été supprimé.
 
@@ -302,13 +335,13 @@ Le principal bouton de navigation devient le bouton "home" en bas au centre.
 
 ![Bouton de navigation principal](screenshots/2018-04-03-07-04-24.png)
 
-### Nouvelle navigation dans la page réglages
+#### Nouvelle navigation dans la page réglages
 
 Une barre de boutons permet de naviguer plus efficacement dans les différents modules de l'espace "réglages".
 
 ![Barre de navigation page Réglages](screenshots/2018-04-03-07-06-36.png)
 
-### Enregistrement de sélections personnalisées 
+#### Enregistrement de sélections personnalisées 
 
 Dans la page "Observables", vous pouvez activer/désactiver chacun des observables pour simplifier l'affectation des observables aux médias.
 
@@ -316,25 +349,25 @@ La commande `Sauvegarder`permet maintenant de choisir une référence pour mémo
 
 ![Sauvegarde des sélections personnalisées](screenshots/2018-04-03-07-37-25.png)
 
-## Version 1.1.13v20 du 28 mars 2018
+### Version 1.1.13v20 du 28 mars 2018
 
-### Nouvelle version du catalogue des observables
+#### Nouvelle version du catalogue des observables
 
 Ajout de la partie "Apprendre ensemble et vivre ensemble" : 
 
 ![Apprendre ensemble et vivre ensemble](screenshots/2018-03-26-07-52-03.png)
 
-### Ajout module de choix de sélection personnalisée d'observables 
+#### Ajout module de choix de sélection personnalisée d'observables 
 
 ![Sélection personnalisée d'observables](screenshots/2018-03-26-07-53-55.png)
 
-## Version 1.1.12v19 du 18 mars 2018
+### Version 1.1.12v19 du 18 mars 2018
 
-### Adaptation de l'éditeur de saisie des réussites régulières et bilan
+#### Adaptation de l'éditeur de saisie des réussites régulières et bilan
 
 Le texte exemple par défaut est supprimé, la saisie est simplifiée, elle est directe en cliquant sur l'icone `Tx` qui a été déplacé en première position.
 
-### Modification du contenu du e-carnet 
+#### Modification du contenu du e-carnet 
 
 3 blocs sont maintenant disponibles : 
 
@@ -344,11 +377,11 @@ Le texte exemple par défaut est supprimé, la saisie est simplifiée, elle est 
 
 Ces blocs n'apparaissent que si un contenu a été préalablement saisi dans la fiche de l'élève.
 
-### Affectation d'une photo comme avatar dans la fiche élève
+#### Affectation d'une photo comme avatar dans la fiche élève
 
 Le selecteur de photo permet maitenant de choisir une photo qui vient d'être prise en remplacement d'une icône "animaux".
 
-### Processus permettant d'importer un fichier excel contenant une classe entière
+#### Processus permettant d'importer un fichier excel contenant une classe entière
 
 LA documentation a été mise à jour : cf section 4.5.10.
 
@@ -356,14 +389,14 @@ NB : Ce process est actuellement réalisable mais reste un peu "technique". La r
 
 Un fichier excel modèle ayant servi aux copies d'écran de cette version de la documentation est fourni sur le site web en complément. Espace téléchargement.
 
-### Processus permettant de modifier le nom de l'enseignant
+#### Processus permettant de modifier le nom de l'enseignant
 
 Ce process est décrit dans la documentation, cf 4.5.4.
 
-### Mise à jour de la rubrique Evolutions à venir
+#### Mise à jour de la rubrique Evolutions à venir
 
-## Version 1.1.11v18 du 4 mars 2018
-### Mise en oeuvre de la synthèse vocale
+### Version 1.1.11v18 du 4 mars 2018
+#### Mise en oeuvre de la synthèse vocale
 
   + Message de bienvenue au démarrage de l'application, pour témoigner de la présence de cette fonctionnalité de sysnthèse vocale ! Ce message est activable/désactivable dans le menu "réglages".
   + En mode élève, un "Bonjour (prénom)" accueille l'élève qui vient de cliquer sur son icône. Ce message est aussi activable/désactivable dans le menu "réglages".
@@ -373,20 +406,20 @@ Ce process est décrit dans la documentation, cf 4.5.4.
 
 NB : La synthèse vocale est une fonctionnalité native des tablettes Android. Cette fonctionalité se paramètre dans la partie "paramètres" de la tablette.
 
-### Tableau d'avancement des apprentissage par élève
+#### Tableau d'avancement des apprentissage par élève
 
 A partir du menu "Observables" puis bouton "Tableau d'avancement". Des lors que le tableau d'avance des apprentissage de la classe est affiché, une nouvelle barre contenant les icones des élèves apparait. Un clic sur l'une des icônes fait apparaitre le tableau d'avance des apprentissage de cet élève.
 
-### Saisie des réussites et bilan de l'élève
+#### Saisie des réussites et bilan de l'élève
 
 Dans la fiche élève, en mode édition, la saisie des réussites et du bilan de la période est maintenant facilitée par la mise en oeuvre d'un éditeur de texte enrichi.
 
 Deux espaces de saisie sont réservés à cet effet.
 NB : un appui long dans la zone d'édition déclenchera l'apparition du clavier.
 
-### Ecran "Réglages"
+#### Ecran "Réglages"
 
 Trois nouveaux réglages apparaissent désormais dans la partie "Synthèse vocale".
 
--->
+
 

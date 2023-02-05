@@ -85,6 +85,8 @@ Toucher "fichier logo"
 
 Choisir une fichier que vous aurez préalablement téléchargé sur votre tablette. 
 
+Illustration version Android : 
+
 ![Choix du fichier logo](screenshots/2020-04-23-17-44-33.png)
 
 L'image du logo est insérée : 
@@ -224,7 +226,7 @@ Cette partie permet de personnaliser du texte qui aparaît dans le carnet diffsu
 
 Ces textes sont modifiables.
 
-Pour cela cliquer sur l'un d'entre eux. Cela fait apparaître un éditeur de texte.
+<!-- Pour cela cliquer sur l'un d'entre eux. Cela fait apparaître un éditeur de texte.
 
 Pour commencer à saisir et rentrer en édition commencer par cliquer sur le premier symbole : 
 
@@ -236,7 +238,7 @@ Dans cette version, le texte est compatible avec une syntaxe html.
 <p></p> encadre un paragraphe 
 <ul></ul> un début et une fin de liste
 <li></li> un item de liste.
-```
+``` -->
 
 #### Activation de la fonction de personnalisation
 
@@ -621,12 +623,12 @@ Le fichier modèle est obtenu par l'export de la base élève. Voici la démarch
 
 Le fichier est enregistré dans le répertoire de la tablette "Download/e-carnet-maternelle".
 
-Voir [ici](#trouver-le-catalogue-des-observables\indexobservables-ou-le-fichier-excel-des-élèves-\indexfichier-xls-élèves) pour les manipulations à faire pour trouver ce fichier.
+<!-- Voir [ici](#trouver-le-catalogue-des-observables\indexobservables-ou-le-fichier-excel-des-élèves-\indexfichier-xls-élèves) pour les manipulations à faire pour trouver ce fichier. -->
 
 
 ![Fichiers sur la tablette](screenshots/2018-03-18-12-05-35.png)
 
-3 - D'une façon comme d'une autre, modifier ce fichier XLS et le remettre dans le dossier Download pour le ré-importer : 
+3 - D'une façon comme d'une autre, modifier ce fichier XLS et le remettre dans le dossier pour le ré-importer : 
 
 ![Importer fichier élèves](screenshots/2018-03-18-11-57-38.png)
 
@@ -652,7 +654,7 @@ A n'utiliser que sur recommandation du support.
 
 `Récupérer élèves depuis sauvegarde automatique` est une fonction à n'utiliser qu'en cas de situation extreme et sur recommandation du support. Elle permet de recharger la base de données des élèves à partir d'un fichier de sauvegarde qui est automatiquement généré par l'application à chaque démarrage.
 
-Elle écrase par conséquent la version courante. 
+Elle `écrase` par conséquent la version courante. 
 
 
 #### Supprimer tous les élèves
@@ -711,7 +713,7 @@ Ce fichier est produit à partir de l'application compagnon "Referentiel builder
 
 ***Attention*** : chaque changement de référentiel "laisse des traces"... En effet, chaque référentiel apporte un jeu de nouveaux identifiants techniques et de libellés qui sont enregitrés dans une base de données interne pour faire un sorte de conserver en mémoire le référentiel en vigueur à chaque capture de trace, pour le restituer correctement dans le e-journal.
 
-NB : 
+***NB :*** 
 
 - un e-journal est MULTI-référentiel : il contient, par ordre chronologique, tous les observables et traces capturés, quel que soit le référentiel utilisé.
 
@@ -762,6 +764,8 @@ Ce fichier, situé dans le répertoire Downloads/e-carnet maternelle, contient l
 `Exporter liste medias disque` : idem
 
 Envoyer le fichier qui commence par Disque.Medias, cf ci-dessous : 
+
+Illustration version Android v1 (*description obsolète à mettre à jour*)
 
 ![Fichier avec liste media pour dépannage](screenshots/2020-04-23-18-40-23.png)
 

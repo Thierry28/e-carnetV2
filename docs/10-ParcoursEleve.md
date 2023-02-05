@@ -7,9 +7,10 @@
 Au lancement de l'application, un écran permet de sélectionner la fiche élève depuis laquelle l'enregistrement des preuves : 
 
 - photo
-- vidéo
+- import vidéo
+- vidéo (fonction temporairement désactivée)
 - commentaire écrit
-- commentaire audio
+- commentaire audio (fonction temporairement désactivée)
 <!--  dessin (en cours) -->
 
 4 icones de capture ont été spécialement agrandies pour être adaptées aux capacités motrices des élèves de maternelle.
@@ -17,8 +18,8 @@ Au lancement de l'application, un écran permet de sélectionner la fiche élèv
 L'élève va pouvoir réaliser les actions suivantes :
 
 - Prendre une photo de son travail
-- Prendre une vidéo de son travail
-- Enregistrer sa voix
+- *Prendre une vidéo de son travail* (fonction temporairement désactivée)
+- *Enregistrer sa voix* (fonction temporairement désactivée)
 - Enregistrer une note
 - Visualiser ses documents capturés au fil du temps
 
@@ -26,7 +27,16 @@ L'élève va pouvoir réaliser les actions suivantes :
 
 ![Ecran d'accueil en mode élève](screenshots/2020-04-25-18-14-43.png)
 
+Version courante (iOS), sans les boutons vidéo et audio, temporairement désactivés.
+
+
+
+![IOS, mode élève](screenshots/2023-02-04-16-26-18.png)
+
+
 ## Vidéo : saisie d'une trace par un élève
+
+***NB :*** (fonction temporairement désactivée). Reste possible l'import d'une vidéo prise àpar ailleurs, en dehors de l'application.
 
 [!embed](https://www.youtube.com/watch?v=k2J_pTScOA8)
 
@@ -93,7 +103,7 @@ Ce mode de capture permet d'utiliser rapidement la tablette sans aucun choix pr�
 
 
 
-## Prendre une video
+<!-- ## Prendre une video
 
 ![Enregistrer vidéo](screenshots/2018-01-27-17-11-09.png)
 
@@ -106,10 +116,10 @@ Ce mode de capture permet d'utiliser rapidement la tablette sans aucun choix pr�
 Fonctions identiques que pour la photo : 
 
 ![Edition du document vidéo](screenshots/2018-01-27-18-06-14.png)
+ -->
 
 
-
-## Enregistrer un son
+<!-- ## Enregistrer un son
 
 ![Enregistrement audio](screenshots/2018-01-27-17-12-16.png)
 
@@ -133,7 +143,7 @@ NB : ce message précise par ailleurs le nombre total de documents déjà enregi
 
 <!-- // TODO : voir pourquoi il n'y a pas l'écran permettant d'ajouter un commentaire. -->
 
-![Confirmation enregistrement vidéo](screenshots/2018-01-27-18-10-33.png)
+![Confirmation enregistrement vidéo](screenshots/2018-01-27-18-10-33.png) -->
 
 
 
