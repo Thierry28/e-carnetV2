@@ -2,6 +2,25 @@
 
 La version 2 diffère significativement de la version 1 par le lieu de stockage des fichiers générés par l'application.
 
+## Version Android
+
+Ouvrir l'application Fichiers
+
+![Application Fichiers](screenshots/fichiers-android.png)
+
+Naviguer dans les répertoires pour aller jusque à cette partie : 
+
+(votre appareil)/Android/data/org.tre.ecarnet/files/e-carnet-maternelle
+
+cf illustrion ci-dessous : 
+
+![Application Fichiers](screenshots/fichiers-android-dossier.png)
+
+En vidéo ça donne : 
+
+[!embed](https://www.youtube.com/watch?v=qVBUcp-ugdM)
+
+
 ## Version IOs
 
 Ouvrir l'application Fichiers
@@ -18,6 +37,7 @@ Puis sur le dossier "*e-carnet-maternelle*"
 Vous accédez alors à tous les répertoires utilisés pour stocker les fichiers utilisés ou produits par l'application :
 
 ![Les dossiers e-carnet](screenshots/2023-02-04-11-03-50.png)
+
 
 ## Contenus des dossiers
 
