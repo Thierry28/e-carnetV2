@@ -1,3 +1,11 @@
+
+
+
+scripts/ga copy/insertGAtag.js
+scripts/ga copy/tag.html
+videos/
+
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -123,3 +131,6 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+
+
