@@ -26,7 +26,10 @@ La réécriture partielle de l'application a pris plusieurs mois, a nécessité 
 
 ***IMPORTANT*** : la version 1 ne peut pas etre mise à jour avec la version 2 qui doit être installée comme une nouvelle application. Les 2 versions peuvent donc exister simultanément. Les fichiers de sauvegardes et epub produites par la version 1 peuvent être importés dans la version 2.
 
-A la date de mise à jour de cette documentation, la version 2 est en cours de test pour IOs. La version Android suivra et devrait être publié avant fin mars 2023.
+[Version courante Android sur PlayStore](https://play.google.com/store/apps/details?id=org.tre.ecarnet&gl=FR)
+
+[Version courante iOS sur app store](https://apps.apple.com/us/app/e-carnet-maternelle/id1663629696)
+
 
 Cette présente documentation a été créé initialement pour la version Android (1.x.x).
 

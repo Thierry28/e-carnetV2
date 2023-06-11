@@ -1,42 +1,41 @@
 # Nouveautés
 
 
-## Version iOS
+## Version iOS (e-carnet)
 
 La premiere version est 2.0.4
 
 Elle est semblable fonctionnellement à la version Android, exceptés les lieux de stockage des fichiers qui diffèrent avec le système Android. Mais le principe reste similaire.
 
-Version courante : en test uniquement : https://testflight.apple.com/join/y4feG5pH
+[Version courante sur app store](https://apps.apple.com/us/app/e-carnet-maternelle/id1663629696)
 
 
-## Version Android 
+## Version Android (e-carnet)
 
-Sur Android Play store : https://play.google.com/store/apps/details?id=org.tre.eportfolio&gl=FR
+[Version courante sur PlayStore](https://play.google.com/store/apps/details?id=org.tre.ecarnet&gl=FR)
 
 
-### Version de dépannange. Attention, retour arriere impossible.
+### Version de dépannange (v1). Attention, retour arriere impossible.
 
 A n'utiliser que sur recommandation du support.
 
-Version 1.11.11v133
+[Version 1.11.11v133](https://drive.google.com/file/d/1A-SxaqSyTQ5kwhtRYza3lZaRJ7XCCzcT/view?usp=sharing)
 
-https://drive.google.com/file/d/1A-SxaqSyTQ5kwhtRYza3lZaRJ7XCCzcT/view?usp=sharing
-
-### Version de dépannange. Attention, retour arriere impossible
+### Version de dépannange (v1). Attention, retour arriere impossible
 
 A n'utiliser que sur recommandation du support.
 
 Version non publiée
 
-Version  1.11.8v133
-https://drive.google.com/file/d/1GTQW1rQ4utEJ6EwO60EtzO_xod_PL4Ey/view?usp=sharing
+[Version  1.11.8v133](https://drive.google.com/file/d/1GTQW1rQ4utEJ6EwO60EtzO_xod_PL4Ey/view?usp=sharing)
 
-### Version courante officielle :
+### Version v1 :
 
-1.11.6v128 En ligne sur le playstore depuis le 23 oct. 2021.
+[1.11.6v128 En ligne sur le playstore depuis le 23 oct. 2021.](https://play.google.com/store/apps/details?id=org.tre.eportfolio&gl=FR)
 
 Pas d'autres version publiée depuis, suite changement de règles de Google qui ont conduit à la réécriture partielle de l'application et la publication en cours d'une version 2.x.x.
+
+Cette version n'est plus modifiale et ne fera plus l'objet de mises à jour.
 
 
 ### Version 1.9.16v117 du 14 mars 2021
