@@ -15,7 +15,7 @@
 - Espace de dépôt File sender académique : déposer le ecarnet sur la plateforme, donner le lien de partage aux parents
 - [Espace de stockage Nextcloud enseignant](../85-21-tutoPartageParents/index.html#rendre_disponible_les_fichiers_depuis_un_espace_de_stockage_sur_le_cloud)
 
-NB : tous les enseignants ont un Nextcloud (Nuage) de 100 Go via Apps Education ![https://portail.apps.education.fr/signin](https://portail.apps.education.fr/signin)
+NB : tous les enseignants ont un Nextcloud (Nuage) de 100 Go via Apps Education [https://portail.apps.education.fr/signin](https://portail.apps.education.fr/signin)
 
 ## (3) Faire une sauvegarde de la base de données et la stocker hors de la tablette
 
