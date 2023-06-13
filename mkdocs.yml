@@ -89,6 +89,7 @@ theme:
   #name: "mkdocs" #"readthedocs"  #"mkdocs" #"material"
   #custom_dir: custom_theme/
   language: fr
+  locale: fr
   # icon:
   #   logo: /screenshots/logo_eportfolio2.cropped.arrondi.png
   # favicon: favicon.ico
