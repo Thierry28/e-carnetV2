@@ -138,7 +138,7 @@ Important : pour un affichage correct du document, il faut l'OUVRIR AVEC un navi
 
 ![Le e-carnet dans un navigateur](screenshots/2018-01-28-09-57-45.png)
 
-
+<a id="modes-de-transmission-du-e-carnet"></a>
 
 ### Modes de transmission du e-carnet
 

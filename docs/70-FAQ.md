@@ -31,7 +31,7 @@ Si le problème subsiste :
 - bouton supprimer document
 - bouton supprimer observables sur chaque observable associé au document
 
-Cf [Parametrage des utilisateurs de la tablette](../23-MesDocuments/index.html)
+Cf [Parametrage des utilisateurs de la tablette](23-MesDocuments.md)
 
 ## Est-il possible de conserver l'historique dans les commentaires/appréciations de la fiche élève ?
 
@@ -49,10 +49,10 @@ Changer le texte qui apparait dans la case enseignant 1
 
 En y mettant par Exemple : Mme A. Dupond, Mme B. Durand
 
-cf : [parametrage des utilisateurs de la tablette](../25-Reglages/index.html#parametrage_des_utilisateurs_de_la_tablette)
+cf : [parametrage des utilisateurs de la tablette](25-Reglages.md#parametrage_des_utilisateurs_de_la_tablette)
 
 Puis activer le changement en allant dans « qui suis je » et choisir la nouvelle valeur 
-[multi-utilisateur qui suis je](../25-Reglages/index.html#multi-utilisateur_qui_suis-je)
+[multi-utilisateur qui suis je](25-Reglages.md#multi-utilisateur_qui_suis-je)
 
 Pour avoir une double signature voici le process : 2 possibilités : 
 
@@ -65,7 +65,7 @@ Pour avoir une double signature voici le process : 2 possibilités :
   - Importer ensuite le fichier avec la commande "choisir fichier signature"
 
 C’est décrit ici : 
-[parametrage des utilisateurs de la tablette](../25-Reglages/index.html#parametrage_des_utilisateurs_de_la_tablette)
+[parametrage des utilisateurs de la tablette](25-Reglages.md#parametrage-des-utilisateurs-de-la-tablette)
 
 ## Modifier un mot, une phrase, autre chose ... dans tous les e-carnets
 
@@ -77,10 +77,10 @@ Vous voulez modifier le texte standard "Enseignant :" en "Enseignants :" ou "Ens
 
 2 façon de procéder : 
 
-- En utilisant la fonctionnalité prévue à cet effet : "Remplacements". Cf : [Activation de la fonction de personnalisation](../25-Reglages/index.html#activation_de_la_fonction_de_personnalisation)
+- En utilisant la fonctionnalité prévue à cet effet : "Remplacements". Cf : [Activation de la fonction de personnalisation](25-Reglages.md#activation_de_la_fonction_de_personnalisation)
 
 - En utilisant un éditeur de texte et effectuer un chercher/remplacer "de masse" c'est à dire sur tous les fichiers du répertoire qui contient tous vos fichiers HTML des e-carnets.
-Cf : [Modifier les documents en masse](../85-20-tutoExperts/index.html#modifier_les_documents_en_masse)
+Cf : [Modifier les documents en masse](85-20-tutoExperts.md#modifier_les_documents_en_masse)
 
 
 ## Dans les fichiers en version pdf, les sauts de page coupent certaines images
@@ -118,7 +118,7 @@ Cette manipulation est gérée en automatique dans le e-carnet par :
     "nouveau": "eportfolio-evalDirection{}"
   },
 
-Cf : [Activation de la fonction de personnalisation](../25-Reglages/index.html#activation_de_la_fonction_de_personnalisation)
+Cf : [Activation de la fonction de personnalisation](25-Reglages.md#activation_de_la_fonction_de_personnalisation)
 
 ## Supprimer les icônes (i) isolées
 
@@ -357,7 +357,7 @@ Il est possible de « revenir en arrière après toute tentative de personnalisa
 
 ## Créer un référentiel multi langue, exemple Français/Anglais
 
-Voir dans : [Tutos experts](../85-20-tutoExperts/index.html)
+Voir dans : [Tutos experts](85-20-tutoExperts.md)
 
 ## Comment installer la version PC ?
 
@@ -365,5 +365,5 @@ Voir : [!embed](https://www.youtube.com/watch?v=mBkOB1D2Sjc)
 
 ## Comment partager les fichiers e-carnet avec photos, vidéos avec les parents
 
-Voir dans : [Comment partager les fichiers e-carnet avec photos, vidéos avec les parents](../85-21-tutoPartageParents.md)
+Voir dans : [Comment partager les fichiers e-carnet avec photos, vidéos avec les parents](85-21-tutoPartageParents.md)
 

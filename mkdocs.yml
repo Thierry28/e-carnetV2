@@ -47,7 +47,7 @@ nav:
     - Tutos pour les experts: 85-20-tutoExperts.md
   - Infos:
     - Conditions Générales d'utilisation: 90-CGU.md
-    - Confidentialité et RGPD: 91-Confidentialité-RGPD.md
+    - Confidentialité et RGPD: 91-Confidentialite-RGPD.md
     - Crédits: 91-Credits.md
     # - Evolutions: 92-Evolutions.md
     # - Bugs: 93-Bugs.md
@@ -120,8 +120,6 @@ extra_javascript:
 
 # Markdown Rendering Extensions
 markdown_extensions:
-  - markdown_include.include:
-      base_path: .
   - admonition
   - attr_list
   - markdown.extensions.admonition
@@ -136,25 +134,13 @@ markdown_extensions:
   - markdown.extensions.toc:
       permalink: True
       separator: "_"
-  #- pymdownx.extra
-  #- pymdownx.arithmatex
-  # - pymdownx.caret
-  # - pymdownx.critic
-  # - pymdownx.details
-  # - pymdownx.inlinehilite
-  # - pymdownx.magiclink
-  # - pymdownx.mark
-  # - pymdownx.keys
-  # - pymdownx.smartsymbols
-  # - pymdownx.superfences
-  # - pymdownx.tilde
-  - pyembed.markdown
-  # - pymdownx.betterem:
-  #     smart_enable: all
-  # - pymdownx.tasklist:
-  #     custom_checkbox: true
-  # - pymdownx.emoji:
-  #     emoji_generator: !!python/name:pymdownx.emoji.to_svg
+  - pymdownx.extra
+  - pymdownx.superfences
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.details
 
   # list of extensions https://github.com/Python-Markdown/markdown/wiki/Third-Party-Extensions
 
@@ -179,4 +165,4 @@ markdown_extensions:
 #   - "auto"
 
 # Copyright
-copyright: "Copyright &copy; TR e-solutions @2023"
+copyright: "Copyright &copy; TR e-solutions @2025"

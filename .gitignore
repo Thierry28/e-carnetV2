@@ -5,6 +5,19 @@ scripts/ga copy/insertGAtag.js
 scripts/ga copy/tag.html
 videos/
 
+# Build artifacts
+/site/
+/.mkdocs_cache/
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Temporary files
+*.tmp
+tmp-latex/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

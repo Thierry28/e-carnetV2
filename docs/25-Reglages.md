@@ -133,7 +133,7 @@ Ce paramétrage est utilisé pour signer le carnet transmis par email aux parent
 
 ![Changement de la signature](screenshots/2018-01-27-19-16-53.png)
 
-
+<a id="multi-utilisateur_qui_suis-je"></a>
 
 ### Multi-utilisateur : Qui suis-je ?
 
@@ -239,6 +239,8 @@ Dans cette version, le texte est compatible avec une syntaxe html.
 <ul></ul> un début et une fin de liste
 <li></li> un item de liste.
 ``` -->
+
+<a id="activation_de_la_fonction_de_personnalisation"></a>
 
 #### Activation de la fonction de personnalisation
 
@@ -699,7 +701,7 @@ Elle ne supprime que les fichiers produits par l'application : les fichiers phot
 
 Elle ne supprime aucun autre document de la tablette.
 
-
+<a id="gestion_du_catalogue_des_observables"></a>
 
 ### Gestion du catalogue des observables
 

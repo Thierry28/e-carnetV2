@@ -125,7 +125,7 @@ Ce qui donne :
 
 ![Personnalisation activée](screenshots/2020-04-17-18-40-27.png)
 
-Pour le détail, voir [Activation de la fonction de personnalisation](activation-de-la-fonction-de-personnalisation)
+Pour le détail, voir [Activation de la fonction de personnalisation](#personnaliser-la-mise-en-page-du-e-carnet)
 
 
 

@@ -1,5 +1,7 @@
 # Pour les experts
 
+<a id="cas_particulier_classe_multilingue_ou_personnalisation_activer_les_remplacements"></a>
+
 ## Cas particulier classe multilingue ou personnalisation : activer les remplacements
 
 <!-- OK -->
@@ -35,6 +37,7 @@
 (à faire, principe : mettre les fichiers e-carnet sur un cloud, utiliser un éditeur de texte pour ouvrir et modifier les fichiers html)
 <!-- [!embed](https://www.youtube.com/watch?v=k2J_pTScOA8) -->
 
+<a id="modifier_les_documents_en_masse"></a>
 
 ## Modifier les documents en masse
 
@@ -52,8 +55,8 @@
 
 Cf l’exemple de fichier excel en PJ et le fichier compétences associé : 
 
-- [competences_DEMO_FR_EN.xlsx](../../files/misc/competences_DEMO_FR_EN.xlsx)
-- [Demo_FR-EN.ecm](../../files/misc/Demo_FR-EN.ecm)
+- [competences_DEMO_FR_EN.xlsx](files/misc/competences_DEMO_FR_EN.xlsx)
+- [Demo_FR-EN.ecm](files/misc/Demo_FR-EN.ecm)
 
 A noter : 
 
@@ -63,17 +66,17 @@ A noter :
 - La numérotation des rubriques n’est pas nécessaire sauf si il est important de les faire figurer.
 - Il faut tout mettre dans un seul onglet, toutes les matières, et toute l’année. C’est le plus simple et efficace. La colonne « Période » est exploitée pour générer des « tags » qui faciliteront la sélection des items dans l’application.
   
-Autre exemple, 3 langues et périodes pour alimenter les tags : [ExempleMultilangue_FR_EN_AR.xlsx](../../files/misc/ExempleMultilangue_FR_EN_AR.xlsx)
+Autre exemple, 3 langues et périodes pour alimenter les tags : [ExempleMultilangue_FR_EN_AR.xlsx](files/misc/ExempleMultilangue_FR_EN_AR.xlsx)
 
 
 Pour utiliser ce référentiel personnalisé : 
 
 1 - il faut l’installer : 
 
-[Gestion du catalogue des observables](../25-Reglages/index.html#gestion_du_catalogue_des_observables)
+[Gestion du catalogue des observables](25-Reglages.md#gestion_du_catalogue_des_observables)
 
 
 2 - selon le nombre de référentiel utilisé, utiliser « e-carnet » (si un seul référentiel) ou « e-journal » (si usage de plusieurs référentiels, ex 1 par période)
 
-[Generer_un_e-journal](../22-MesEleves/index.html#generer_un_e-journal)
+[Generer_un_e-journal](22-MesEleves.md#generer_un_e-journal)
 

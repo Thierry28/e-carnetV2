@@ -13,7 +13,7 @@ Ces traces (témoignages des apprentissages) sont associés aux attendus et obse
 
 Un commentaire de l'élève ainsi qu'un commentaire de l'enseignant peuvent être ajoutés.
 
-Les carnets de suivi sont générés automatiquement à la demande et peuvent être envoyés par mail aux parents. Ils peuvent être transmis par d'autres moyens. Voir [Mode de transmission du e-carnet](30-GenererECarnet/index.html#modes-de-transmission-du-e-carnet).
+Les carnets de suivi sont générés automatiquement à la demande et peuvent être envoyés par mail aux parents. Ils peuvent être transmis par d'autres moyens. Voir [Mode de transmission du e-carnet](30-GenererECarnet.md#modes-de-transmission-du-e-carnet).
 
 Ce n'est pas un carnet de compétences, on prend l'élève au niveau qui est le sien, il est la référence, et on constate avec lui ses progrès au cours du temps. Conformément aux textes officiels, il n'y a pas de code de "notation".
 

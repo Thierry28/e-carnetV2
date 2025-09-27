@@ -20,7 +20,9 @@ Ce mode d'affichage apporte des raccourcis sur les commandes de production
 
 ![Raccourci génération e-carnet ](screenshots/2020-01-05-18-26-47.png)
 
-Voir le chapitre correspondant : [Générer un e-carnet](30-GenererECarnet/index.html)
+Voir le chapitre correspondant : [Générer un e-carnet](30-GenererECarnet.md)
+
+<a id="generer_un_e-journal"></a>
 
 ### Générer un e-journal
 

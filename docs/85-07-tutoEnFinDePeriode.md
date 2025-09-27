@@ -19,7 +19,7 @@ Tout ce qui se retrouvera au dessus du dernier séparateur --- ne sera pas resti
 <!-- OK, pas top -->
 [!embed](https://www.youtube.com/watch?v=CQg7s2ftm3U)
 
-[voir ici pour l'affichage correct : activer les remplacements](85-20-tutoExperts/index.html#cas_particulier_classe_multilingue_ou_personnalisation_activer_les_remplacements)
+[voir ici pour l'affichage correct : activer les remplacements](85-20-tutoExperts.md#cas_particulier_classe_multilingue_ou_personnalisation_activer_les_remplacements)
 
 ## Vérifier les commentaires 
 
