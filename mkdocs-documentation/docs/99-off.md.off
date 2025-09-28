@@ -1,0 +1,200 @@
+
+<!--
+
+
+
+### Donner votre avis et demander des évolutions
+
+Parce que nous souhaitons que ce logiciel soit le vôtre, vous avez à chaque instant la possibilité de vous exprimez.
+
+En `mode enseignant`, aller dans le menu et cliquer sur `Votre avis ?`
+
+NB : Pour utiliser cette fonction, il est nécessaire que la tablette soit connectée à Internet.
+
+![Enquête de satisfaction](screenshots/2018-01-27-19-48-57.png)
+
+![Ouverture du formulaire avec un navigateur](screenshots/2018-01-27-19-49-29.png)
+
+![Questionnaire de satisfaction](screenshots/2018-01-27-19-52-15.png)
+
+
+## Fonctionnalités
+
+
+> exemple de tableau qui pourrait comparer les fonctionnalités entre
+> e-portfolio, jeValide et seeSaw.
+
+                Objet                       Fonctionnalités         version 1.0
+  ---------------------------------- ----------------------------- -----------
+           Liste des élèves                      Ajout                  x
+                                             Modification               x
+                                              Suppression               x
+                                              Ajout media               x
+                                              Suppression               x
+       Catalogue de compétences              Consultation               x
+                                        Affectation à un élève          -
+          Catalogue de média                     Liste                  x
+                                              Ajout note                x
+                                              Ajout photo               x
+                                              Ajout vidéo               -
+                                              Ajout audio               -
+                                      Import photo depuis gallery       -
+                                        Affectation à un élève          x
+   Générateur et scanner de QR code             Scanner                 x
+                                              Générateur                x
+               owncloud                      Création rép               x
+                                        Création fichier texte          x
+          Cahier de réussite              création pdf éleve            x
+                                          création pdf classe           x
+               Réglages                            x                    -
+     Politique de confidentialité               notice                  -
+               Site web                                                 -
+            Notifications                      Reception                -
+           Synthèse vocale                                              -
+              Analytics                                                 -
+              
+Personnalisation de l'application
+---------------------------------
+
+
+
+### Je consulte le référentiel des objectifs et des observables
+
+![](.//screenshots/2017-06-26_07-45-48.gif)
+
+
+
+![](.//screenshots/2017-06-26_07-53-39.gif)
+
+### Je crée ma classe (`en cours`)
+
+### Je crée et je saisis les informations associées à un élève(`OK`)
+
+### Je modifie ou enlève un éleve de ma classe(*`en cours`*)
+
+### J'ajoute une réussite (une *photo*) à l'un des mes élèves(`OK`)
+
+Je prend la photo :
+
+![](.//screenshots/2017-05-21_07-42-30.gif)
+
+J'ajoute un commentaire à la photo
+
+J'associe la photo à un élève
+
+![](.//screenshots/2017-05-21_07-47-46.gif)
+
+### J'ajoute une réussite (une *vidéo*) à l'un des mes élèves(`OK`)
+
+![](.//screenshots/2017-05-21_08-04-25.gif)
+
+J'ajoute un commentaire à la vidéo
+
+![](.//screenshots/2017-05-21_08-07-31.gif)
+
+### J'ajoute une réussite (un *enregistrement audio*) à l'un des mes élèves (`OK`)
+
+J'ajoute un commentaire à l'enregistrement audio
+
+### Je consulte toutes les réussites d'un élève (`OK`)
+
+Présentée sous forme de frise temporelle verticale, toutes les preuves
+des réussites apparaissent dans l'ordre de leur enregistrement au regard
+de la date correspondante.
+
+![](.//screenshots/2017-05-20_19-55-39.gif)
+
+### Je passe ma tablette à un élève pour qu'il enregistre sa réussite (`OK`)
+
+L'élève choisi dans le menu l'ciône appareil photo et peut prendre
+simplement une photo qui se rajoute à son historique.
+
+![](.//screenshots/2017-05-21_07-57-50.gif)
+
+### J'ajoute une compétence à un élève
+
+Je choisi parmi le catalogue des compétences celle que laquelle l'élève
+a progresser et indique le niveau atteint.
+
+![](.//screenshots/2017-06-26_07-49-30.gif)
+
+Je peux ensuite associer une réussite à cette compétence : une photo,
+une vidéo, etc ...
+
+> L'application contient le référentiel national des compétences.
+
+### Je consulte les compétences acquises par un élève(`en cours`)
+
+### Je consulte la liste des compétences qui restent à acquérir pour chaque élève (*`en cours`*)
+
+### J'envoie les cahiers de réussite de chaque élève (`en cours`)
+
+### Je supprime un document 
+
+Pzrfois les captures réalisées par les élèves ne sont pas exploitable. L'application permet à l'enseignant de modérer/supprimer les enregistrements.
+
+Aller sur la page "mes documents", 
+Sélectionner un document dans la liste
+En bas de la fiche document, le bouton `Supprimer document` déclenche l'affichage d'un bouton de confirmation et d'un nouton d'annulation.
+
+Je passe en `mode éleve`
+
+
+Partage des données entre tablettes (*`étude`*)
+-----------------------------------------------
+
+Le partage des données nécessite que la classe dispose d'une **borne
+wifi**.
+
+> Une connection internet n'est pas indispensable.
+
+    // TODO : décrire les fonctions de la borne
+
+Parcours parents
+----------------
+
+### Je reçois par email le cahier de réussite de mon enfant (`en cours`)
+
+L'instituteur m'envoie par email un fichier pdf directement consultable
+sur mon smartphone, ma tablette ou mon ordinateur.
+
+Ce fichier contient l'historique des compétences acquises.
+
+Cette version du document ne permet pas d'accéder aux vidéos et aux
+enregistrements audio.
+
+### J'accède aux vidéos et aux enregistrements audios du cahier de réussite (`en cours`)
+
+Pour cela j'ai besoin de la version payante de l'application.
+L'application n'étant pas financée par l'éducation nationale, vous
+contribuez ainsi à sa réalisation et à sa maintenance. Votre
+contribution est indispensable pour que cette application puisse se
+développer et ainsi vous permettre d'accéder aux vidéos, aux
+enregistrements de votre enfants, en tout sécurité.
+
+A propos de la sécurité des données
+-----------------------------------
+
+Les vidéos, les photos de vos enfants sont stockés : - dans les
+tablettes de l'école - dans un serveur de l'éducation nationale ou du
+cloud 'souverrain' (espace de stockage utilisé par les administrations
+et entreprises Françaises ) qui veulent conserver leurs données sur le
+territoire français. (offre de service de
+[CloudWatt](https://www.cloudwatt.com/fr/). A propos de la [souveraineté
+numérique](https://www.cloudwatt.com/fr/a-propos/souverainete.html) ).
+
+
+### Référence 
+
+:::::::::::::: {.columns}
+::: {.column width="40%"}
+L'application e-carnet-de-maternelle s'appuye et mettre en oeuvre le référentiel décrit dans ce document Eduscol.
+
+Référence éducation nationale : [Le carnet de suivi des apprentissages en maternelle](http://eduscol.education.fr/cid97131/suivi-et-evaluation-a-l-ecole-maternelle.html)
+:::
+::: {.column width="60%"}
+![](screenshots/2018-01-27-18-00-46.png)
+:::
+:::::::::::::
+
+--> 

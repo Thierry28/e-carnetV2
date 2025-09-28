@@ -1,0 +1,60 @@
+{
+  "name": "e-carnet-v2-docs",
+  "version": "2.0.0",
+  "description": "Documentation for e-carnet maternelle application - a digital notebook for kindergarten teachers",
+  "main": "index.js",
+  "scripts": {
+    "dev": "./.venv/bin/mkdocs serve",
+    "build": "./.venv/bin/mkdocs build",
+    "build:clean": "./.venv/bin/mkdocs build --clean",
+    "deploy": "./.venv/bin/mkdocs gh-deploy",
+    "lint:md": "markdownlint docs/**/*.md README.md",
+    "lint:md:fix": "markdownlint --fix docs/**/*.md README.md",
+    "clean": "rm -rf site/ && rm -rf .mkdocs_cache/",
+    "serve": "./.venv/bin/mkdocs serve --dev-addr=127.0.0.1:8000",
+    "serve:public": "./.venv/bin/mkdocs serve --dev-addr=0.0.0.0:8000",
+    "pdf": "./.venv/bin/mkdocs-with-pdf",
+    "validate": "./.venv/bin/mkdocs build --strict",
+    "scripts:clean-comments": "./scripts/removeCommentsInMDfiles.sh",
+    "scripts:clean-paths": "./scripts/removeDotDotSlashInMDfiles.sh",
+    "scripts:create-files": "./scripts/createNewFiles.sh",
+    "preinstall": "command -v python3 >/dev/null 2>&1 || { echo 'Python 3 is required but not installed. Please install Python 3.'; exit 1; }",
+    "postinstall": "pip3 install -r docs/requirements.txt || echo 'Please install Python dependencies manually: pip3 install -r docs/requirements.txt'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Thierry28/e-carnetV2.git"
+  },
+  "keywords": [
+    "documentation",
+    "mkdocs",
+    "education",
+    "kindergarten",
+    "digital-notebook",
+    "teacher-tools"
+  ],
+  "author": "Thierry Gaillot <thierry@tr-esolutions.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Thierry28/e-carnetV2/issues"
+  },
+  "homepage": "https://e-carnetv2.readthedocs.io/",
+  "devDependencies": {
+    "markdownlint-cli": "^0.37.0",
+    "prettier": "^3.0.3",
+    "@prettier/plugin-xml": "^3.2.2"
+  },
+  "engines": {
+    "node": ">=16.0.0",
+    "npm": ">=8.0.0"
+  },
+  "volta": {
+    "node": "18.17.1",
+    "npm": "9.6.7"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}

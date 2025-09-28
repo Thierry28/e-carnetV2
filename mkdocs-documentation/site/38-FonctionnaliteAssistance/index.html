@@ -1,0 +1,666 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="fr" >
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="author" content="Thierry Gaillot, thierry(at)tr-esolutions.com" /><link rel="canonical" href="https://e-carnet-maternelle.jimdofree.com/38-FonctionnaliteAssistance/" />
+      <link rel="shortcut icon" href="../img/favicon.ico" />
+    <title>Fonctionnalité Assistance - Guide e-carnet maternelle v2</title>
+    <link rel="stylesheet" href="../css/theme.css" />
+    <link rel="stylesheet" href="../css/theme_extra.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" />
+        <link href="../assets/_mkdocstrings.css" rel="stylesheet" />
+        <link href="../css/mkdocs_extra.css" rel="stylesheet" />
+    
+      <script>
+        // Current page data
+        var mkdocs_page_name = "Fonctionnalit\u00e9 Assistance";
+        var mkdocs_page_input_path = "38-FonctionnaliteAssistance.md";
+        var mkdocs_page_url = "/38-FonctionnaliteAssistance/";
+      </script>
+    
+    <!--[if lt IE 9]>
+      <script src="../js/html5shiv.min.js"></script>
+    <![endif]-->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+      <script>hljs.highlightAll();</script> 
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+          <a href=".." class="icon icon-home"> Guide e-carnet maternelle v2
+        </a>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Menu de navigation">
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="..">Accueil</a>
+                </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Introduction</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../02-Reference/">Référence</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../03-Avertissement/">Avertissement</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../04-EnSavoirPlus/">En savoir plus</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../05-SurLaTablette/">Sur la tablette</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../06-Nouveautes/">Nouveautés</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../09-LesDeuxModes/">Les 2 modes</a>
+                  </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../10-ParcoursEleve/">Le parcours élève</a>
+                </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Le parcours professeur</span></p>
+              <ul class="current">
+                  <li class="toctree-l1"><a class="reference internal" href="../20-ParcoursProfesseur/">Côté professeur</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../21-BoutonsMedias/">Boutons médias</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../22-MesEleves/">Mes élèves</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../23-MesDocuments/">Mes documents</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../24-Objectifs/">Objectifs</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../25-Reglages/">Réglages</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../26-Aide/">Aide</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../27-APropos/">A propos</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../28-PageEleve/">Page élève</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../29-PageDocument/">Page document</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../30-GenererECarnet/">Générer e-carnet</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../33-PartageCodeQR/">Partage Code QR</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../34-ImportExportEPUB/">Import/Export EPUB</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../36-CommunicationParents/">Communication Parents</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../37-StatutsAccusesReception/">Statuts Accusés Réception</a>
+                  </li>
+                  <li class="toctree-l1 current"><a class="reference internal current" href="#">Fonctionnalité Assistance</a>
+    <ul class="current">
+    <li class="toctree-l2"><a class="reference internal" href="#vue_densemble_de_lassistance">Vue d'ensemble de l'assistance</a>
+        <ul>
+    <li class="toctree-l3"><a class="reference internal" href="#objectifs_du_systeme_dassistance">Objectifs du système d'assistance</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#types_dassistance_disponibles">Types d'assistance disponibles</a>
+        <ul>
+    <li class="toctree-l4"><a class="reference internal" href="#assistance_technique">Assistance technique</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#assistance_pedagogique">Assistance pédagogique</a>
+    </li>
+        </ul>
+    </li>
+        </ul>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#fonctionnalites_dassistance_version_225">Fonctionnalités d'assistance version 2.2.5</a>
+        <ul>
+    <li class="toctree-l3"><a class="reference internal" href="#listage_des_eleves_et_medias">Listage des élèves et médias</a>
+        <ul>
+    <li class="toctree-l4"><a class="reference internal" href="#information_systeme_complete">Information système complète</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#utilite_diagnostique">Utilité diagnostique</a>
+    </li>
+        </ul>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#integration_email_automatique">Intégration email automatique</a>
+        <ul>
+    <li class="toctree-l4"><a class="reference internal" href="#envoi_automatise">Envoi automatisé</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#contenu_des_emails_dassistance">Contenu des emails d'assistance</a>
+    </li>
+        </ul>
+    </li>
+        </ul>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#interface_dassistance">Interface d'assistance</a>
+        <ul>
+    <li class="toctree-l3"><a class="reference internal" href="#acces_a_lassistance">Accès à l'assistance</a>
+        <ul>
+    <li class="toctree-l4"><a class="reference internal" href="#depuis_lapplication_principale">Depuis l'application principale</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#points_dentree_multiples">Points d'entrée multiples</a>
+    </li>
+        </ul>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#systeme_de_gestion_des_statuts">Système de gestion des statuts</a>
+        <ul>
+    <li class="toctree-l4"><a class="reference internal" href="#statuts_de_demande_dassistance">Statuts de demande d'assistance</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#suivi_en_temps_reel">Suivi en temps réel</a>
+    </li>
+        </ul>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#bouton_denvoi_integre">Bouton d'envoi intégré</a>
+        <ul>
+    <li class="toctree-l4"><a class="reference internal" href="#fonctionnement_du_bouton">Fonctionnement du bouton</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#personnalisation_de_lenvoi">Personnalisation de l'envoi</a>
+    </li>
+        </ul>
+    </li>
+        </ul>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#types_dassistance_proposes">Types d'assistance proposés</a>
+        <ul>
+    <li class="toctree-l3"><a class="reference internal" href="#assistance_technique_immediate">Assistance technique immédiate</a>
+        <ul>
+    <li class="toctree-l4"><a class="reference internal" href="#problemes_courants">Problèmes courants</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#solutions_guidees">Solutions guidées</a>
+    </li>
+        </ul>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#assistance_pedagogique_1">Assistance pédagogique</a>
+        <ul>
+    <li class="toctree-l4"><a class="reference internal" href="#formation_a_lutilisation">Formation à l'utilisation</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#ressources_pedagogiques">Ressources pédagogiques</a>
+    </li>
+        </ul>
+    </li>
+        </ul>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#amelioration_continue_du_support">Amélioration continue du support</a>
+        <ul>
+    <li class="toctree-l3"><a class="reference internal" href="#analyse_des_demandes">Analyse des demandes</a>
+        <ul>
+    <li class="toctree-l4"><a class="reference internal" href="#collecte_de_donnees">Collecte de données</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#optimisation_continue">Optimisation continue</a>
+    </li>
+        </ul>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#base_de_connaissances">Base de connaissances</a>
+        <ul>
+    <li class="toctree-l4"><a class="reference internal" href="#documentation_automatisee">Documentation automatisée</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#communaute_dentraide">Communauté d'entraide</a>
+    </li>
+        </ul>
+    </li>
+        </ul>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#securite_et_confidentialite">Sécurité et confidentialité</a>
+        <ul>
+    <li class="toctree-l3"><a class="reference internal" href="#protection_des_donnees">Protection des données</a>
+        <ul>
+    <li class="toctree-l4"><a class="reference internal" href="#donnees_transmises">Données transmises</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#conformite_reglementaire">Conformité réglementaire</a>
+    </li>
+        </ul>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#controle_dacces">Contrôle d'accès</a>
+        <ul>
+    <li class="toctree-l4"><a class="reference internal" href="#equipe_support">Équipe support</a>
+    </li>
+        </ul>
+    </li>
+        </ul>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#indicateurs_de_performance">Indicateurs de performance</a>
+        <ul>
+    <li class="toctree-l3"><a class="reference internal" href="#metriques_de_qualite">Métriques de qualité</a>
+        <ul>
+    <li class="toctree-l4"><a class="reference internal" href="#temps_de_reponse">Temps de réponse</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#efficacite">Efficacité</a>
+    </li>
+        </ul>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#tableaux_de_bord">Tableaux de bord</a>
+        <ul>
+    <li class="toctree-l4"><a class="reference internal" href="#vue_utilisateur">Vue utilisateur</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#vue_administrative">Vue administrative</a>
+    </li>
+        </ul>
+    </li>
+        </ul>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#voir_aussi">Voir aussi</a>
+    </li>
+    </ul>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../45-Terminologie2025/">Terminologie 2025</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../46-Catalogue2025/">Catalogue 2025</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../80-ManipulationsDiverses/">Manipulations diverses</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../83-Fichiers/">Trouver les fichiers</a>
+                  </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../70-FAQ/">FAQ</a>
+                </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Tutos par moments clés</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../85-01-tutoPremierLancement/">Premier lancement</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../85-02-tutoDebutAnnee/">Début d'année</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../85-03-tutoDebutDePeriode/">Début de période</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../85-04-tutoAvantLaClasse/">Avant la classe</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../85-05-tutoPendantLaClasse/">Pendant la classe</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../85-06-tutoApresLaClasse/">Après la classe</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../85-07-tutoEnFinDePeriode/">En fin de période</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../85-08-tutoEnReunionParents/">En réunion parents</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../85-09-tutoMiseAJourApplication/">Mise à jour de l'application</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../85-10-tutoEnFinDannee/">En fin d'année</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../85-11-tutoChangerTablette/">Changer de tablette</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../85-12-tutoUtiliserVersionWindows/">Utiliser la version Windows</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../85-13-tutoUtiliserVersionMacOS/">Utiliser la version MacOS</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../85-14-tutoUtiliserVersionLinux/">Utiliser la version Linux</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../85-21-tutoPartageParents/">Partager avec les parents</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../85-20-tutoExperts/">Tutos pour les experts</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Infos</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../90-CGU/">Conditions Générales d'utilisation</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../91-Confidentialite-RGPD/">Confidentialité et RGPD</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../91-Credits/">Crédits</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../92-Evolutions/">Evolutions</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../93-Bugs/">Bugs</a>
+                  </li>
+              </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+      <nav class="wy-nav-top" role="navigation" aria-label="Menu de navigation sur mobile">
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="..">Guide e-carnet maternelle v2</a>
+        
+      </nav>
+      <div class="wy-nav-content">
+        <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href=".." class="icon icon-home" aria-label="Documents"></a></li>
+          <li class="breadcrumb-item">Le parcours professeur</li>
+      <li class="breadcrumb-item active">Fonctionnalité Assistance</li>
+    <li class="wy-breadcrumbs-aside">
+          <a href="https://github.com/Thierry28/ecarnetV2/edit/main/mkdocs-documentation/docs/38-FonctionnaliteAssistance.md">Editer dans Thierry28/ecarnetV2</a>
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+            <div class="section" itemprop="articleBody">
+              
+                <h1 id="fonctionnalite_dassistance">Fonctionnalité d'assistance<a class="headerlink" href="#fonctionnalite_dassistance" title="Permanent link">&para;</a></h1>
+<p>La fonctionnalité d'assistance d'e-carnet V2 offre un support technique intégré pour aider les utilisateurs à résoudre leurs problèmes et optimiser leur utilisation de l'application.</p>
+<h2 id="vue_densemble_de_lassistance">Vue d'ensemble de l'assistance<a class="headerlink" href="#vue_densemble_de_lassistance" title="Permanent link">&para;</a></h2>
+<h3 id="objectifs_du_systeme_dassistance">Objectifs du système d'assistance<a class="headerlink" href="#objectifs_du_systeme_dassistance" title="Permanent link">&para;</a></h3>
+<p>L'assistance intégrée vise à :</p>
+<ul>
+<li><strong>Résoudre rapidement</strong> les problèmes techniques</li>
+<li><strong>Améliorer l'expérience utilisateur</strong> par un support personnalisé</li>
+<li><strong>Réduire la charge</strong> sur le support technique externe</li>
+<li><strong>Collecter des données</strong> pour améliorer l'application</li>
+</ul>
+<h3 id="types_dassistance_disponibles">Types d'assistance disponibles<a class="headerlink" href="#types_dassistance_disponibles" title="Permanent link">&para;</a></h3>
+<h4 id="assistance_technique">Assistance technique<a class="headerlink" href="#assistance_technique" title="Permanent link">&para;</a></h4>
+<ul>
+<li><strong>Diagnostics automatiques</strong> : Détection des problèmes courants</li>
+<li><strong>Solutions guidées</strong> : Procédures pas-à-pas</li>
+<li><strong>Documentation contextuelle</strong> : Aide adaptée à la situation</li>
+<li><strong>Contact direct</strong> : Lien vers le support humain</li>
+</ul>
+<h4 id="assistance_pedagogique">Assistance pédagogique<a class="headerlink" href="#assistance_pedagogique" title="Permanent link">&para;</a></h4>
+<ul>
+<li><strong>Guides d'utilisation</strong> : Bonnes pratiques éducatives</li>
+<li><strong>Exemples concrets</strong> : Cas d'usage illustrés</li>
+<li><strong>Formation en ligne</strong> : Tutoriels interactifs</li>
+<li><strong>Communauté</strong> : Échanges entre utilisateurs</li>
+</ul>
+<h2 id="fonctionnalites_dassistance_version_225">Fonctionnalités d'assistance version 2.2.5<a class="headerlink" href="#fonctionnalites_dassistance_version_225" title="Permanent link">&para;</a></h2>
+<h3 id="listage_des_eleves_et_medias">Listage des élèves et médias<a class="headerlink" href="#listage_des_eleves_et_medias" title="Permanent link">&para;</a></h3>
+<h4 id="information_systeme_complete">Information système complète<a class="headerlink" href="#information_systeme_complete" title="Permanent link">&para;</a></h4>
+<p>La version 2.2.5 introduit une fonctionnalité majeure :</p>
+<p><strong>Génération automatique de listes</strong> comprenant :</p>
+<ul>
+<li><strong>Liste complète des élèves</strong> :</li>
+<li>Noms et prénoms</li>
+<li>Identifiants système</li>
+<li>Dates de création des profils</li>
+<li>Dernière activité enregistrée</li>
+<li>
+<p>Statut du compte (actif/inactif)</p>
+</li>
+<li>
+<p><strong>Inventaire des médias</strong> :</p>
+</li>
+<li>Nombre total de photos par élève</li>
+<li>Nombre de vidéos stockées</li>
+<li>Nombre de documents associés</li>
+<li>Taille totale des données</li>
+<li>Répartition par type de média</li>
+</ul>
+<h4 id="utilite_diagnostique">Utilité diagnostique<a class="headerlink" href="#utilite_diagnostique" title="Permanent link">&para;</a></h4>
+<p>Ces informations permettent de :</p>
+<ul>
+<li><strong>Identifier les problèmes</strong> de synchronisation</li>
+<li><strong>Analyser l'utilisation</strong> de l'espace de stockage</li>
+<li><strong>Détecter les incohérences</strong> dans les données</li>
+<li><strong>Planifier la maintenance</strong> préventive</li>
+</ul>
+<h3 id="integration_email_automatique">Intégration email automatique<a class="headerlink" href="#integration_email_automatique" title="Permanent link">&para;</a></h3>
+<h4 id="envoi_automatise">Envoi automatisé<a class="headerlink" href="#envoi_automatise" title="Permanent link">&para;</a></h4>
+<p>Le système peut automatiquement :</p>
+<ol>
+<li><strong>Compiler les informations</strong> système et utilisateur</li>
+<li><strong>Générer un rapport</strong> détaillé de la situation</li>
+<li><strong>Joindre les listes</strong> d'élèves et médias</li>
+<li><strong>Envoyer par email</strong> au support technique</li>
+</ol>
+<h4 id="contenu_des_emails_dassistance">Contenu des emails d'assistance<a class="headerlink" href="#contenu_des_emails_dassistance" title="Permanent link">&para;</a></h4>
+<h5 id="informations_techniques">Informations techniques<a class="headerlink" href="#informations_techniques" title="Permanent link">&para;</a></h5>
+<ul>
+<li><strong>Version de l'application</strong> utilisée</li>
+<li><strong>Système d'exploitation</strong> de l'appareil</li>
+<li><strong>Configuration matérielle</strong> (RAM, stockage)</li>
+<li><strong>État de la connexion</strong> réseau</li>
+<li><strong>Historique des erreurs</strong> récentes</li>
+</ul>
+<h5 id="contexte_utilisateur">Contexte utilisateur<a class="headerlink" href="#contexte_utilisateur" title="Permanent link">&para;</a></h5>
+<ul>
+<li><strong>Description du problème</strong> rencontré</li>
+<li><strong>Actions effectuées</strong> avant l'incident</li>
+<li><strong>Fréquence d'occurrence</strong> du problème</li>
+<li><strong>Impact</strong> sur l'utilisation quotidienne</li>
+</ul>
+<h5 id="donnees_diagnostiques">Données diagnostiques<a class="headerlink" href="#donnees_diagnostiques" title="Permanent link">&para;</a></h5>
+<ul>
+<li><strong>Logs d'erreur</strong> des dernières 24h</li>
+<li><strong>Statistiques d'utilisation</strong> de l'application</li>
+<li><strong>État des synchronisations</strong> en cours</li>
+<li><strong>Performances</strong> de l'appareil</li>
+</ul>
+<h2 id="interface_dassistance">Interface d'assistance<a class="headerlink" href="#interface_dassistance" title="Permanent link">&para;</a></h2>
+<h3 id="acces_a_lassistance">Accès à l'assistance<a class="headerlink" href="#acces_a_lassistance" title="Permanent link">&para;</a></h3>
+<h4 id="depuis_lapplication_principale">Depuis l'application principale<a class="headerlink" href="#depuis_lapplication_principale" title="Permanent link">&para;</a></h4>
+<ol>
+<li><strong>Menu principal</strong> → "Aide et assistance"</li>
+<li><strong>Bouton d'urgence</strong> : Accès rapide en cas de blocage</li>
+<li><strong>Messages d'erreur</strong> : Lien direct depuis les alertes</li>
+<li><strong>Tutoriels contextuels</strong> : Aide adaptée à l'écran courant</li>
+</ol>
+<h4 id="points_dentree_multiples">Points d'entrée multiples<a class="headerlink" href="#points_dentree_multiples" title="Permanent link">&para;</a></h4>
+<ul>
+<li><strong>Icône d'aide</strong> : Visible sur chaque écran</li>
+<li><strong>Gestes de secours</strong> : Secousse ou appui long</li>
+<li><strong>Commandes vocales</strong> : "Aide" ou "Assistance"</li>
+<li><strong>Raccourcis clavier</strong> : Combinaisons dédiées</li>
+</ul>
+<h3 id="systeme_de_gestion_des_statuts">Système de gestion des statuts<a class="headerlink" href="#systeme_de_gestion_des_statuts" title="Permanent link">&para;</a></h3>
+<h4 id="statuts_de_demande_dassistance">Statuts de demande d'assistance<a class="headerlink" href="#statuts_de_demande_dassistance" title="Permanent link">&para;</a></h4>
+<ol>
+<li><strong>Nouvelle demande</strong> : Problème signalé, en attente de traitement</li>
+<li><strong>En cours d'analyse</strong> : Équipe technique en cours d'investigation</li>
+<li><strong>Solution proposée</strong> : Résolution suggérée, attente de validation</li>
+<li><strong>Résolu</strong> : Problème corrigé, confirmation utilisateur</li>
+<li><strong>Fermé</strong> : Demande traitée et archivée</li>
+</ol>
+<h4 id="suivi_en_temps_reel">Suivi en temps réel<a class="headerlink" href="#suivi_en_temps_reel" title="Permanent link">&para;</a></h4>
+<ul>
+<li><strong>Notifications push</strong> : Alertes sur l'évolution du ticket</li>
+<li><strong>Historique détaillé</strong> : Chronologie des actions effectuées</li>
+<li><strong>Temps de réponse</strong> : Estimation de la résolution</li>
+<li><strong>Satisfaction</strong> : Évaluation du service reçu</li>
+</ul>
+<h3 id="bouton_denvoi_integre">Bouton d'envoi intégré<a class="headerlink" href="#bouton_denvoi_integre" title="Permanent link">&para;</a></h3>
+<h4 id="fonctionnement_du_bouton">Fonctionnement du bouton<a class="headerlink" href="#fonctionnement_du_bouton" title="Permanent link">&para;</a></h4>
+<p>Le bouton d'envoi d'assistance :</p>
+<ol>
+<li><strong>Collecte automatiquement</strong> toutes les informations pertinentes</li>
+<li><strong>Compile</strong> les données dans un format structuré</li>
+<li><strong>Propose une prévisualisation</strong> avant envoi</li>
+<li><strong>Transmet</strong> directement au service support</li>
+<li><strong>Fournit un numéro</strong> de suivi de la demande</li>
+</ol>
+<h4 id="personnalisation_de_lenvoi">Personnalisation de l'envoi<a class="headerlink" href="#personnalisation_de_lenvoi" title="Permanent link">&para;</a></h4>
+<ul>
+<li><strong>Niveau de détail</strong> : Complet ou essentiel uniquement</li>
+<li><strong>Données sensibles</strong> : Inclusion/exclusion optionnelle</li>
+<li><strong>Destinataire</strong> : Support technique ou pédagogique</li>
+<li><strong>Priorité</strong> : Normale, importante, urgente</li>
+</ul>
+<h2 id="types_dassistance_proposes">Types d'assistance proposés<a class="headerlink" href="#types_dassistance_proposes" title="Permanent link">&para;</a></h2>
+<h3 id="assistance_technique_immediate">Assistance technique immédiate<a class="headerlink" href="#assistance_technique_immediate" title="Permanent link">&para;</a></h3>
+<h4 id="problemes_courants">Problèmes courants<a class="headerlink" href="#problemes_courants" title="Permanent link">&para;</a></h4>
+<h5 id="connexion_et_synchronisation">Connexion et synchronisation<a class="headerlink" href="#connexion_et_synchronisation" title="Permanent link">&para;</a></h5>
+<ul>
+<li><strong>Test de connectivité</strong> automatique</li>
+<li><strong>Réparation des bases de données</strong> locales</li>
+<li><strong>Resynchronisation</strong> forcée avec le serveur</li>
+<li><strong>Optimisation</strong> des paramètres réseau</li>
+</ul>
+<h5 id="performance_et_stabilite">Performance et stabilité<a class="headerlink" href="#performance_et_stabilite" title="Permanent link">&para;</a></h5>
+<ul>
+<li><strong>Nettoyage du cache</strong> application</li>
+<li><strong>Libération de mémoire</strong> et optimisation</li>
+<li><strong>Mise à jour</strong> automatique des composants</li>
+<li><strong>Redémarrage sécurisé</strong> de l'application</li>
+</ul>
+<h4 id="solutions_guidees">Solutions guidées<a class="headerlink" href="#solutions_guidees" title="Permanent link">&para;</a></h4>
+<ul>
+<li><strong>Assistants pas-à-pas</strong> : Résolution interactive</li>
+<li><strong>Vidéos explicatives</strong> : Démonstrations visuelles</li>
+<li><strong>Captures d'écran annotées</strong> : Instructions précises</li>
+<li><strong>Check-lists</strong> : Vérifications systématiques</li>
+</ul>
+<h3 id="assistance_pedagogique_1">Assistance pédagogique<a class="headerlink" href="#assistance_pedagogique_1" title="Permanent link">&para;</a></h3>
+<h4 id="formation_a_lutilisation">Formation à l'utilisation<a class="headerlink" href="#formation_a_lutilisation" title="Permanent link">&para;</a></h4>
+<h5 id="nouveaux_utilisateurs">Nouveaux utilisateurs<a class="headerlink" href="#nouveaux_utilisateurs" title="Permanent link">&para;</a></h5>
+<ul>
+<li><strong>Parcours de découverte</strong> : Tour guidé de l'application</li>
+<li><strong>Premiers pas</strong> : Création du premier portfolio</li>
+<li><strong>Bonnes pratiques</strong> : Conseils d'utilisation optimale</li>
+<li><strong>Éviter les écueils</strong> : Erreurs courantes à éviter</li>
+</ul>
+<h5 id="utilisateurs_experimentes">Utilisateurs expérimentés<a class="headerlink" href="#utilisateurs_experimentes" title="Permanent link">&para;</a></h5>
+<ul>
+<li><strong>Fonctionnalités avancées</strong> : Exploitation des options complexes</li>
+<li><strong>Personnalisation</strong> : Adaptation aux besoins spécifiques</li>
+<li><strong>Intégrations</strong> : Connexions avec d'autres outils</li>
+<li><strong>Optimisation</strong> : Amélioration de l'efficacité</li>
+</ul>
+<h4 id="ressources_pedagogiques">Ressources pédagogiques<a class="headerlink" href="#ressources_pedagogiques" title="Permanent link">&para;</a></h4>
+<ul>
+<li><strong>Bibliothèque d'exemples</strong> : Portfolios types</li>
+<li><strong>Modèles d'activités</strong> : Fiches pédagogiques prêtes</li>
+<li><strong>Grilles d'évaluation</strong> : Outils d'assessment</li>
+<li><strong>Projets collaboratifs</strong> : Idées d'activités de classe</li>
+</ul>
+<h2 id="amelioration_continue_du_support">Amélioration continue du support<a class="headerlink" href="#amelioration_continue_du_support" title="Permanent link">&para;</a></h2>
+<h3 id="analyse_des_demandes">Analyse des demandes<a class="headerlink" href="#analyse_des_demandes" title="Permanent link">&para;</a></h3>
+<h4 id="collecte_de_donnees">Collecte de données<a class="headerlink" href="#collecte_de_donnees" title="Permanent link">&para;</a></h4>
+<p>Le système d'assistance collecte :</p>
+<ul>
+<li><strong>Fréquence des problèmes</strong> : Identification des points faibles</li>
+<li><strong>Efficacité des solutions</strong> : Taux de résolution</li>
+<li><strong>Satisfaction utilisateur</strong> : Évaluations des interventions</li>
+<li><strong>Temps de traitement</strong> : Délais de résolution</li>
+</ul>
+<h4 id="optimisation_continue">Optimisation continue<a class="headerlink" href="#optimisation_continue" title="Permanent link">&para;</a></h4>
+<ul>
+<li><strong>Mise à jour des guides</strong> : Amélioration de la documentation</li>
+<li><strong>Formation des équipes</strong> : Renforcement des compétences</li>
+<li><strong>Évolution de l'interface</strong> : Simplification des processus</li>
+<li><strong>Anticipation</strong> : Prévention des problèmes récurrents</li>
+</ul>
+<h3 id="base_de_connaissances">Base de connaissances<a class="headerlink" href="#base_de_connaissances" title="Permanent link">&para;</a></h3>
+<h4 id="documentation_automatisee">Documentation automatisée<a class="headerlink" href="#documentation_automatisee" title="Permanent link">&para;</a></h4>
+<ul>
+<li><strong>FAQ dynamique</strong> : Questions fréquentes mises à jour</li>
+<li><strong>Historique des solutions</strong> : Capitalisation des résolutions</li>
+<li><strong>Recherche intelligente</strong> : Accès rapide aux informations</li>
+<li><strong>Versioning</strong> : Adaptation aux versions de l'application</li>
+</ul>
+<h4 id="communaute_dentraide">Communauté d'entraide<a class="headerlink" href="#communaute_dentraide" title="Permanent link">&para;</a></h4>
+<ul>
+<li><strong>Forum intégré</strong> : Échanges entre utilisateurs</li>
+<li><strong>Partage d'expérience</strong> : Témoignages et conseils</li>
+<li><strong>Modération</strong> : Validation des contributions</li>
+<li><strong>Gamification</strong> : Encouragement de la participation</li>
+</ul>
+<h2 id="securite_et_confidentialite">Sécurité et confidentialité<a class="headerlink" href="#securite_et_confidentialite" title="Permanent link">&para;</a></h2>
+<h3 id="protection_des_donnees">Protection des données<a class="headerlink" href="#protection_des_donnees" title="Permanent link">&para;</a></h3>
+<h4 id="donnees_transmises">Données transmises<a class="headerlink" href="#donnees_transmises" title="Permanent link">&para;</a></h4>
+<p>Lors d'une demande d'assistance :</p>
+<ul>
+<li><strong>Chiffrement</strong> : Protection des informations sensibles</li>
+<li><strong>Anonymisation</strong> : Suppression des données personnelles</li>
+<li><strong>Minimisation</strong> : Transmission du strict nécessaire</li>
+<li><strong>Traçabilité</strong> : Journal des accès aux données</li>
+</ul>
+<h4 id="conformite_reglementaire">Conformité réglementaire<a class="headerlink" href="#conformite_reglementaire" title="Permanent link">&para;</a></h4>
+<ul>
+<li><strong>RGPD</strong> : Respect des droits des utilisateurs</li>
+<li><strong>Consentement</strong> : Accord explicite pour le traitement</li>
+<li><strong>Durée de conservation</strong> : Suppression après résolution</li>
+<li><strong>Droit d'accès</strong> : Consultation des données transmises</li>
+</ul>
+<h3 id="controle_dacces">Contrôle d'accès<a class="headerlink" href="#controle_dacces" title="Permanent link">&para;</a></h3>
+<h4 id="equipe_support">Équipe support<a class="headerlink" href="#equipe_support" title="Permanent link">&para;</a></h4>
+<ul>
+<li><strong>Habilitations</strong> : Accès limité selon les besoins</li>
+<li><strong>Audit</strong> : Traçabilité des consultations</li>
+<li><strong>Formation</strong> : Sensibilisation à la confidentialité</li>
+<li><strong>Charte</strong> : Engagement de non-divulgation</li>
+</ul>
+<h2 id="indicateurs_de_performance">Indicateurs de performance<a class="headerlink" href="#indicateurs_de_performance" title="Permanent link">&para;</a></h2>
+<h3 id="metriques_de_qualite">Métriques de qualité<a class="headerlink" href="#metriques_de_qualite" title="Permanent link">&para;</a></h3>
+<h4 id="temps_de_reponse">Temps de réponse<a class="headerlink" href="#temps_de_reponse" title="Permanent link">&para;</a></h4>
+<ul>
+<li><strong>Première réponse</strong> : Délai d'accusé de réception</li>
+<li><strong>Résolution</strong> : Temps de traitement complet</li>
+<li><strong>Escalade</strong> : Délai de transfert si nécessaire</li>
+<li><strong>Satisfaction</strong> : Note attribuée par l'utilisateur</li>
+</ul>
+<h4 id="efficacite">Efficacité<a class="headerlink" href="#efficacite" title="Permanent link">&para;</a></h4>
+<ul>
+<li><strong>Taux de résolution</strong> : Pourcentage de problèmes résolus</li>
+<li><strong>Solutions première intervention</strong> : Résolution immédiate</li>
+<li><strong>Récurrence</strong> : Problèmes non définitivement réglés</li>
+<li><strong>Amélioration</strong> : Évolution de la performance</li>
+</ul>
+<h3 id="tableaux_de_bord">Tableaux de bord<a class="headerlink" href="#tableaux_de_bord" title="Permanent link">&para;</a></h3>
+<h4 id="vue_utilisateur">Vue utilisateur<a class="headerlink" href="#vue_utilisateur" title="Permanent link">&para;</a></h4>
+<ul>
+<li><strong>Statut des demandes</strong> : Suivi en temps réel</li>
+<li><strong>Historique personnel</strong> : Archives des interventions</li>
+<li><strong>Ressources recommandées</strong> : Suggestions personnalisées</li>
+<li><strong>Évaluations</strong> : Retours sur le service reçu</li>
+</ul>
+<h4 id="vue_administrative">Vue administrative<a class="headerlink" href="#vue_administrative" title="Permanent link">&para;</a></h4>
+<ul>
+<li><strong>Volume des demandes</strong> : Charge du service support</li>
+<li><strong>Typologie des problèmes</strong> : Classification des incidents</li>
+<li><strong>Performance équipe</strong> : Indicateurs individuels et collectifs</li>
+<li><strong>Prévisions</strong> : Anticipation des besoins futurs</li>
+</ul>
+<div class="admonition note">
+<p class="admonition-title">Innovation version 2.2.5</p>
+<p>La version 2.2.5 (6 avril 2025) a introduit des fonctionnalités révolutionnaires d'assistance avec le listage automatique des élèves et médias, l'intégration email, et un système de statuts avancé.</p>
+</div>
+<div class="admonition tip">
+<p class="admonition-title">Conseil d'utilisation</p>
+<p>N'hésitez pas à utiliser la fonctionnalité d'assistance dès les premiers signes de difficulté. Plus le problème est signalé tôt, plus la résolution est rapide et efficace.</p>
+</div>
+<h2 id="voir_aussi">Voir aussi<a class="headerlink" href="#voir_aussi" title="Permanent link">&para;</a></h2>
+<ul>
+<li><a href="../39-IntegrationEmail/">Intégration email</a></li>
+<li><a href="../35-SystemeMessagerie/">Système de messagerie</a></li>
+<li><a href="../37-StatutsAccusesReception/">Statuts et accusés de réception</a></li>
+</ul>
+              
+            </div>
+          </div><footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="Navigation de pied de page">
+        <a href="../37-StatutsAccusesReception/" class="btn btn-neutral float-left" title="Statuts Accusés Réception"><span class="icon icon-circle-arrow-left"></span> Précédent</a>
+        <a href="../45-Terminologie2025/" class="btn btn-neutral float-right" title="Terminologie 2025">Suivant <span class="icon icon-circle-arrow-right"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+      <p>Copyright &copy; TR e-solutions @2025</p>
+  </div>
+
+  Générée avec <a href="https://www.mkdocs.org/">MkDocs</a> avec un <a href="https://github.com/readthedocs/sphinx_rtd_theme">thème</a> fourni par <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+          
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="Versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    
+        <span>
+          <a href="https://github.com/Thierry28/ecarnetV2/" class="fa fa-code-fork" style="color: #fcfcfc"> Thierry28/ecarnetV2</a>
+        </span>
+    
+    
+      <span><a href="../37-StatutsAccusesReception/" style="color: #fcfcfc">&laquo; Précédent</a></span>
+    
+    
+      <span><a href="../45-Terminologie2025/" style="color: #fcfcfc">Suivant &raquo;</a></span>
+    
+  </span>
+</div>
+    <script src="../js/jquery-3.6.0.min.js"></script>
+    <script>var base_url = "..";</script>
+    <script src="../js/theme_extra.js"></script>
+    <script src="../js/theme.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+    <script>
+        jQuery(function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        });
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,187 @@
+# Main MkDocs Config file
+
+# Navigation
+nav:
+  # - Accueil: 00-CoverPage.md
+  - Accueil: index.md
+  # - Guide:
+  - Introduction:
+    - Référence: 02-Reference.md
+    - Avertissement: 03-Avertissement.md
+    - En savoir plus: 04-EnSavoirPlus.md
+    - Sur la tablette: 05-SurLaTablette.md
+    - Nouveautés: 06-Nouveautes.md
+    - Les 2 modes: 09-LesDeuxModes.md
+  - Le parcours élève: 10-ParcoursEleve.md
+  - Le parcours professeur: 
+    - Côté professeur: 20-ParcoursProfesseur.md
+    - Boutons médias: 21-BoutonsMedias.md
+    - Mes élèves: 22-MesEleves.md
+    - Mes documents: 23-MesDocuments.md
+    - Objectifs: 24-Objectifs.md
+    - Réglages: 25-Reglages.md
+    - Aide: 26-Aide.md
+    - A propos: 27-APropos.md
+    - Page élève: 28-PageEleve.md
+    - Page document: 29-PageDocument.md
+    - Générer e-carnet: 30-GenererECarnet.md
+    # - Import Video: 31-ImportVideo.md
+    # - Import Code QR: 32-ImportCodeQR.md
+    - Partage Code QR: 33-PartageCodeQR.md
+    - Import/Export EPUB: 34-ImportExportEPUB.md
+    # - Système Messagerie: 35-SystemeMessagerie.md
+    - Communication Parents: 36-CommunicationParents.md
+    - Statuts Accusés Réception: 37-StatutsAccusesReception.md
+    - Fonctionnalité Assistance: 38-FonctionnaliteAssistance.md
+    # - Intégration Email: 39-IntegrationEmail.md
+    # - Gestion Médias Avancée: 40-GestionMediasAvancee.md
+    # - Capture Photo: 41-CapturePhoto.md
+    # - Support Vidéo: 42-SupportVideo.md
+    # - Analytique Plantage: 43-AnalytiquePlantage.md
+    # - Système Statistiques: 44-SystemeStatistiques.md
+    - Terminologie 2025: 45-Terminologie2025.md
+    - Catalogue 2025: 46-Catalogue2025.md
+    - Manipulations diverses: 80-ManipulationsDiverses.md
+    - Trouver les fichiers : 83-Fichiers.md
+  - FAQ: 70-FAQ.md
+  - Tutos par moments clés: 
+    - Premier lancement: 85-01-tutoPremierLancement.md
+    - Début d'année: 85-02-tutoDebutAnnee.md
+    - Début de période: 85-03-tutoDebutDePeriode.md
+    - Avant la classe: 85-04-tutoAvantLaClasse.md
+    - Pendant la classe: 85-05-tutoPendantLaClasse.md
+    - Après la classe: 85-06-tutoApresLaClasse.md
+    - En fin de période: 85-07-tutoEnFinDePeriode.md
+    - En réunion parents: 85-08-tutoEnReunionParents.md
+    - Mise à jour de l'application: 85-09-tutoMiseAJourApplication.md
+    - En fin d'année: 85-10-tutoEnFinDannee.md
+    - Changer de tablette: 85-11-tutoChangerTablette.md
+    - Utiliser la version Windows: 85-12-tutoUtiliserVersionWindows.md
+    - Utiliser la version MacOS: 85-13-tutoUtiliserVersionMacOS.md
+    - Utiliser la version Linux: 85-14-tutoUtiliserVersionLinux.md
+    - Partager avec les parents: 85-21-tutoPartageParents.md
+    - Tutos pour les experts: 85-20-tutoExperts.md
+  - Infos:
+    - Conditions Générales d'utilisation: 90-CGU.md
+    - Confidentialité et RGPD: 91-Confidentialite-RGPD.md
+    - Crédits: 91-Credits.md
+    - Evolutions: 92-Evolutions.md
+    - Bugs: 93-Bugs.md
+  # - Référentiel builder:
+  #   - Introduction: RB-00-Ecm_referentiel_builder_guide.md
+  #   - Préambule: RB-01-Preambule.md
+  #   - Avertissement: RB-03-Avertissement.md
+  #   - Téléchargement: RB-02-Telechargement.md
+  #   - Principe: RB-04-Principe.md
+  #   - Mode d'emploi: RB-05-ModeEmploi.md
+  #   - Mode d'emploi sans vidéo: RB-05-ModeEmploi.sansVideo.md
+  #   - En savoir plus: RB-06-EnSavoirPlus.md
+  #   - Versions: RB-07-Versions.md
+  #   - RGPD: RB-08-RGPD.md
+  #   - Crédits: RB-09-Credits.md
+  #   - Evolutions: RB-10-Evolutions.md
+  #   - Bugs: RB-11-Bugs.md
+
+
+# Site information
+#site_dir: build/html
+site_name: "Guide e-carnet maternelle v2"
+site_url: "https://e-carnet-maternelle.jimdofree.com/"
+site_description: "Guide logiciel e-carnet maternelle v2"
+site_author: "Thierry Gaillot, thierry(at)tr-esolutions.com"
+
+# CSS
+extra_css: [css/mkdocs_extra.css]
+
+# Repository Link Editor
+repo_name: "Thierry28/ecarnetV2"
+repo_url: "https://github.com/Thierry28/ecarnetV2/"
+edit_uri: "edit/main/mkdocs-documentation/docs/"
+
+# Theme Configuration
+docs_dir: docs
+theme:
+  name: readthedocs
+  highlightjs: true
+  #name: "mkdocs" #"readthedocs"  #"mkdocs" #"material"
+  #custom_dir: custom_theme/
+  language: fr
+  locale: fr
+  # icon:
+  #   logo: /screenshots/logo_eportfolio2.cropped.arrondi.png
+  # favicon: favicon.ico
+  palette:
+    primary: "blue grey"
+    accent: "blue"
+  features:
+    - tabs
+    - instant
+  font:
+    text: "Ubuntu"
+    code: "Ubuntu Mono"
+
+# Social Links and Comments
+extra:
+  # disqus: "3os"
+  social:
+    # - icon: fontawesome/brands/github-alt
+    #   link: https://github.com/fire1ce
+    # - icon: fontawesome/brands/linkedin
+    #   link: https://www.linkedin.com/in/stas-yakobov
+    - icon: fontawesome/brands/facebook
+      link: https://www.facebook.com/E-carnet-maternelle-1170487209751720/
+
+extra_javascript:
+  - "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-MML-AM_CHTML"
+
+# Markdown Rendering Extensions
+markdown_extensions:
+  - admonition
+  - attr_list
+  - markdown.extensions.admonition
+  - markdown.extensions.sane_lists
+  - markdown.extensions.footnotes
+  - markdown.extensions.meta
+  - markdown.extensions.def_list
+  - markdown.extensions.abbr
+  - markdown.extensions.tables
+  - markdown.extensions.codehilite:
+      guess_lang: false
+  - markdown.extensions.toc:
+      permalink: True
+      separator: "_"
+  - pymdownx.extra
+  - pymdownx.superfences
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.details
+
+  # list of extensions https://github.com/Python-Markdown/markdown/wiki/Third-Party-Extensions
+
+plugins:
+  - mkdocstrings
+
+# Plugins
+#plugins:
+#  - search:
+      #separator: '[\s\-\.]+'
+      #lang:
+       # - fr
+  #- git-revision-date-localized
+  #- minify:
+      #minify_html: true
+ # - mkdocstrings:
+ #   handlers:
+      # See: https://mkdocstrings.github.io/python/usage/
+  #    python:
+   #     options:
+    #      docstring_style: sphinx
+# Google Analytics
+# google_analytics:
+#   - "UA-xxx"
+#   - "auto"
+
+# Copyright
+copyright: "Copyright &copy; TR e-solutions @2025"
