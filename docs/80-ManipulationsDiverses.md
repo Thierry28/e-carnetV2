@@ -1,82 +1,5 @@
 # Manipulations diverses, FAQ
 
-## SPECIAL CONFINEMENT : Envoyer un email à tous les parents
-
-### Principe
-
-Afin de vous faciliter la diffusion de travaux et consignes aux parents, une fonction a été spécialement ajoutée.
-
-Elle consiste à générer un email dont les destinataires sont les emails des parents enregistrés pour chaque élève.
-
-Le contenu de l'email est alimenté depuis : 
-
-- le texte inséré dans une note
-- une photo que vous pouvez avoir pris depuis le logiciel ou depuis votre galerie
-
-A cet email vous pourrez joindre tout fichier. Exemple : autres photos, fichier pdf, ...
-
-
-
-### Pré requis
-
-Pour que cette fonctionnalité soit pleinement opérationnelle, vous devez préalablement avoir renseigné les informations suivantes dans les différentes parties concernées : 
-
-- votre adresse email (réglages/enseignants)
-- les adresses email des représentants légaux/parents
-  
-### Mode opératoire
-
-Voici comment procéder : 
-
-En mode enseignant, cliquer sur photo ou note : 
-
-![Photo ou note](screenshots/2020-04-23-16-14-26.png)
-
-Saisir un commentaire : 
-
-![Commentaire dans une note](screenshots/2020-04-23-16-16-52.png)
-
-Sauvegarder, puis ré-ouvrir la note en cliquant sur la ligne
-
-![Toucher la note](screenshots/2020-04-23-16-59-31.png)
-
-Faire défiler l'écran pour faire afficher le bas de l'écran : 
-
-![Aller en bas de l'écran](screenshots/2020-04-23-17-00-36.png)
-
-![Envoyer aux parents](screenshots/2020-04-23-17-01-24.png)
-
-Si vous avez un logiciel de messagerie configuré sur votre tablette, celui va se lancer et un brouillon de message pré rempli va apparaitre.
-
-![Message à tous les parents](screenshots/2020-04-23-16-25-37.png)
-
-A noter : 
-
-- l'émetteur : c'est votre email
-- le destinataire : c'est votre email aussi
-- En CCI : copie cachée invisible : tous les emails des parents.
-
-La raison de ces choix : lorsque vous faites une diffusion d'un email à de multiples destinataires, il est risqué et incorrect de laisser voir toutes les adresses emails à tous les destinataires. 
-
-Pour cette raison, en mettant tous les emails des parents en copie cachée, ils vont tous recevoir l'email mais ne verront que votre adresse email apparaitre dans les destinataires. C'est la pratique en vigueur pour les diffusions multiples.
-
-Le brouillon de cet email est ainsi pré rempli.
-
-Normalement les opérations qu'il vous reste à faire sont de :
-
-- vérifier, 
-- retirer éventuellement les emails superflus (laisser 1 seul parent et pas les 2), 
-- ajouter autant de pièces jointes que nécessaire
-- envoyer
-
-Pour consulter la pièce jointe générée automatiquement : 
-
-Aller dans votre gestionnaire de fichiers, et sélectionner le répertoire Téléchargement. La pièce jointe est : 
-
-![Fichier inclus dans le message à tous les parents](screenshots/2020-04-23-17-04-16.png)
-
-![Fichier inclus dans le message à tous les parents - contenu](screenshots/2020-04-23-17-05-36.png)
-
 
 
 ## Ajouter un logo en entête du e-carnet
@@ -97,7 +20,7 @@ Un fichier logo (jpg, png, bmp) doit être accessible depuis le gestionnaire de 
 
 Aller dans Réglages puis Ecole. 
 
-Voir [Ajouter un logo](#ajouter-un-logo)
+Voir [Ajouter un logo](#ajouter-un-logo-en-entete-du-e-carnet)
 
 
 
@@ -125,7 +48,7 @@ Ce qui donne :
 
 ![Personnalisation activée](screenshots/2020-04-17-18-40-27.png)
 
-Pour le détail, voir [Activation de la fonction de personnalisation](#personnaliser-la-mise-en-page-du-e-carnet)
+Pour le détail, voir [Personnaliser la mise en page du e-carnet](#personnaliser-la-mise-en-page-du-e-carnet)
 
 
 
@@ -134,7 +57,7 @@ Pour le détail, voir [Activation de la fonction de personnalisation](#personnal
 
 Chaque libellé d'observable est modifiable. Le nouveau remplace l'ancien partout où il avait été utilisé : ce n'est pas un "nouvel observable", seul le libellé change.
 
-Voir chapitre [Observables](#personnaliser-les-libellés-dobservables)
+Voir chapitre [Personnaliser les libellés d'observables](#personnaliser-les-libelles-dobservables)
 
 ## Gérer des ateliers
 
@@ -477,4 +400,109 @@ Mode opératoire :
 NB : attention, ce fichier de sauvegarde peut être tres volumineux, il contient en effet toutes les photos, toutes les videos, tous les fichiers audio. Ces documents seront copiés sur la nouvelle tablette a
 
 
+## Désinstaller l'application sur un smartphone ou tablette Android {#desinstaller-application-android}
+
+Parfois une simple désinstallation ne suffit pas pour supprimer tous les précédents réglages.
+
+Le principe consiste alors, successivement, à : 
+
+- Supprimer les données du cache
+- Supprimer les données de l'utilisateur
+- Supprimer l'application
+
+Pour commencer, afficher les informations de l'application par un appui long sur l'icone, puis "infos sur l'appli"
+
+
+![afficher les informations de l'application](./screenshots/Screenshot_20250928_160327.png)
+
+Ensuite, supprimer les données du cache, puis supprimer les données de l'utilisateur :
+
+![Effacer du stockage et vider le cache ](./screenshots/Screenshot_20250928_160411.png)
+
+Le résultat doit ressembler à : 
+
+![résultats du nettoayage](./screenshots/Screenshot_20250928_160434.png)
+
+Finalement, désinstaller l'application:
+
+![désinstaller](./screenshots/Screenshot_20250928_160353.png)
+
+## SPECIAL CONFINEMENT : Envoyer un email à tous les parents
+
+Chapitre conservé pour mémoire... et au cas où...
+
+### Principe
+
+Afin de vous faciliter la diffusion de travaux et consignes aux parents, une fonction a été spécialement ajoutée.
+
+Elle consiste à générer un email dont les destinataires sont les emails des parents enregistrés pour chaque élève.
+
+Le contenu de l'email est alimenté depuis : 
+
+- le texte inséré dans une note
+- une photo que vous pouvez avoir pris depuis le logiciel ou depuis votre galerie
+
+A cet email vous pourrez joindre tout fichier. Exemple : autres photos, fichier pdf, ...
+
+
+
+### Pré requis
+
+Pour que cette fonctionnalité soit pleinement opérationnelle, vous devez préalablement avoir renseigné les informations suivantes dans les différentes parties concernées : 
+
+- votre adresse email (réglages/enseignants)
+- les adresses email des représentants légaux/parents
+  
+### Mode opératoire
+
+Voici comment procéder : 
+
+En mode enseignant, cliquer sur photo ou note : 
+
+![Photo ou note](screenshots/2020-04-23-16-14-26.png)
+
+Saisir un commentaire : 
+
+![Commentaire dans une note](screenshots/2020-04-23-16-16-52.png)
+
+Sauvegarder, puis ré-ouvrir la note en cliquant sur la ligne
+
+![Toucher la note](screenshots/2020-04-23-16-59-31.png)
+
+Faire défiler l'écran pour faire afficher le bas de l'écran : 
+
+![Aller en bas de l'écran](screenshots/2020-04-23-17-00-36.png)
+
+![Envoyer aux parents](screenshots/2020-04-23-17-01-24.png)
+
+Si vous avez un logiciel de messagerie configuré sur votre tablette, celui va se lancer et un brouillon de message pré rempli va apparaitre.
+
+![Message à tous les parents](screenshots/2020-04-23-16-25-37.png)
+
+A noter : 
+
+- l'émetteur : c'est votre email
+- le destinataire : c'est votre email aussi
+- En CCI : copie cachée invisible : tous les emails des parents.
+
+La raison de ces choix : lorsque vous faites une diffusion d'un email à de multiples destinataires, il est risqué et incorrect de laisser voir toutes les adresses emails à tous les destinataires. 
+
+Pour cette raison, en mettant tous les emails des parents en copie cachée, ils vont tous recevoir l'email mais ne verront que votre adresse email apparaitre dans les destinataires. C'est la pratique en vigueur pour les diffusions multiples.
+
+Le brouillon de cet email est ainsi pré rempli.
+
+Normalement les opérations qu'il vous reste à faire sont de :
+
+- vérifier, 
+- retirer éventuellement les emails superflus (laisser 1 seul parent et pas les 2), 
+- ajouter autant de pièces jointes que nécessaire
+- envoyer
+
+Pour consulter la pièce jointe générée automatiquement : 
+
+Aller dans votre gestionnaire de fichiers, et sélectionner le répertoire Téléchargement. La pièce jointe est : 
+
+![Fichier inclus dans le message à tous les parents](screenshots/2020-04-23-17-04-16.png)
+
+![Fichier inclus dans le message à tous les parents - contenu](screenshots/2020-04-23-17-05-36.png)
 

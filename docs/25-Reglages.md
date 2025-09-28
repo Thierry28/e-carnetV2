@@ -2,7 +2,7 @@
 
 ![Bouton Réglages](screenshots/2018-01-27-19-04-40.png)
 
-NB : Toutes les modifications effectuées dans la page `Réglages` sont instantannément enregistrées. Il n'est pas nécessaire de chercher un bouton "sauvegarder mes réglages" !
+NB : Toutes les modifications effectuées dans la page `Réglages` sont instantannément enregistréesVoir [Synthèse vocale](#synthese_vocale) Il n'est pas nécessaire de chercher un bouton "sauvegarder mes réglages" !
 
 <!-- ![Barre de navigation page Réglages](screenshots/2018-04-03-07-06-36.png) -->
 ![Barre de navigation page Réglages](screenshots/2020-04-24-11-51-29.png)
@@ -166,7 +166,7 @@ Cette fonction peut aider à générer une motivation supplémentaire à l'usage
 
 NB : il faut avoir préalablement activé la fonctionnalité de reconnaissance vocale de la tablette.
 
-Voir [Activer la reconnaissance vocale de la tablette](#activer-la-reconnaissance-vocale-hors-connexion-android-version-6.x)
+Voir [Synthèse vocale](#synthèse-vocale)
 
 
 
@@ -864,7 +864,7 @@ Ces messages donnent des indications sur la progression de certaines opérations
 
 ![Nettoyage](screenshots/2020-04-26-16-19-53.png)
 
-Ces fonctions sont identiques à celles décrites dans la section [Gestion de la liste d'élèves](#gestion-de-la-liste-des-élèves).
+Ces fonctions sont identiques à celles décrites dans la section [Gestion de la liste des élèves](#gestion-de-la-liste-des-eleves).
 
 
 
@@ -874,6 +874,6 @@ Ces fonctions sont identiques à celles décrites dans la section [Gestion de la
 
 Cette page permet de donner des noms à chacun de vos ateliers.
 
-Le cas d'usage est expliqué dans le chapitre [Gérer des ateliers](#Gérer-des-ateliers), du chapitre Manipulations diverses.
+Le cas d'usage est expliqué dans le chapitre [Gérer des ateliers](80-ManipulationsDiverses.md#gerer-des-ateliers), du chapitre Manipulations diverses.
 
 

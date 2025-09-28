@@ -1,5 +1,78 @@
 # Nouveautés
 
+## Année 2025 : Évolutions majeures
+
+### Catalogue et terminologie 2025
+
+**Versions 2.3.4 (15 septembre 2025) et 2.3.3 (1er septembre 2025)**
+
+- **Nouveau catalogue 2025** avec structure de compétences mise à jour
+- **Évolution terminologique** : "Observables" → "Objectifs", "Sous-domaines" → "Thématiques"
+- **Fichiers de données 2025** : competences.json, competencesMap.json, selectionsObservables.json
+- **Migration automatique** des données existantes vers la nouvelle terminologie
+
+### Fonctionnalités avancées 2025
+
+**Version 2.3.0 (17 mai 2025)**
+
+- **Import vidéo** : Nouvelle fonctionnalité de gestion des contenus vidéo
+- **Import par code QR** : Capacités d'import par scan de QR codes
+- **Intégration EPUB** : Support complet pour e-carnet et e-journal
+- **Amélioration EPUB** : Conversion automatique des balises `<br>` vers `<br/>` pour meilleure compatibilité
+
+## Communication et assistance 2025
+
+### Système de messagerie avancé
+
+**Version 2.2.6 (27 avril 2025)**
+
+- **Copie automatique du journal** vers les médias avant envoi
+- **Messages multiples** : Capacité d'envoi groupé
+- **Résolution des plantages** : Corrections de stabilité
+
+**Version 2.2.5 (6 avril 2025)**
+
+- **Fonctionnalité d'assistance** avec listage automatique des élèves et médias
+- **Intégration email** avec listes de fichiers détaillées
+- **Système de statuts** avancé pour le suivi des demandes
+- **Messages d'erreur en français** : "error" → "ERREUR"
+
+### Analytics et statistiques
+
+**Version 2.2.4 (8 septembre 2024) et 2.2.3 (7 septembre 2024)**
+
+- **Système de statistiques** complet avec tableaux de bord
+- **Gestion des statuts et accusés de réception** dans les listes
+- **Amélioration du suivi** des échanges et communications
+
+**Version 2.2.2 (25 août 2024)**
+
+- **Intégration Firebase Crash Analytics** pour un meilleur suivi de la stabilité
+- **Rapports d'erreur améliorés** avec données techniques détaillées
+
+### Partage et communication parents
+
+**Version 2.1.1 (15 juin 2024) et 2.1.0 (2 juin 2024)**
+
+- **Partage par code QR** : Nouvelle méthode de partage sécurisé
+- **Communication parent-enseignant** : Outils dédiés aux échanges familiaux
+- **Gestion de téléchargement et suppression** depuis l'interface enseignant
+
+## Gestion des médias
+
+### Capture et traitement
+
+**Version 2.0.27 (16 mars 2024)**
+
+- **Améliorations du support vidéo** : Performance et stabilité renforcées
+- **Fonctionnalité de filtrage** de documents
+- **Suppression de médias** avec retour utilisateur amélioré
+
+**Version 2.0.26 (10 mars 2024)**
+
+- **Capture photo pour iOS** : Résolution des problèmes d'affichage
+- **Gestion d'avatar via canvas** : Création d'avatars personnalisés
+- **Support FTP EPUB** : Nouvelles capacités d'export
 
 ## Version iOS (e-carnet)
 

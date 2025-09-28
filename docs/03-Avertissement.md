@@ -89,7 +89,7 @@ Vous pouvez à tout instant provoquer la production d'un fichier qui contient to
 
 ![Sauvegarder toutes les données](screenshots/2020-01-05-08-56-20.png)
 
-Cette fonctionnalité est décrite dans le chapitre [Réglages, commandes](#commandes-diverses).
+Cette fonctionnalité est décrite dans le chapitre [La fonction sauvegarde de l'application e-carnet de maternelle](#la_fonction_sauvegarde_de_lapplication_e-carnet_de_maternelle).
 
 Cela reste à ce jour la façon la plus sûre de conserver toutes les données dans un fichier à stocker en dehors de votre terminal.
 
@@ -135,7 +135,7 @@ Lorsque cela arrive, pas de panique ... A ce jour la plupart des situations que 
 Mais pour cela quelques consignes qui permettront d'accélérer l'identification et la correction ou le contournement du problème : 
 
 - ***Ne surtout pas dés-installer l'application*** vous perdriez une partie de vos données et vous compliquerez la résolution du problème.  
-- Cherchez dans ce présent guide si une rubrique contient des informations associées. Voir en particulier le chapitre [FAQ](#manipulations-diverses-faq).
+- Cherchez dans ce présent guide si une rubrique contient des informations associées. Voir en particulier le chapitre [FAQ](70-FAQ.md).
 - Cherchez sur notre site web ou dans cette documentation si votre cas de figure est décrit. Si il ne l'est pas, poursuivez avec les étapes suivantes.
 - Faire une copie d'écran qui illustre le problème pour l'envoyer au soutien.
 - Lorsque cela est possible, immédiatement apres le problème, utiliser la fonction "Réglages/Assistance/Envoyer rapport d'erreur". NB : ce rapport d'erreur se remet à zéro à chaque lancement de l'application.
@@ -178,7 +178,7 @@ Pour limiter le volume de stockage lié au nombre de photo, il est possible de l
 
 Ces réglages sont aussi possible depuis l'écran ci-dessus.
 
-Des explications détaillées sont fournies dans le chapitre [Réglages](#réglages)
+Des explications détaillées sont fournies dans le chapitre [Réglages](25-Reglages.md)
 
 
 

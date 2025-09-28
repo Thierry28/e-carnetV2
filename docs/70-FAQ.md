@@ -49,7 +49,7 @@ Changer le texte qui apparait dans la case enseignant 1
 
 En y mettant par Exemple : Mme A. Dupond, Mme B. Durand
 
-cf : [parametrage des utilisateurs de la tablette](25-Reglages.md#parametrage_des_utilisateurs_de_la_tablette)
+cf : [parametrage des utilisateurs de la tablette](25-Reglages.md#parametrage-des-utilisateurs-de-la-tablette)
 
 Puis activer le changement en allant dans « qui suis je » et choisir la nouvelle valeur 
 [multi-utilisateur qui suis je](25-Reglages.md#multi-utilisateur_qui_suis-je)
@@ -77,7 +77,7 @@ Vous voulez modifier le texte standard "Enseignant :" en "Enseignants :" ou "Ens
 
 2 façon de procéder : 
 
-- En utilisant la fonctionnalité prévue à cet effet : "Remplacements". Cf : [Activation de la fonction de personnalisation](25-Reglages.md#activation_de_la_fonction_de_personnalisation)
+- En utilisant la fonctionnalité prévue à cet effet : "Remplacements". Cf : [Activation de la fonction de personnalisation](25-Reglages.md#activation-de-la-fonction-de-personnalisation)
 
 - En utilisant un éditeur de texte et effectuer un chercher/remplacer "de masse" c'est à dire sur tous les fichiers du répertoire qui contient tous vos fichiers HTML des e-carnets.
 Cf : [Modifier les documents en masse](85-20-tutoExperts.md#modifier_les_documents_en_masse)
@@ -118,7 +118,7 @@ Cette manipulation est gérée en automatique dans le e-carnet par :
     "nouveau": "eportfolio-evalDirection{}"
   },
 
-Cf : [Activation de la fonction de personnalisation](25-Reglages.md#activation_de_la_fonction_de_personnalisation)
+Cf : [Activation de la fonction de personnalisation](25-Reglages.md#activation-de-la-fonction-de-personnalisation)
 
 ## Supprimer les icônes (i) isolées
 
