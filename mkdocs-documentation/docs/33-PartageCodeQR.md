@@ -1,8 +1,8 @@
 # Partage du carnet de suivi des apprentissages par QRcode
 
 
-![Qrcode](./screenshots/Capture%20d’écran%202025-09-28%20à%2017.52.15.png)
-
+<!-- ![Qrcode](./screenshots/Capture%20d’écran%202025-09-28%20à%2017.52.15.png)
+ -->
 
 
 La fonctionnalité de partage du carnet de suivi des apprentissage par code QR facilite la communication entre enseignants et parents, ainsi que les échanges entre collègues.
@@ -41,7 +41,7 @@ Le partage par code QR permet de :
     L'application e-carnet est disponible sur le Google Play Store pour les appareils Android.
 
 ```mermaid
-graph TD;
+flowchart TD
     A["Prérequis:<br/>Le parent doit installer<br/>l'application e-carnet"] --> B["L'enseignant va sur<br/>la fiche de l'élève"]
     B --> C["Générer son carnet<br/>de suivi des apprentissages"]
     C --> D["Cliquer sur<br/>Partager via QRcode"]
@@ -56,7 +56,9 @@ graph TD;
     style E fill:#fff3e0
     style F fill:#e8f5e8
     style G fill:#e8f5e8
+
 ```
+
 
 
 ### Étape 1 : Production du dossier de l'élève
@@ -67,19 +69,19 @@ graph TD;
    - Partager via QRcode
 
 
-![Produire le carnet](./screenshots/Screenshot_20250927_184951.png)
+![Produire le carnet](./screenshots/Screenshot_20250927_184951.png){: .center-image style="width:50%"}
 
 Le bouton (1) suivant doit apparaitre, témoignant de l'existence du carnet dans le dossier
 
-![Voir le carnet](./screenshots/Screenshot_20250927_185016.png)
+![Voir le carnet](./screenshots/Screenshot_20250927_185016.png){: .center-image style="width:50%"}
 
 Finalement, déclencher (2) la production du dossier complet et le QRcode pour le partage : 
 
-![Production du dossier](./screenshots/Screenshot_20250927_185016.png)
+![Production du dossier](./screenshots/Screenshot_20250927_185016.png){: .center-image style="width:50%"}
 
 Le résultat ressemble à :
 
-![Production du dossier](./screenshots/Screenshot_20250927_185043.png)
+![Production du dossier](./screenshots/Screenshot_20250927_185043.png){: .center-image style="width:50%"}
 
 La présence du QRcode et le message en vert témoignent de la mise à disposition du dossier.
 
@@ -93,12 +95,14 @@ La présence du QRcode et le message en vert témoignent de la mise à dispositi
 1. Installer l'app "e-carnet".
 
 2. Au premier démarrage choisir "Parents".
-      ![Choisir Parents](./screenshots/Screenshot_20250928_164558.png)
+
+![Choisir Parents](./screenshots/Screenshot_20250928_164558.png){: .center-image style="width:50%"}
 
 
 3. Scanner le code QR reçu.
-   ![Scan](./screenshots/Screenshot_20250928_175900.png)
-   ![Scan](./screenshots/Screenshot_20250928_175912.png)
+
+![Scan](./screenshots/Screenshot_20250928_175900.png){: .center-image style="width:50%"}
+![Scan](./screenshots/Screenshot_20250928_175912.png){: .center-image style="width:50%"}
 
 4. Attendre la fin du processus de chargement.
 5. Le dossier de l'élève est visible dans la page "élèves" à la date du jour.
@@ -150,7 +154,7 @@ Pour garantir la plus haute confidentialité et sécurité possible des informat
   - Date et heure de récupération par le parent
   - Date et heure de suppression du serveur
 
-![journal des échanges](./screenshots//Screenshot_20250927_185658.png)
+![journal des échanges](./screenshots//Screenshot_20250927_185658.png){: .center-image style="width:50%"}
 
 ### Protection des données
 

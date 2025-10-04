@@ -102,23 +102,20 @@ edit_uri: "edit/main/mkdocs-documentation/docs/"
 docs_dir: docs
 theme:
   name: readthedocs
-  highlightjs: true
-  #name: "mkdocs" #"readthedocs"  #"mkdocs" #"material"
-  #custom_dir: custom_theme/
   language: fr
-  locale: fr
-  # icon:
-  #   logo: /screenshots/logo_eportfolio2.cropped.arrondi.png
-  # favicon: favicon.ico
   palette:
-    primary: "blue grey"
-    accent: "blue"
+    - scheme: default
+      primary: blue grey
+      accent: blue
   features:
-    - tabs
-    - instant
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - search.highlight
+    - search.share
   font:
-    text: "Ubuntu"
-    code: "Ubuntu Mono"
+    text: Ubuntu
+    code: Ubuntu Mono
 
 # Social Links and Comments
 extra:
@@ -133,6 +130,8 @@ extra:
 
 extra_javascript:
   - "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-MML-AM_CHTML"
+  - "https://unpkg.com/mermaid@10.6.1/dist/mermaid.min.js"
+  - "js/mermaid-simple.js"
 
 # Markdown Rendering Extensions
 markdown_extensions:
@@ -151,7 +150,10 @@ markdown_extensions:
       permalink: True
       separator: "_"
   - pymdownx.extra
-  - pymdownx.superfences
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
   - pymdownx.highlight:
       anchor_linenums: true
   - pymdownx.inlinehilite
@@ -162,6 +164,7 @@ markdown_extensions:
 
 plugins:
   - mkdocstrings
+  - search
 
 # Plugins
 #plugins:

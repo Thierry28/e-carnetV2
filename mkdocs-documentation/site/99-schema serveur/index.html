@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html class="writer-html5" lang="fr" >
+<html class="writer-html5" lang="en" >
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -33,10 +33,14 @@
     <div class="wy-side-scroll">
       <div class="wy-side-nav-search">
           <a href=".." class="icon icon-home"> Guide e-carnet maternelle v2
-        </a>
+        </a><div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../search.html" method="get">
+      <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" title="Type search term here" />
+  </form>
+</div>
       </div>
 
-      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Menu de navigation">
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
               <ul>
                 <li class="toctree-l1"><a class="reference internal" href="..">Accueil</a>
                 </li>
@@ -160,7 +164,7 @@
     </nav>
 
     <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
-      <nav class="wy-nav-top" role="navigation" aria-label="Menu de navigation sur mobile">
+      <nav class="wy-nav-top" role="navigation" aria-label="Mobile navigation menu">
           <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
           <a href="..">Guide e-carnet maternelle v2</a>
         
@@ -168,10 +172,10 @@
       <div class="wy-nav-content">
         <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
   <ul class="wy-breadcrumbs">
-    <li><a href=".." class="icon icon-home" aria-label="Documents"></a></li>
+    <li><a href=".." class="icon icon-home" aria-label="Docs"></a></li>
       <li class="breadcrumb-item active">99 schema serveur</li>
     <li class="wy-breadcrumbs-aside">
-          <a href="https://github.com/Thierry28/ecarnetV2/edit/main/mkdocs-documentation/docs/99-schema serveur.md">Editer dans Thierry28/ecarnetV2</a>
+          <a href="https://github.com/Thierry28/ecarnetV2/edit/main/mkdocs-documentation/docs/99-schema serveur.md">Edit on Thierry28/ecarnetV2</a>
     </li>
   </ul>
   <hr/>
@@ -179,79 +183,79 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
             <div class="section" itemprop="articleBody">
               
-                <div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>%%{
-<a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a>  init: {
-<a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a>    &#39;theme&#39;: &#39;base&#39;,
-<a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a>    &#39;themeVariables&#39;: {
-<a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a>      &#39;primaryColor&#39;: &#39;#BB2528&#39;,
-<a id="__codelineno-0-6" name="__codelineno-0-6" href="#__codelineno-0-6"></a>      &#39;primaryTextColor&#39;: &#39;#fff&#39;,
-<a id="__codelineno-0-7" name="__codelineno-0-7" href="#__codelineno-0-7"></a>      &#39;primaryBorderColor&#39;: &#39;#7C0000&#39;,
-<a id="__codelineno-0-8" name="__codelineno-0-8" href="#__codelineno-0-8"></a>      &#39;lineColor&#39;: &#39;#F8B229&#39;,
-<a id="__codelineno-0-9" name="__codelineno-0-9" href="#__codelineno-0-9"></a>      &#39;secondaryColor&#39;: &#39;#006100&#39;,
-<a id="__codelineno-0-10" name="__codelineno-0-10" href="#__codelineno-0-10"></a>      &#39;tertiaryColor&#39;: &#39;#fff&#39;
-<a id="__codelineno-0-11" name="__codelineno-0-11" href="#__codelineno-0-11"></a>    }
-<a id="__codelineno-0-12" name="__codelineno-0-12" href="#__codelineno-0-12"></a>  }
-<a id="__codelineno-0-13" name="__codelineno-0-13" href="#__codelineno-0-13"></a>}%%
-<a id="__codelineno-0-14" name="__codelineno-0-14" href="#__codelineno-0-14"></a>sequenceDiagram
-<a id="__codelineno-0-15" name="__codelineno-0-15" href="#__codelineno-0-15"></a>
-<a id="__codelineno-0-16" name="__codelineno-0-16" href="#__codelineno-0-16"></a>  participant Enseignant
-<a id="__codelineno-0-17" name="__codelineno-0-17" href="#__codelineno-0-17"></a>  participant Application (mode enseignant)
-<a id="__codelineno-0-18" name="__codelineno-0-18" href="#__codelineno-0-18"></a>  participant Navigateur
-<a id="__codelineno-0-19" name="__codelineno-0-19" href="#__codelineno-0-19"></a>  participant Internet (coté école)
-<a id="__codelineno-0-20" name="__codelineno-0-20" href="#__codelineno-0-20"></a>  participant Serveur
-<a id="__codelineno-0-21" name="__codelineno-0-21" href="#__codelineno-0-21"></a>  participant Internet (coté parents)
-<a id="__codelineno-0-22" name="__codelineno-0-22" href="#__codelineno-0-22"></a>  participant Application (mode parent)
-<a id="__codelineno-0-23" name="__codelineno-0-23" href="#__codelineno-0-23"></a>  participant Parents
-<a id="__codelineno-0-24" name="__codelineno-0-24" href="#__codelineno-0-24"></a>
-<a id="__codelineno-0-25" name="__codelineno-0-25" href="#__codelineno-0-25"></a>  alt Première fois
-<a id="__codelineno-0-26" name="__codelineno-0-26" href="#__codelineno-0-26"></a>    Enseignant-&gt;&gt;Application (mode enseignant): Accéder à &#39;Réglages, serveur&#39;
-<a id="__codelineno-0-27" name="__codelineno-0-27" href="#__codelineno-0-27"></a>    Enseignant-&gt;&gt;Application (mode enseignant): Activer le bouton ON
-<a id="__codelineno-0-28" name="__codelineno-0-28" href="#__codelineno-0-28"></a>    Application (mode enseignant)-&gt;&gt;Serveur: Demande d&#39;acces
-<a id="__codelineno-0-29" name="__codelineno-0-29" href="#__codelineno-0-29"></a>    Serveur -&gt;&gt; Navigateur: affichage page authentification dans navigateur
-<a id="__codelineno-0-30" name="__codelineno-0-30" href="#__codelineno-0-30"></a>    Enseignant-&gt;&gt;Navigateur: Saisir login/mot de passe
-<a id="__codelineno-0-31" name="__codelineno-0-31" href="#__codelineno-0-31"></a>    Navigateur-&gt;&gt;Serveur: Demande d&#39;autorisation
-<a id="__codelineno-0-32" name="__codelineno-0-32" href="#__codelineno-0-32"></a>    Serveur-&gt;&gt;+Navigateur: Demande la confirmationn à l&#39;enseignant
-<a id="__codelineno-0-33" name="__codelineno-0-33" href="#__codelineno-0-33"></a>    Enseignant-&gt;&gt; Navigateur: Accorder l&#39;autorisation
-<a id="__codelineno-0-34" name="__codelineno-0-34" href="#__codelineno-0-34"></a>    Enseignant-&gt;&gt;Navigateur: Fermer la fenêtre
-<a id="__codelineno-0-35" name="__codelineno-0-35" href="#__codelineno-0-35"></a>    Navigateur-&gt;&gt;Application (mode enseignant): Connfirmation connection
-<a id="__codelineno-0-36" name="__codelineno-0-36" href="#__codelineno-0-36"></a>
-<a id="__codelineno-0-37" name="__codelineno-0-37" href="#__codelineno-0-37"></a>  else Déjà configuré
-<a id="__codelineno-0-38" name="__codelineno-0-38" href="#__codelineno-0-38"></a>    Enseignant-&gt;&gt;Application (mode enseignant): Activer le bouton ON
-<a id="__codelineno-0-39" name="__codelineno-0-39" href="#__codelineno-0-39"></a>    Application (mode enseignant)-&gt;&gt;Enseignant: Confirmation connection
-<a id="__codelineno-0-40" name="__codelineno-0-40" href="#__codelineno-0-40"></a>  end
-<a id="__codelineno-0-41" name="__codelineno-0-41" href="#__codelineno-0-41"></a>  loop À chaque création de e-journal
-<a id="__codelineno-0-42" name="__codelineno-0-42" href="#__codelineno-0-42"></a>    Application (mode enseignant)-&gt;&gt;Application (mode enseignant): Vérifier si médias déjà copiés
-<a id="__codelineno-0-43" name="__codelineno-0-43" href="#__codelineno-0-43"></a>    Application (mode enseignant)-&gt;&gt;Serveur: Copier médias associés pas encore sur le serveur
-<a id="__codelineno-0-44" name="__codelineno-0-44" href="#__codelineno-0-44"></a>    Application (mode enseignant)-&gt;&gt;Serveur: Copier document e-journal
-<a id="__codelineno-0-45" name="__codelineno-0-45" href="#__codelineno-0-45"></a>    Serveur-&gt;&gt;Serveur: Attribuer URLs privées
-<a id="__codelineno-0-46" name="__codelineno-0-46" href="#__codelineno-0-46"></a>    Serveur-&gt;&gt;Application (mode enseignant): Donne les URLs disponibles
-<a id="__codelineno-0-47" name="__codelineno-0-47" href="#__codelineno-0-47"></a>    Application (mode enseignant)-&gt;&gt;Enseignant: Met à disposition les urls et QR code
-<a id="__codelineno-0-48" name="__codelineno-0-48" href="#__codelineno-0-48"></a>  end
-<a id="__codelineno-0-49" name="__codelineno-0-49" href="#__codelineno-0-49"></a>  Enseignant-&gt;&gt;Parents: Envoyer URLs via email ou QR code
-<a id="__codelineno-0-50" name="__codelineno-0-50" href="#__codelineno-0-50"></a>  Parents -&gt;&gt; Application (mode parent): active url ou scan QR code
-<a id="__codelineno-0-51" name="__codelineno-0-51" href="#__codelineno-0-51"></a>  Application (mode parent)-&gt;&gt;Internet (coté parents): accède au serveur via url
-<a id="__codelineno-0-52" name="__codelineno-0-52" href="#__codelineno-0-52"></a>  Serveur-&gt;&gt;Internet (coté parents): envoie les documents
-<a id="__codelineno-0-53" name="__codelineno-0-53" href="#__codelineno-0-53"></a>  Internet (coté parents)-&gt;&gt;Application (mode enseignant): Chargement documennt et medias
-<a id="__codelineno-0-54" name="__codelineno-0-54" href="#__codelineno-0-54"></a>
-<a id="__codelineno-0-55" name="__codelineno-0-55" href="#__codelineno-0-55"></a>  alt Serveur OFF
-<a id="__codelineno-0-56" name="__codelineno-0-56" href="#__codelineno-0-56"></a>    Application (mode enseignant)-&gt;&gt;Serveur: Aucun échange
-<a id="__codelineno-0-57" name="__codelineno-0-57" href="#__codelineno-0-57"></a>  end
-<a id="__codelineno-0-58" name="__codelineno-0-58" href="#__codelineno-0-58"></a>  ```
-<a id="__codelineno-0-59" name="__codelineno-0-59" href="#__codelineno-0-59"></a>
-<a id="__codelineno-0-60" name="__codelineno-0-60" href="#__codelineno-0-60"></a>/-------------------------------/
-<a id="__codelineno-0-61" name="__codelineno-0-61" href="#__codelineno-0-61"></a>
-<a id="__codelineno-0-62" name="__codelineno-0-62" href="#__codelineno-0-62"></a>  ```mermaid
-<a id="__codelineno-0-63" name="__codelineno-0-63" href="#__codelineno-0-63"></a>  sequenceDiagram
-<a id="__codelineno-0-64" name="__codelineno-0-64" href="#__codelineno-0-64"></a>
-<a id="__codelineno-0-65" name="__codelineno-0-65" href="#__codelineno-0-65"></a>  participant Enseignant
-<a id="__codelineno-0-66" name="__codelineno-0-66" href="#__codelineno-0-66"></a>  participant Application (mode enseignant)
-<a id="__codelineno-0-67" name="__codelineno-0-67" href="#__codelineno-0-67"></a>  participant Navigateur
-<a id="__codelineno-0-68" name="__codelineno-0-68" href="#__codelineno-0-68"></a>  participant Internet (coté école)
-<a id="__codelineno-0-69" name="__codelineno-0-69" href="#__codelineno-0-69"></a>  participant Serveur
-<a id="__codelineno-0-70" name="__codelineno-0-70" href="#__codelineno-0-70"></a>  participant Internet (coté parents)
-<a id="__codelineno-0-71" name="__codelineno-0-71" href="#__codelineno-0-71"></a>  participant Application (mode parent)
-<a id="__codelineno-0-72" name="__codelineno-0-72" href="#__codelineno-0-72"></a>  participant Parents
-</code></pre></div>
+                <pre class="mermaid"><code>%%{
+  init: {
+    'theme': 'base',
+    'themeVariables': {
+      'primaryColor': '#BB2528',
+      'primaryTextColor': '#fff',
+      'primaryBorderColor': '#7C0000',
+      'lineColor': '#F8B229',
+      'secondaryColor': '#006100',
+      'tertiaryColor': '#fff'
+    }
+  }
+}%%
+sequenceDiagram
+
+  participant Enseignant
+  participant Application (mode enseignant)
+  participant Navigateur
+  participant Internet (coté école)
+  participant Serveur
+  participant Internet (coté parents)
+  participant Application (mode parent)
+  participant Parents
+
+  alt Première fois
+    Enseignant-&gt;&gt;Application (mode enseignant): Accéder à 'Réglages, serveur'
+    Enseignant-&gt;&gt;Application (mode enseignant): Activer le bouton ON
+    Application (mode enseignant)-&gt;&gt;Serveur: Demande d'acces
+    Serveur -&gt;&gt; Navigateur: affichage page authentification dans navigateur
+    Enseignant-&gt;&gt;Navigateur: Saisir login/mot de passe
+    Navigateur-&gt;&gt;Serveur: Demande d'autorisation
+    Serveur-&gt;&gt;+Navigateur: Demande la confirmationn à l'enseignant
+    Enseignant-&gt;&gt; Navigateur: Accorder l'autorisation
+    Enseignant-&gt;&gt;Navigateur: Fermer la fenêtre
+    Navigateur-&gt;&gt;Application (mode enseignant): Connfirmation connection
+
+  else Déjà configuré
+    Enseignant-&gt;&gt;Application (mode enseignant): Activer le bouton ON
+    Application (mode enseignant)-&gt;&gt;Enseignant: Confirmation connection
+  end
+  loop À chaque création de e-journal
+    Application (mode enseignant)-&gt;&gt;Application (mode enseignant): Vérifier si médias déjà copiés
+    Application (mode enseignant)-&gt;&gt;Serveur: Copier médias associés pas encore sur le serveur
+    Application (mode enseignant)-&gt;&gt;Serveur: Copier document e-journal
+    Serveur-&gt;&gt;Serveur: Attribuer URLs privées
+    Serveur-&gt;&gt;Application (mode enseignant): Donne les URLs disponibles
+    Application (mode enseignant)-&gt;&gt;Enseignant: Met à disposition les urls et QR code
+  end
+  Enseignant-&gt;&gt;Parents: Envoyer URLs via email ou QR code
+  Parents -&gt;&gt; Application (mode parent): active url ou scan QR code
+  Application (mode parent)-&gt;&gt;Internet (coté parents): accède au serveur via url
+  Serveur-&gt;&gt;Internet (coté parents): envoie les documents
+  Internet (coté parents)-&gt;&gt;Application (mode enseignant): Chargement documennt et medias
+
+  alt Serveur OFF
+    Application (mode enseignant)-&gt;&gt;Serveur: Aucun échange
+  end
+  ```
+
+/-------------------------------/
+
+  ```mermaid
+  sequenceDiagram
+
+  participant Enseignant
+  participant Application (mode enseignant)
+  participant Navigateur
+  participant Internet (coté école)
+  participant Serveur
+  participant Internet (coté parents)
+  participant Application (mode parent)
+  participant Parents
+</code></pre>
               
             </div>
           </div><footer>
@@ -263,7 +267,7 @@
       <p>Copyright &copy; TR e-solutions @2025</p>
   </div>
 
-  Générée avec <a href="https://www.mkdocs.org/">MkDocs</a> avec un <a href="https://github.com/readthedocs/sphinx_rtd_theme">thème</a> fourni par <a href="https://readthedocs.org">Read the Docs</a>.
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
 </footer>
           
         </div>
@@ -289,6 +293,9 @@
     <script src="../js/theme_extra.js"></script>
     <script src="../js/theme.js"></script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+      <script src="https://unpkg.com/mermaid@10.6.1/dist/mermaid.min.js"></script>
+      <script src="../js/mermaid-simple.js"></script>
+      <script src="../search/main.js"></script>
     <script>
         jQuery(function () {
             SphinxRtdTheme.Navigation.enable(true);

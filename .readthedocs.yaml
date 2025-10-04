@@ -1,26 +1,25 @@
+# Read the Docs configuration file for MkDocs
+# See https://docs.readthedocs.io/en/stable/config-file/v2.html for details
+
+# Required version
 version: 2
+
+# Set the OS, Python version and other tools you might need
+build:
+  os: "ubuntu-22.04"
+  tools:
+    python: "3.11"
+
+# Build documentation in the mkdocs-documentation directory
 mkdocs:
-  configuration: mkdocs.yml
+  configuration: mkdocs-documentation/mkdocs.yml
 
 # Optionally declare the Python requirements required to build your docs
 python:
-   install:
-   - requirements: docs/requirements.txt
+  install:
+    - requirements: mkdocs-documentation/docs/requirements.txt
 
-# only for sphinx ... not works with mkdocs...
-formats:
-  - pdf
-  - epub
-
-
-build:
-  os: "ubuntu-20.04"
-  tools:
-    python: "3.10"
-  #jobs:
-    #pre_build:
-      # - python -m sphinx -b linkcheck -D linkcheck_timeout=1 docs/ _build/linkcheck
-      # - pydoc-markdown --build --site-dir "$PWD/_build/html"
-    # pre_install:
-    #   - bash ./scripts/pre_install.sh
-    #   - git update-index --assume-unchanged environment.yml docs/conf.py
+# Optional: Build PDF and EPUB formats (note: these may not work perfectly with MkDocs)
+# formats:
+#   - pdf
+#   - epub
