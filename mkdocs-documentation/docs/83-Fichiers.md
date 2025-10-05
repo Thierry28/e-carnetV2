@@ -6,6 +6,9 @@ La version 2 diffère significativement de la version 1 par le lieu de stockage 
 
 Ouvrir l'application Fichiers
 
+Aller dans Android/media/org.tre.ecarnet
+
+<!-- 
 ![Application Fichiers](screenshots/fichiers-android.png)
 
 Naviguer dans les répertoires pour aller jusque à cette partie : 
@@ -16,11 +19,11 @@ cf illustrion ci-dessous :
 
 ![Application Fichiers](screenshots/fichiers-android-dossier.png)
 
-En vidéo ça donne : 
+<!-- En vidéo ça donne : 
 
-[!embed](https://www.youtube.com/watch?v=qVBUcp-ugdM)
+![type:video](https://www.youtube.com/embed/qVBUcp-ugdM) -->
 
-
+<!-- 
 ## Version IOs
 
 Ouvrir l'application Fichiers
@@ -161,4 +164,4 @@ Contient des fichiers images qui permettent de tester et d'illustre l'insertion 
 
 ### videos
 
-Pas utilisé dans la version courante.
+Pas utilisé dans la version courante. -->

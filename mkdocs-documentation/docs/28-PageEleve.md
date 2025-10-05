@@ -1,6 +1,6 @@
 ## La  fiche élève
 
-(NB : cette partie n'est pas à jour) 
+(NB : cette partie n'est pas à jour mais donne des indications) 
 
 ![Sélection élève en mode professeur](screenshots/2018-01-27-19-55-40.png)
 

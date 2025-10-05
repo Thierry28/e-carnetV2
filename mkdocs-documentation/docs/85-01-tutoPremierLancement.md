@@ -2,23 +2,25 @@
 
 <!-- ## Installer l'application 
 
-[!embed](https://www.youtube.com/watch?v=uQtxI5cPaWQ) -->
+![type:video](https://www.youtube.com/embed/uQtxI5cPaWQ) -->
 
 ## Lancement initial 
 
 <!-- OK -->
-[!embed](https://www.youtube.com/watch?v=W0GwBt8hn78)
+![type:video](https://www.youtube.com/embed/W0GwBt8hn78)
+
 
 ## Saisir vos nom et prénom
 
 <!-- OK -->
-[!embed](https://www.youtube.com/watch?v=isseL_olVnc)
+![type:video](https://www.youtube.com/embed/isseL_olVnc)
 
 ## Saisir une signature
 
 <!-- OK -->
 
-[!embed](https://www.youtube.com/watch?v=QWabK5wXNWk)
+![type:video](https://www.youtube.com/embed/QWabK5wXNWk)
+
 
 ## Ajouter une signature avec le cachet de l'école
 
@@ -27,37 +29,37 @@ Même principe que pour la signature personnalisée (cf tuto Saisir une signatur
 ## Mettre à jour ou changer le nom de l'enseignant
 
 <!-- OK -->
-[!embed](https://www.youtube.com/watch?v=sY1lRv6kUU8)
+![type:video](https://www.youtube.com/embed/sY1lRv6kUU8)
 
 ## Saisir le nom et coordonnées de l'école
 
 <!-- OK -->
 
-[!embed](https://www.youtube.com/watch?v=UvmfVF5A7G0)
+![type:video](https://www.youtube.com/embed/UvmfVF5A7G0)
 
 ## Ajouter un logo
 
 <!-- OK -->
-[!embed](https://www.youtube.com/watch?v=IBWmpfV2fOA)
+![type:video](https://www.youtube.com/embed/IBWmpfV2fOA)
 
 ## Vérifier le paramétrage de votre application e-carnet
 
 <!-- OK -->
-[!embed](https://www.youtube.com/watch?v=7q-C6ljWN1I)
+![type:video](https://www.youtube.com/embed/7q-C6ljWN1I)
 
 ## Régler le niveau sonore
 
 <!-- OK -->
-[!embed](https://www.youtube.com/watch?v=6KSmqQfiJ8g)
+![type:video](https://www.youtube.com/embed/6KSmqQfiJ8g)
 
 
 ## Vérifier la dictée vocale (afficher la commande micro)
 
 <!-- OK -->
-[!embed](https://www.youtube.com/watch?v=Bc7_adSWnRg)
+![type:video](https://www.youtube.com/embed/Bc7_adSWnRg)
 
 ## Vérifier la synthèse vocale
 
 <!-- OK -->
-[!embed](https://www.youtube.com/watch?v=z5dOhTA39QQ)
+![type:video](https://www.youtube.com/embed/z5dOhTA39QQ)
 

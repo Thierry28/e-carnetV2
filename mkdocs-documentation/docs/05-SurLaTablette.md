@@ -3,9 +3,9 @@
 Après l'installation, retrouvez l'application quelque part par ici ...
 
 
-iOS : 
+<!-- iOS : 
 
-![Lancement depuis iPad](screenshots/2023-01-29-11-07-31.png)
+![Lancement depuis iPad](screenshots/2023-01-29-11-07-31.png) -->
 
 Android : 
 

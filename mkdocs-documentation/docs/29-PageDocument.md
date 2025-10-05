@@ -1,7 +1,7 @@
 
 ## La fiche "document"
 
-(NB : cette partie n'est pas à jour) 
+(NB : cette partie n'est pas à jour, mais donne des indications) 
 
 ![Fiche document](screenshots/2018-01-27-20-16-41.png)
 

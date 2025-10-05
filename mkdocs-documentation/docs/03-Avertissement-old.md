@@ -1,9 +1,44 @@
 # Informations importantes
 
+## Les différentes versions de l'application
+
+Au démarrage, seule la version Android existait. (versions 1.x.x)
+
+Ensuite, pour répondre à quelques demandes, les versions suivantes ont été publiées : 
+
+- Windows
+- MacOs
+- Linux
+
+Exceptée la prise de photo et de video, les fonctionnalités de ces versions de "bureau" sont rigoureusement identiques à la version Android.
+
+Elles n'ont pas fait l'objet d'évolutions significatives depuis plusieurs mois. Par manque de temps ...
+
+La version  Android actuellement publiée est la version du 23 octobre 2021 intitulée 1.11.6v128.
+
+Depuis cette date, Google a fait significativement évoluer ses exigences de sécurité pour les applications. L'application e-carnet a été significativement impactée par ces changements de règles : l'utilisation du répertoire "Download" pour stocker les fichiers produits par l'application a été refusé par Google au développeur de l'application.
+
+Cette situation a conduit a revoir tout le système de gestion de fichiers de l'application.
+
+Elle a aussi complexifié l'usage des vidéos et des enregistrements audio, qui seront temporairement désactivés, dans les nouvelles versions. (L'import de fichiers video et audio restent disponibles, seules les captures via tablette et mobile sont concernées).
+
+La réécriture partielle de l'application a pris plusieurs mois, a nécessité un grand nombre de modifications et a conduit à préparer la publication d'une nouvelle version e-carnet, la version 2.x.x.
+
+***IMPORTANT*** : la version 1 ne peut pas etre mise à jour avec la version 2 qui doit être installée comme une nouvelle application. Les 2 versions peuvent donc exister simultanément. Les fichiers de sauvegardes et epub produites par la version 1 peuvent être importés dans la version 2.
+
 [Version courante Android sur PlayStore](https://play.google.com/store/apps/details?id=org.tre.ecarnet&gl=FR)
 
-<!-- [Version courante iOS sur app store](https://apps.apple.com/us/app/e-carnet-maternelle/id1663629696) -->
+[Version courante iOS sur app store](https://apps.apple.com/us/app/e-carnet-maternelle/id1663629696)
 
+
+Cette présente documentation a été créé initialement pour la version Android (1.x.x).
+
+Sa mise à jour est en cours pour correspondre désormais à la version 2.x.x, qui sera compatible avec les systèmes suivants : 
+- Android
+- IOS
+- MacOS
+- Windows
+- Linux
 
 ***NB :*** Pour mémoire, l'application a été conçue initialement pour fonctionner nativement sans connection internet et sans base de données hébergée dans le cloud. Pour être compatible avec un usage dans des classes ne disposant pas de Wifi ou de débit internet suffisant.
 
@@ -24,7 +59,7 @@ Par conséquent il est fortement recommander de mettre l'application à jour tr�
 
 ***Android :*** Vous pouvez aussi activer la fonction Android "Mettre à jour automatiquement"
 
-<!-- ***iOS :*** Idem -->
+***iOS :*** Idem
 
 ## Sauvegarder vos données régulièrement
 
@@ -48,6 +83,16 @@ Cet écran apparaît lorsque vous configurez un compte de messagerie Google :
 
 ***NB:*** Le process complet de sauvegarde/restauration n'a pas encore été testé par le développeur. 
 
+### La fonction sauvegarde de l'application e-carnet de maternelle
+
+Vous pouvez à tout instant provoquer la production d'un fichier qui contient toutes les données et media utilisés par votre application.
+
+![Sauvegarder toutes les données](screenshots/2020-01-05-08-56-20.png)
+
+Cette fonctionnalité est décrite dans le chapitre [La fonction sauvegarde de l'application e-carnet de maternelle](#la_fonction_sauvegarde_de_lapplication_e-carnet_de_maternelle).
+
+Cela reste à ce jour la façon la plus sûre de conserver toutes les données dans un fichier à stocker en dehors de votre terminal.
+
 ### La production de e-carnets ou e-journaux régulière
 
 Conseil : n'attendez pas le dernier moment pour produire vos e-carnets !
@@ -56,22 +101,31 @@ Vous pouvez à tout instant provoquer la production de fichiers html ou epub qui
 
 ![Raccourcis production documents](screenshots/2020-01-05-09-05-43.png)
 
-### La production des fichiers epub
+<!-- ![Générer e-carnet depuis la liste des élèves](screenshots/2019-12-31-17-35-40.png) -->
 
-L'exportation des fichiers au format **epub** présente plusieurs avantages pour la sauvegarde de vos données :
+<!-- NB : pour accéder à cette page, cf l'icône en haut à droite : 
 
-- **Format standard et ouvert** : Les fichiers epub sont largement compatibles avec de nombreux lecteurs et logiciels, ce qui garantit un accès facile à vos documents, même en dehors de l'application.
-- **Archivage pérenne** : Un fichier epub peut être conservé sur différents supports (clé USB, cloud, ordinateur) et restauré ultérieurement si besoin.
-- **Consultation hors ligne** : Vous pouvez lire vos e-carnets sur n'importe quel appareil compatible, sans connexion internet.
-- **Partage facilité** : Le format epub permet de transmettre facilement les portfolios ou journaux à d'autres personnes (collègues, familles, inspection).
-- **Sécurité** : En cas de problème technique ou de perte de la tablette, disposer d'une copie epub garantit la préservation des traces des apprentissages.
+![Passage en mode liste](screenshots/2019-12-31-17-34-29.png)
 
-En résumé, produire régulièrement des fichiers epub constitue une solution simple et efficace pour sécuriser vos données pédagogiques.
+<!-- ![Icône de changement de mode d'affichage](screenshots/2020-01-05-09-07-43.png) -->
+
+<!-- Retrouvez ensuite les fichiers générés avec votre explorateur de fichiers, dans votre répertoire "Téléchargement" et "e-carnet-maternelle".
+
+![Explorateur de fichiers](screenshots/2019-12-31-17-56-06.png) -->
+
+<!-- ![Fichiers e-carnet](screenshots/2019-12-31-18-34-19.png) -->
+<!-- NB : cette copie d'écran peut être différente selon les versions Android.
+
+![Fichiers e-carnet intermédiaires](screenshots/2020-01-05-09-12-42.png) -->
 
 
-!!! note "Évolution terminologique 2025"
-    Depuis la version 2.3.3 (1er septembre 2025), la terminologie a évolué : les "Observables" sont désormais appelés "Objectifs" pour mieux refléter l'approche pédagogique par compétences et s'aligner sur la terminologie officielle de l'Éducation Nationale.
-    
+<!-- NB : le nombre qui figure dans le nom de fichier est la date de production du fichier.
+Cette date ne figureara pas dans le nom de fichier qui sera inséré dans l'email pour les parents.
+
+![Horodatage des fichiers](screenshots/2020-01-05-09-22-45.png)  -->
+
+
+
 ## En cas de problème
 
 Malgré tout le soin apporté au développment de cette application, il peut se produire des situations imprévues ... 
@@ -132,16 +186,27 @@ Des explications détaillées sont fournies dans le chapitre [Réglages](25-Regl
 
 Bien que l'application e-carnet soit pleinement fonctionnelle sur un smarthphone, il est recommandé d'utiliser une tablette pour laquelle les écrans ont été initialement conçus.
 
-L'adaptation aux smartphones est progressive.
+L'adaptation aux smartphones est prévue, elle se fera progressivement.
 
-
+<!-- 
 ## Lieux de stockage des fichiers
 
-Dans la version Android, les fichiers générés sont accessibles dans le répertoire: 
+### Photos
 
-Android/media/org.tre.ecarnet
+Les photos prises par l'application sont stockées dans le répertoire "Pictures" : 
+
+![Répertoire de stockage des photos prises par l'application](screenshots/2020-01-05-09-42-36.png)
+
+Ces photos ont un nom de fichier commençant par ECM_ : 
+
+![Fichiers photos](screenshots/2020-01-05-09-44-06.png)
+
+### Vidéos
 
 
+### Audio
+
+ -->
 
 
 

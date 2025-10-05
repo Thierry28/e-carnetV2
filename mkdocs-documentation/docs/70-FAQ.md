@@ -39,7 +39,7 @@ Oui, pour cela il suffit d'utiliser le séparateur --- (3 signes moins).
 
 Tout ce qui se retrouvera au dessus du dernier séparateur --- ne sera pas restitué dans le carnet de réussite.
 
-[!embed](https://www.youtube.com/watch?v=5X26eP7_k7U)
+![type:video](https://www.youtube.com/embed/5X26eP7_k7U)
 
 ## Comment faire apparaitre le nom de 2 enseignant(e)s 
 
@@ -144,7 +144,7 @@ Donc, non, la classe et les élève doivent être sur une unique tablette qui do
 Oui, pour cela il faut utiliser le dossier éléve au format "epub".
 
 
-## Modifier la mise en page des phots dans le e-carnet : présentation horizontale
+## Modifier la mise en page des photos dans le e-carnet : présentation horizontale
 
 (Niveau expert ...) 
 
@@ -361,7 +361,7 @@ Voir dans : [Tutos experts](85-20-tutoExperts.md)
 
 ## Comment installer la version PC ?
 
-Voir : [!embed](https://www.youtube.com/watch?v=mBkOB1D2Sjc)
+Voir : ![type:video](https://www.youtube.com/embed/mBkOB1D2Sjc)
 
 ## Comment partager les fichiers e-carnet avec photos, vidéos avec les parents
 

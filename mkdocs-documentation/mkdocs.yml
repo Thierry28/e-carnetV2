@@ -28,11 +28,11 @@ nav:
     # - Import Video: 31-ImportVideo.md
     # - Import Code QR: 32-ImportCodeQR.md
     - Partage Code QR: 33-PartageCodeQR.md
-    - Import/Export EPUB: 34-ImportExportEPUB.md
+    # - Import/Export EPUB: 34-ImportExportEPUB.md
     # - Système Messagerie: 35-SystemeMessagerie.md
-    - Communication Parents: 36-CommunicationParents.md
-    - Statuts Accusés Réception: 37-StatutsAccusesReception.md
-    - Fonctionnalité Assistance: 38-FonctionnaliteAssistance.md
+    # - Communication Parents: 36-CommunicationParents.md
+    # - Statuts Accusés Réception: 37-StatutsAccusesReception.md
+    # - Fonctionnalité Assistance: 38-FonctionnaliteAssistance.md
     # - Intégration Email: 39-IntegrationEmail.md
     # - Gestion Médias Avancée: 40-GestionMediasAvancee.md
     # - Capture Photo: 41-CapturePhoto.md
@@ -40,7 +40,7 @@ nav:
     # - Analytique Plantage: 43-AnalytiquePlantage.md
     # - Système Statistiques: 44-SystemeStatistiques.md
     - Terminologie 2025: 45-Terminologie2025.md
-    - Catalogue 2025: 46-Catalogue2025.md
+    # - Catalogue 2025: 46-Catalogue2025.md
     - Manipulations diverses: 80-ManipulationsDiverses.md
     - Trouver les fichiers : 83-Fichiers.md
   - FAQ: 70-FAQ.md
@@ -165,6 +165,7 @@ markdown_extensions:
 plugins:
   - mkdocstrings
   - search
+  - mkdocs-video
 
 # Plugins
 #plugins:

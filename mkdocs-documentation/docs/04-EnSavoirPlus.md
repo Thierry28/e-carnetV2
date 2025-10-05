@@ -18,7 +18,9 @@ Consignes de téléchargement de cette documentation et de l'application :
 
 ## Version iOS
 
-Version de test en cours : 
+A la date du 4 octobre 2025, elle est en cours de test et sera bientôt disponible.
 
-https://testflight.apple.com/join/y4feG5pH
+<!-- Version de test en cours : 
+
+https://testflight.apple.com/join/y4feG5pH -->
 

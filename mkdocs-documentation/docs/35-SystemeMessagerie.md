@@ -9,25 +9,10 @@ Le système de messagerie intégré d'e-carnet V2 facilite la communication entr
 Le système de messagerie d'e-carnet propose :
 
 - **Messages intégrés** : Communication directe dans l'application
-- **Notifications push** : Alertes en temps réel
-- **Historique complet** : Conservation des échanges
 - **Pièces jointes** : Envoi de médias et documents
 
 ### Types de messages
 
-#### Messages pédagogiques
-
-- **Retours sur activités** : Commentaires sur les productions d'élèves
-- **Observations comportementales** : Notes sur l'évolution de l'enfant
-- **Propositions d'activités** : Suggestions pour la maison
-- **Demandes de matériel** : Liste pour les projets
-
-#### Messages administratifs
-
-- **Informations officielles** : Communications de l'établissement
-- **Rendez-vous** : Planification des rencontres
-- **Absences** : Signalement et justificatifs
-- **Autorisations** : Demandes spécifiques
 
 ## Fonctionnalités de messagerie
 

@@ -20,7 +20,7 @@ La version 2.3.3 (1er septembre 2025) a introduit des changements terminologique
 - **Formation des enseignants** : Vocabulaire unifié
 - **Communication parents** : Termes plus explicites
 - **Évaluations nationales** : Harmonisation des référentiels
-
+<!-- 
 #### Clarté pédagogique
 
 - **Compréhension** : Termes plus accessibles aux familles
@@ -302,4 +302,4 @@ Tous les éléments de l'interface ont été mis à jour :
 
 - [Catalogue 2025](46-Catalogue2025.md)
 - [Objectifs pédagogiques](24-Objectifs.md)
-- [Nouveautés](06-Nouveautes.md)
+- [Nouveautés](06-Nouveautes.md) -->

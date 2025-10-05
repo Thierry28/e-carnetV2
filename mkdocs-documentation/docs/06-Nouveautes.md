@@ -76,11 +76,13 @@
 
 ## Version iOS (e-carnet)
 
+A la date du 4 octobre 2025, elle est en cours de test et sera bientôt disponible.
+<!-- 
 La premiere version est 2.0.4
 
 Elle est semblable fonctionnellement à la version Android, exceptés les lieux de stockage des fichiers qui diffèrent avec le système Android. Mais le principe reste similaire.
 
-[Version courante sur app store](https://apps.apple.com/us/app/e-carnet-maternelle/id1663629696)
+[Version courante sur app store](https://apps.apple.com/us/app/e-carnet-maternelle/id1663629696) -->
 
 
 ## Version Android (e-carnet)

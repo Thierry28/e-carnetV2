@@ -232,11 +232,14 @@ Sinon, avec cette technique :
 
 ![Explorer](screenshots/2018-02-20-08-15-46.png)
 
+Chercher Android/media/org.tre.ecarnet
+
+<!-- 
 ![Repertoire Download](screenshots/2018-02-20-08-16-17.png)
 
 ![Répertoire e-carnet-maternelle](screenshots/2018-02-20-08-16-54.png)
 
-![Fichier référentiel des observables](screenshots/2018-02-20-08-18-05.png)
+![Fichier référentiel des observables](screenshots/2018-02-20-08-18-05.png) -->
 
 Vous identifierez le bon fichier en regardant la date ou ici l'heure correspondant à l'export.
 
@@ -270,7 +273,7 @@ Si le plantage apparaît à un autre moment, envoyer le dernier fichier journal=
 
 
 
-
+<!-- 
 ## Transférer le e-carnet directement sur le smartphone des parents en bluetooth
 
 - Vérifier que le Bluetooth est activé sur la tablette enseignant et sur le smartphone parent. (Paramètres/Bluetooth ou faire glisser écran vers le bas, maintien du doigt sur la touche Bluetooth)
@@ -279,7 +282,7 @@ Si le plantage apparaît à un autre moment, envoyer le dernier fichier journal=
 - Maintenir le doigt dessus pour le sélectionner.
 - Cliquer sur Partager et choisir l’appareil à proximité correspondant.
 - Accepter de part et d’autre le transfert.
-- Sur le smartphone, le fichier se trouve dans Stockage interne/Bluetooth. Il s’ouvre avec un navigateur Internet.
+- Sur le smartphone, le fichier se trouve dans Stockage interne/Bluetooth. Il s’ouvre avec un navigateur Internet. -->
 
 
 
@@ -326,8 +329,8 @@ Vous souhaitez passer à une nouvelle tablette !
 
 ### Principe
 
-Utiliser la fonction "Sauvegarde" de la tablette actuelle puis "Restaurer" cette sauvegarde depuis la nouvelle.
-
+Utiliser la fonction "Produire tous les epub" de la tablette actuelle puis "importer epub"  depuis la nouvelle.
+<!-- 
 ### Pré requis
 
 Sur la nouvelle tablette ... commencer par faire une photo !
@@ -364,7 +367,7 @@ NB : ne pas tenir compte de l'extension "epub" (anomalie sans gravité)
 
 Redémarrer votre logiciel e-carnet.
 
-Vous devriez retrouver vos informations !
+Vous devriez retrouver vos informations ! -->
 
 ## Changer de référentiel
 
@@ -372,18 +375,24 @@ Vous devriez retrouver vos informations !
 
 ## Transmettre les vidéos aux parents
 
+Utiliser la fonction de partage via QRcode
+<!-- 
 Le principe consiste à transmettre le fichier epub aux parents.
 
 Dans sa version actuelle, les vidéos ne sont pas directement consultables. Elles sont néanmoins accessibles en "bricolant un peu" le fichier epub.
 
 Changer le suffixe ***epub*** en ***zip***.
 Utiliser un décompacteur (7z, winzip, ...) et décompresser le fichier zip.
-Les vidéos sont dans le dossier VIDEOS.
+Les vidéos sont dans le dossier VIDEOS. -->
 
 
 
 ## Transférer tout le contenu sur une autre tablette
 
+Le principe consiste à :
+
+Utiliser la fonction "Produire tous les epub" de la tablette actuelle puis "importer epub"  depuis la nouvelle.
+<!-- 
 Le principe consiste à :
 
 Prérequis : 
@@ -397,7 +406,7 @@ Mode opératoire :
 - Transmettre ce fichier à l'autre tablette. Un moyen simple de transfert étant d'utiliser un drive de type Google Drive ou Microsoft OneDrive, ou tout autre espace de stockage partagé.
 - Sur la nouvelle tablette, utiliser "Réglages/commandes/restaurer la base de données. Attention ceci efface toutes les données e-carnet de la nouvelle tablette.
 
-NB : attention, ce fichier de sauvegarde peut être tres volumineux, il contient en effet toutes les photos, toutes les videos, tous les fichiers audio. Ces documents seront copiés sur la nouvelle tablette a
+NB : attention, ce fichier de sauvegarde peut être tres volumineux, il contient en effet toutes les photos, toutes les videos, tous les fichiers audio. Ces documents seront copiés sur la nouvelle tablette a -->
 
 
 ## Désinstaller l'application sur un smartphone ou tablette Android {#desinstaller-application-android}
