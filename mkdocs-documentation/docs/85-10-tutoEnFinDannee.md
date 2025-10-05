@@ -21,7 +21,7 @@ NB : tous les enseignants ont un Nextcloud (Nuage) de 100 Go via Apps Education 
 
 (temps de conservation à définir)
 
-[!embed](https://www.youtube.com/watch?v=XnWCbibt2BA)
+![type:video](https://www.youtube.com/embed/XnWCbibt2BA)
 
 ## (4) Si besoin importer la sauvegarde sur un autre appareil
 
@@ -39,7 +39,7 @@ NB : tous les enseignants ont un Nextcloud (Nuage) de 100 Go via Apps Education 
 
 - Générer les epub : 
 
-[!embed](https://www.youtube.com/watch?v=GhVrjU4nTns)
+![type:video](https://www.youtube.com/embed/GhVrjU4nTns)
 
 - Transférez-les aux collègues qui importeront ceux les concernant dans leurs appareils numériques (voir tutos ci-dessus). Ils pourront ainsi continuer le même ecarnet.
 

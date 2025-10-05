@@ -7,7 +7,7 @@ Elle permet de simplifier et automatiser la production des carnets de suivi des 
 
 Elle permet de saisir et stocker instantanément tous types de documents (image, audio, vidéo, texte)  pour chaque élève de la classe.
 
-<!-- [!embed](https://www.youtube.com/watch?v=aILpjdo-0t0) -->
+<!-- ![type:video](https://www.youtube.com/embed/aILpjdo-0t0) -->
 
 Ces traces (témoignages des apprentissages) sont associés aux attendus et observables établis par le Ministère de l’Éducation Nationale.
 

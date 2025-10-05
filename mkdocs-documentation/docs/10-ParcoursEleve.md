@@ -38,7 +38,7 @@ Version courante (iOS), sans les boutons vidéo et audio, temporairement désact
 
 ***NB :*** (fonction temporairement désactivée). Reste possible l'import d'une vidéo prise àpar ailleurs, en dehors de l'application.
 
-[!embed](https://www.youtube.com/watch?v=k2J_pTScOA8)
+![type:video](https://www.youtube.com/embed/k2J_pTScOA8)
 
 
 ## Ecran d'accueil, sélection de l'atelier

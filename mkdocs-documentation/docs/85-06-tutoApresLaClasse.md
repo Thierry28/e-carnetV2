@@ -4,30 +4,30 @@
 ## Affecter des observables aux traces isolées
 
 <!-- OK -->
-[!embed](https://www.youtube.com/watch?v=PvdIfyiCFJY)
+![type:video](https://www.youtube.com/embed/PvdIfyiCFJY)
 
 ## Supprimer des traces
 
 <!-- OK -->
-[!embed](https://www.youtube.com/watch?v=4oFyhTBjU0Q)
+![type:video](https://www.youtube.com/embed/4oFyhTBjU0Q)
 
 ## Consulter l'avancement de sa classe
 
 <!-- OK -->
-[!embed](https://www.youtube.com/watch?v=tpMVEXdJVe8)
+![type:video](https://www.youtube.com/embed/tpMVEXdJVe8)
 
 ## Effectuer une sauvegarde
 
 <!-- OK -->
-[!embed](https://www.youtube.com/watch?v=Xt77_f6NRvg)
+![type:video](https://www.youtube.com/embed/Xt77_f6NRvg)
 
 ## Déplacer le fichier sauvegarde en dehors de la tablette
 
 <!-- OK -->
-[!embed](https://www.youtube.com/watch?v=XBh1oCgec4g)
+![type:video](https://www.youtube.com/embed/XBh1oCgec4g)
 
 ## Envoyer des photos au parents au fil de l'eau
 
 <!-- OK -->
-[!embed](https://www.youtube.com/watch?v=pPX28ZYn9H0)
+![type:video](https://www.youtube.com/embed/pPX28ZYn9H0)
 

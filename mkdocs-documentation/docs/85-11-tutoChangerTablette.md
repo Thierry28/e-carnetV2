@@ -4,7 +4,7 @@
 ## Faire une sauvegarde
 
 <!-- OK -->
-[!embed](https://www.youtube.com/watch?v=XnWCbibt2BA)
+![type:video](https://www.youtube.com/embed/XnWCbibt2BA)
 
 
 ## importer le fichier sauvegarde

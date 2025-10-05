@@ -34,7 +34,7 @@ Il est possible de changer la date de prise de vue ou de saisie du document. C'e
 
 <!-- ![Modification date du document](screenshots/2018-01-27-18-38-43.png) -->
 
-[!embed](https://www.youtube.com/watch?v=N4qnMq5nE2A)
+![type:video](https://www.youtube.com/embed/N4qnMq5nE2A)
 
 ![Modification date du document](screenshots/2020-04-26-07-42-00.png)
 

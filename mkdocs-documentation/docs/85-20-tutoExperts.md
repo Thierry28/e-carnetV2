@@ -6,49 +6,49 @@
 
 <!-- OK -->
 
-[!embed](https://www.youtube.com/watch?v=BNEQPnIkK-I)
+![type:video](https://www.youtube.com/embed/BNEQPnIkK-I)
 
 ## Modifier la présentation des e-carnets ou e-journaux (version simple)
 
 <!-- OK, idem ci-dessus -->
-[!embed](https://www.youtube.com/watch?v=BNEQPnIkK-I)
+![type:video](https://www.youtube.com/embed/BNEQPnIkK-I)
 
 
 ## Modifier la présentation des e-carnets ou e-journaux (version avancée)
 
 <!-- OK -->
-[!embed](https://www.youtube.com/watch?v=hoBo7TR26vg)
+![type:video](https://www.youtube.com/embed/hoBo7TR26vg)
 
 
 ## Produire automatiquement une version pdf de tous les documents
 
 (à faire, nécessite la version Windows ou MacOS ou Linux)
-<!-- [!embed](https://www.youtube.com/watch?v=k2J_pTScOA8) -->
+<!-- ![type:video](https://www.youtube.com/embed/k2J_pTScOA8) -->
 
 
 ## Produire automatiquement une version image de tous les documents
 
 (à faire, nécessite la version Windows ou MacOS ou Linux)
-<!-- [!embed](https://www.youtube.com/watch?v=k2J_pTScOA8) -->
+<!-- ![type:video](https://www.youtube.com/embed/k2J_pTScOA8) -->
 
 
 ## Modifier les documents individuellement
 
 (à faire, principe : mettre les fichiers e-carnet sur un cloud, utiliser un éditeur de texte pour ouvrir et modifier les fichiers html)
-<!-- [!embed](https://www.youtube.com/watch?v=k2J_pTScOA8) -->
+<!-- ![type:video](https://www.youtube.com/embed/k2J_pTScOA8) -->
 
 <a id="modifier_les_documents_en_masse"></a>
 
 ## Modifier les documents en masse
 
 (à faire, principe : mettre les fichiers e-carnet sur un cloud, utiliser un éditeur de texte de type notepad++ pour utiliser la fonction chercher/remplacer dans tous les fichiers du dossier )
-<!-- [!embed](https://www.youtube.com/watch?v=k2J_pTScOA8) -->
+<!-- ![type:video](https://www.youtube.com/embed/k2J_pTScOA8) -->
 
 
 ## Configurer un logicel de sauvegarde
 
 (à faire)
-<!-- [!embed](https://www.youtube.com/watch?v=k2J_pTScOA8) -->
+<!-- ![type:video](https://www.youtube.com/embed/k2J_pTScOA8) -->
 
 
 ## Créer un référentiel multi langue, exemple Français/Anglais

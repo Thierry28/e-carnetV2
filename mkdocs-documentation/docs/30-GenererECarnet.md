@@ -1,6 +1,6 @@
 ### Générer le e-carnet
 
-<!-- [!embed](https://www.youtube.com/watch?v=xIJW-rbMuns) -->
+<!-- ![type:video](https://www.youtube.com/embed/xIJW-rbMuns) -->
 
 Ce bouton en haut à droite permet de produire le carnet de suivi des apprentissage, ou e-carnet, de l'élève en cours.
 

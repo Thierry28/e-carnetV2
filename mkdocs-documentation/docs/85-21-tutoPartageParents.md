@@ -123,7 +123,7 @@ Proposer aux parents d'utiliser le logiciel e-carnet parents prévu à cet effet
        - A défaut, cf fichier démo : [bit.ly/demoepub](bit.ly/demoepub)
 
   - Version iPad !
-    - [!embed](https://www.youtube.com/watch?v=gYVuwo7HZ7E)
+    - ![type:video](https://www.youtube.com/embed/gYVuwo7HZ7E)
 
   - Version Linux : prévue mais pas encore dispo. 
   
@@ -190,4 +190,4 @@ NB : certaines icônes peuvent apparaitre comme indisponibles (correction en cou
 
 ## Comment installer la version PC ?
 
-Voir : [!embed](https://www.youtube.com/watch?v=mBkOB1D2Sjc)
+Voir : ![type:video](https://www.youtube.com/embed/mBkOB1D2Sjc)

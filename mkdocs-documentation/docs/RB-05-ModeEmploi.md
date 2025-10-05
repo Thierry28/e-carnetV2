@@ -100,7 +100,7 @@ Si le référentiel souhaité est très différent du référentiel initial, il 
 
 ![Partir depuis nouveau référentiel](screenshots/2019-11-22-07-14-00.png) 
 
-<!-- [![Partir depuis nouveau référentiel](https://img.youtube.com/vi/https://youtu.be/izS_lqgcD_c/0.jpg)](https://www.youtube.com/watch?v=izS_lqgcD_c) -->
+<!-- [![Partir depuis nouveau référentiel](https://img.youtube.com/vi/https://youtu.be/izS_lqgcD_c/0.jpg)](https://www.youtube.com/embed/izS_lqgcD_c) -->
 
 <!-- startNonPdf -->
 En vidéo : 
@@ -120,7 +120,7 @@ Ensuite,
 - assembler les blocs autant que nécessaire
 - modifier les libellés qui se trouvent dans les blocs verts
 
-<!-- [![Placement des libellés](https://img.youtube.com/vi/6fgiV49LbDk/0.jpg)](https://www.youtube.com/watch?v=6fgiV49LbDk) -->
+<!-- [![Placement des libellés](https://img.youtube.com/vi/6fgiV49LbDk/0.jpg)](https://www.youtube.com/embed/6fgiV49LbDk) -->
 
 <!-- startNonPdf -->
 <figure class="video_container">
