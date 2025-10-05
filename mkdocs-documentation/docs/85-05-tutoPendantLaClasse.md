@@ -25,16 +25,19 @@
 ## Prise de vidéo par un élève
 
 (à faire, bénévoles bienvenus ... )
+[Voir les fichiers à mettre à jour sur GitHub](https://github.com/Thierry28/e-carnetV2/tree/master/mkdocs-documentation/docs)
 <!-- ![type:video](https://www.youtube.com/embed/k2J_pTScOA8) -->
 
 ## Enregistrement sonore par un élève
 
 (à faire, bénévoles bienvenus ... )
+[Voir les fichiers à mettre à jour sur GitHub](https://github.com/Thierry28/e-carnetV2/tree/master/mkdocs-documentation/docs)
 <!-- ![type:video](https://www.youtube.com/embed/k2J_pTScOA8) -->
 
 ## Saisie d'une note vocale par un élève
 
 (à faire, bénévoles bienvenus ... )
+[Voir les fichiers à mettre à jour sur GitHub](https://github.com/Thierry28/e-carnetV2/tree/master/mkdocs-documentation/docs)
 <!-- ![type:video](https://www.youtube.com/embed/k2J_pTScOA8) -->
 
 ## Assurer la continuité pédagogique pendant le confinement

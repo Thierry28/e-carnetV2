@@ -48,6 +48,7 @@
 ## Configurer un logicel de sauvegarde
 
 (à faire, bénévoles bienvenus ... )
+[Voir les fichiers à mettre à jour sur GitHub](https://github.com/Thierry28/e-carnetV2/tree/master/mkdocs-documentation/docs)
 <!-- ![type:video](https://www.youtube.com/embed/k2J_pTScOA8) -->
 
 

@@ -24,6 +24,7 @@ Tout ce qui se retrouvera au dessus du dernier séparateur --- ne sera pas resti
 ## Vérifier les commentaires 
 
 (à faire, bénévoles bienvenus ... )
+[Voir les fichiers à mettre à jour sur GitHub](https://github.com/Thierry28/e-carnetV2/tree/master/mkdocs-documentation/docs)
 <!-- ![type:video](https://www.youtube.com/embed/ElUh5cEleM8) -->
 
 ## Produire un e-carnet
