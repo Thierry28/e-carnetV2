@@ -47,7 +47,7 @@
 
 ## Configurer un logicel de sauvegarde
 
-(à faire)
+(à faire, bénévoles bienvenus ... )
 <!-- ![type:video](https://www.youtube.com/embed/k2J_pTScOA8) -->
 
 

@@ -12,7 +12,7 @@
 
 ## Aller sur le play store pour mettre à jour
 
-(à faire)
+(à faire, bénévoles bienvenus ... )
 <!-- ![type:video](https://www.youtube.com/embed/k2J_pTScOA8) -->
 
 

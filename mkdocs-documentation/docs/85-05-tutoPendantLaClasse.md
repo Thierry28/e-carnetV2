@@ -24,17 +24,17 @@
 
 ## Prise de vidéo par un élève
 
-(à faire)
+(à faire, bénévoles bienvenus ... )
 <!-- ![type:video](https://www.youtube.com/embed/k2J_pTScOA8) -->
 
 ## Enregistrement sonore par un élève
 
-(à faire)
+(à faire, bénévoles bienvenus ... )
 <!-- ![type:video](https://www.youtube.com/embed/k2J_pTScOA8) -->
 
 ## Saisie d'une note vocale par un élève
 
-(à faire)
+(à faire, bénévoles bienvenus ... )
 <!-- ![type:video](https://www.youtube.com/embed/k2J_pTScOA8) -->
 
 ## Assurer la continuité pédagogique pendant le confinement

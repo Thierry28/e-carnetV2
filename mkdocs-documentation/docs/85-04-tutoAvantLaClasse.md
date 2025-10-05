@@ -7,6 +7,6 @@
 
 ## Modifier ou mettre à jour les tags/étiquettes de sélection rapide
 
-(à faire)
+(à faire, bénévoles bienvenus ... )
 
 

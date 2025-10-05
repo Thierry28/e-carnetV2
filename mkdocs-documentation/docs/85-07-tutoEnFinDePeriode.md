@@ -23,7 +23,7 @@ Tout ce qui se retrouvera au dessus du dernier séparateur --- ne sera pas resti
 
 ## Vérifier les commentaires 
 
-(à faire)
+(à faire, bénévoles bienvenus ... )
 <!-- ![type:video](https://www.youtube.com/embed/ElUh5cEleM8) -->
 
 ## Produire un e-carnet

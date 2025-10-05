@@ -95,7 +95,7 @@ extra_css: [css/mkdocs_extra.css]
 
 # Repository Link Editor
 repo_name: "Thierry28/e-carnetV2"
-repo_url: "https://github.com/Thierry28/ecarnetV2/"
+repo_url: "https://github.com/Thierry28/e-carnetV2/"
 edit_uri: "edit/main/mkdocs-documentation/docs/"
 
 # Theme Configuration

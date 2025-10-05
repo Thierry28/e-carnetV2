@@ -4,8 +4,8 @@
 
 ## Premier lancement
 
-(à faire)
+(à faire, bénévoles bienvenus ... )
 
 ## Repasser sur tablette : importer sauvegarde
 
-(à faire)
+(à faire, bénévoles bienvenus ... )

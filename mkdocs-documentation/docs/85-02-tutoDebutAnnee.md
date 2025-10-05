@@ -66,7 +66,20 @@
 
 ## Récupérer un dossier élève depuis une autre tablette
 
-KO, bug à corriger ...
+Il y a 2 façons de procéder, une très simple, l'autre plus compliquée
+
+Le principe simple est : 
+
+- Sur la tablette d'orrigine, aller sur la fiche de l'élève et faire "Partager via QRcode"
+- Sur la tablette cible, scanner ce QRcode
+
+C'est tout.
+
+Le principe compliqué est : 
+
+- Sur la tablette d'orrigine, exporter le dossier "epub" de l'élève
+- Transférer ce fichier dans l'autre tablette
+- Importer ce fichier "epub" dans la nouvelle.
 
 ## Configurer sa messagerie
 
