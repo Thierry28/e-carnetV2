@@ -52,24 +52,7 @@ L'EPUB (Electronic Publication) est un format de livre numérique qui offre :
 - **Sons embarqués** : Enregistrements de voix
 - **Documents annexes** : PDFs liés
 
-### Création d'un e-journal EPUB
 
-#### Différence avec l'e-carnet
-
-L'e-journal EPUB se concentre sur :
-
-- **Chronologie des activités** de la classe
-- **Moments collectifs** marquants
-- **Évolution du groupe** d'élèves
-- **Projets pédagogiques** menés
-
-#### Processus de création
-
-1. **Sélectionner la classe** ou le groupe
-2. **Définir la période** à documenter
-3. **Choisir les activités** représentatives
-4. **Ajouter les commentaires** de synthèse
-5. **Générer l'e-journal** EPUB
 
 ## Amélioration technique EPUB
 

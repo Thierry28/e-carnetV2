@@ -70,3 +70,7 @@ zipp==3.8.0
     # via importlib-metadata
 pyembed>=0.1
 pyembed.markdown>=0.1
+mkdocs-video>=1.5.0
+    # via -r docs/requirements.in
+lxml>=4.7.0
+    # via mkdocs-video
