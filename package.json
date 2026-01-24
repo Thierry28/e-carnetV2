@@ -15,9 +15,9 @@
     "serve:public": "./.venv/bin/mkdocs serve --dev-addr=0.0.0.0:8000",
     "pdf": "./.venv/bin/mkdocs-with-pdf",
     "validate": "./.venv/bin/mkdocs build --strict",
-    "scripts:clean-comments": "./scripts/removeCommentsInMDfiles.sh",
-    "scripts:clean-paths": "./scripts/removeDotDotSlashInMDfiles.sh",
-    "scripts:create-files": "./scripts/createNewFiles.sh",
+    "docs:sync-template": "rsync -av --delete /Users/thierryg/Documents/PROJETS/templateFM7Cordova-CDR1/mkdocs-documentation/docs/ mkdocs-documentation/docs/",
+    "docs:mkdocs:sync-template": "rsync -av --delete /Users/thierryg/Documents/PROJETS/templateFM7Cordova-CDR1/mkdocs-documentation/mkdocs.yml mkdocs-documentation/mkdocs.yml",
+    "docs:template-serve": "npm run docs:sync-template && npm run docs:mkdocs:sync-template && cd mkdocs-documentation && ../.venv/bin/mkdocs build && ../.venv/bin/mkdocs serve",
     "preinstall": "command -v python3 >/dev/null 2>&1 || { echo 'Python 3 is required but not installed. Please install Python 3.'; exit 1; }",
     "postinstall": "pip3 install -r docs/requirements.txt || echo 'Please install Python dependencies manually: pip3 install -r docs/requirements.txt'"
   },

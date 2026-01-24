@@ -1,5 +1,19 @@
 # Nouveautés
 
+## Année 2026 : Consolidation et Multi-plateforme
+
+### Version 2.3.8 (24 Janvier 2026)
+
+- **Mise à jour majeure** : Version unifiée pour toutes les plateformes (Windows, macOS, Linux, Android, iOS).
+- **Stabilité renforcée** : Corrections suite aux tests automatisés.
+- **Téléchargements directs et aide** :
+  - 🪟 [Version Windows](https://tja-solutions.com/RELEASES/WINDOWS/e-carnet%20Setup%202.3.8.exe) - [Voir l'aide](85-12-tutoUtiliserVersionWindows.md)
+  - 🍎 [Version MacOS (arm64)](https://tja-solutions.com/RELEASES/MACOS/e-carnet-2.3.8-arm64.dmg) - [Voir l'aide](85-13-tutoUtiliserVersionMacOS.md)
+  - 🐧 [Version Linux](https://tja-solutions.com/RELEASES/LINUX/e-carnet-2.3.8-arm64.AppImage) - [Voir l'aide](85-14-tutoUtiliserVersionLinux.md)
+  - 💡 [Pourquoi utiliser la version ordinateur ?](85-15-VersionsOrdinateur.md)
+  <!-- - 🤖 [Version Android (APK)](https://tja-solutions.com/RELEASES/ANDROID/ecarnet.2.3.8.apk)
+  - 📱 [Version iOS (IPA)](https://tja-solutions.com/RELEASES/IOS/e-carnet.ipa) -->
+
 ## Année 2025 : Évolutions majeures
 
 ### Catalogue et terminologie 2025
@@ -77,32 +91,31 @@
 ## Version iOS (e-carnet)
 
 A la date du 4 octobre 2025, elle est en cours de test et sera bientôt disponible.
-<!-- 
+
+<!--
 La premiere version est 2.0.4
 
 Elle est semblable fonctionnellement à la version Android, exceptés les lieux de stockage des fichiers qui diffèrent avec le système Android. Mais le principe reste similaire.
 
 [Version courante sur app store](https://apps.apple.com/us/app/e-carnet-maternelle/id1663629696) -->
 
-
 ## Version Android (e-carnet)
 
 [Version courante sur PlayStore](https://play.google.com/store/apps/details?id=org.tre.ecarnet&gl=FR)
 
-
-### Version de dépannange (v1). Attention, retour arriere impossible.
+### Version 2.3.8 (24 Janvier 2026). Attention, retour arriere impossible.
 
 A n'utiliser que sur recommandation du support.
 
 [Version 1.11.11v133](https://drive.google.com/file/d/1A-SxaqSyTQ5kwhtRYza3lZaRJ7XCCzcT/view?usp=sharing)
 
-### Version de dépannange (v1). Attention, retour arriere impossible
+### Version 2.3.8 (24 Janvier 2026). Attention, retour arriere impossible
 
 A n'utiliser que sur recommandation du support.
 
 Version non publiée
 
-[Version  1.11.8v133](https://drive.google.com/file/d/1GTQW1rQ4utEJ6EwO60EtzO_xod_PL4Ey/view?usp=sharing)
+[Version 1.11.8v133](https://drive.google.com/file/d/1GTQW1rQ4utEJ6EwO60EtzO_xod_PL4Ey/view?usp=sharing)
 
 ### Version v1 :
 
@@ -111,7 +124,6 @@ Version non publiée
 Pas d'autres version publiée depuis, suite changement de règles de Google qui ont conduit à la réécriture partielle de l'application et la publication en cours d'une version 2.x.x.
 
 Cette version n'est plus modifiale et ne fera plus l'objet de mises à jour.
-
 
 ### Version 1.9.16v117 du 14 mars 2021
 
@@ -128,21 +140,19 @@ Cette version n'est plus modifiale et ne fera plus l'objet de mises à jour.
 - Icône de la note restituée après restauration
 - Copie des avatars "animaux" dans le dossier Pictures (Android) et Avatars (Windows)
 
-NB : Bugs identifiés restant à corriger : 
+NB : Bugs identifiés restant à corriger :
 
 - les tags restent visibles dans le fichier epub
 - anomalie au changement des remplacements.
 - après certaines restauration de sauvegardes, la vignette des vidéos n'est pas restituée (mais les vidéos restent accessibles)
 
-Liste des permissions nécessaires au fonctionnement de l'application Android : 
+Liste des permissions nécessaires au fonctionnement de l'application Android :
 
 - prendre des photos et enregistrer des vidéos : fonctions de base de l’application
 - enregistrer des fichiers audio : idem, fonctions de base de l’application
 - lire contenu de stockage partagé et modifier/supprimer contenu mémoire stockage partagé : l’application a besoin de cet accès pour écrire les fichiers contenant les e-carnets et rendre ces fichiers accessibles à l’utilisateur. Nécessaire aussi pour enregistrer les sauvegardes et fichiers de réglages.
 - afficher les connexions réseau et bénéficier d’un accès complet au réseau : nécessaire pour vérifier que la version installée est la dernière disponible. Permet d’alerter l’utilisateur et du besoin de déclencher une mise à jour.
 - modifier vos paramètres audio : nécessaire pour utiliser les fonctions de reconnaissance et synthèse vocale.
-
-
 
 ### Version 1.9.14v113 du 6 décembre 2020
 
@@ -153,7 +163,7 @@ Liste des permissions nécessaires au fonctionnement de l'application Android :
 - La doc est ici : https://frama.link/ecmguide
 - Voir les tutos dans l'onglet "Tutos par moments clés"
 
-NB : Bugs identifiés restant à corriger : 
+NB : Bugs identifiés restant à corriger :
 
 - les tags restent visibles dans le fichier epub
 - l'import d'un dossier élève ayant comme avatar une icone standard "animal" ne restitue pas correctement cet avatar. Palliatif : remettre manuellement un avatar apres import
@@ -161,30 +171,27 @@ NB : Bugs identifiés restant à corriger :
 - anomalie au changement des remplacements.
 - dans la grille, l'ordre des élève sur la première ligne n'est pas toujours bonne, ce qui compte est le prénom dans les cellules
 
-
-Prochaine version : 
+Prochaine version :
 
 - saisie des commentaires simplifiée.
 - versions Windows, Mac, Linux.
-  
 
 ### Version 1.9.13v112 du 28 novembre 2020
 
 Mise à jour de cette documentation : ajout de 47 "tutos" video. Perfectibles ... mais disponibles !
 
-Corrections de bugs. 
+Corrections de bugs.
 
-Remise en service export format  epub pour sauvegarde ou échange dossier élève entre tablettes et versions Windows, Mac.
+Remise en service export format epub pour sauvegarde ou échange dossier élève entre tablettes et versions Windows, Mac.
 
-Compatible avec échanges bi-directionnels entre version Android, Windows, MacOS via transfert de fichier. 
+Compatible avec échanges bi-directionnels entre version Android, Windows, MacOS via transfert de fichier.
 
-NB : Bugs récemments identifiés qui seront pris en compte dans la prochaine version, courant décembre : 
+NB : Bugs récemments identifiés qui seront pris en compte dans la prochaine version, courant décembre :
 
 - le bouton "envoyer" e-carnet est KO. Palliatif : passer directement par votre logiciel de messagerie et "joindre" le fichier html produit.
 - l'import d'un dossier élève ayant comme avatar une icone standard "animal" ne restitue pas correctement cet avatar. Palliatif : remettre manuellement un avatar apres import
 
-
-NB : les nouvelles versions Windows, MacOs et Linux seront disponibles mi-décembre 2020. Elles auront les particularités suivantes : 
+NB : les nouvelles versions Windows, MacOs et Linux seront disponibles mi-décembre 2020. Elles auront les particularités suivantes :
 
 - import de photos, vidéos
 - production des e-carnets
@@ -192,7 +199,6 @@ NB : les nouvelles versions Windows, MacOs et Linux seront disponibles mi-décem
 - import/export dossier élève depuis et vers tablette
 - import/export sauvegarde complète depuis/vers tablette
 - comme la version Android, fonctionnement sans serveur (connectivité internet permanente non nécessaire)
-
 
 ### Version 1.9.10v106 du 25 mai 2020
 
@@ -229,7 +235,6 @@ Ajout possibilité de personnaliser la mise en forme et les contenus des e-carne
 Diminution des causes de plantage.
 
 Vous pouvez continuer d'utiliser e-carnet à distance en incorporant des photos que les parents pourraient vous envoyer.
-
 
 ### Version 1.8.9v101 du 1er mars 2020
 
@@ -268,7 +273,7 @@ La grille de suivi est maintenant affichée pour les élèves d'une même sectio
 
 Les fichiers e-carnet peuvent être produits directement depuis la page contenant la liste des élèves, affichée en mode liste (et pas mosaïque). Ils s'enregistrent directement sur la tablette.
 
-Nouveau document possible : e-journal. Il reproduit le contenu qui apparaît dans le blog élève. Similaire  au e-carnet mais les observables sont présentés par ordre chronologique, quel que soit le référentiel utilisé. Permet d’avoir des observables décrits selon plusieurs référentiels (exemple : anglais/français). Email modifié en conséquence : e-journal au lieu de e-carnet. Personnalisation dans les réglages.
+Nouveau document possible : e-journal. Il reproduit le contenu qui apparaît dans le blog élève. Similaire au e-carnet mais les observables sont présentés par ordre chronologique, quel que soit le référentiel utilisé. Permet d’avoir des observables décrits selon plusieurs référentiels (exemple : anglais/français). Email modifié en conséquence : e-journal au lieu de e-carnet. Personnalisation dans les réglages.
 
 Ce document e-journal peut être multi lingue. Il peut rassembler des observables rédigés en plusieurs langues (cas des classes qui enseignent plusieurs langues).
 
@@ -278,7 +283,7 @@ Fonction de nettoyage des documents pour lesquels les medias ont été supprimé
 
 Fonction d'import du fichier de sauvegarde des élèves.
 
-Sauvegarde automatique des réglages à chaque démarrage de l'application. 
+Sauvegarde automatique des réglages à chaque démarrage de l'application.
 
 Amélioration gestion sauvegarde/restauration des données de l'application.
 
@@ -286,8 +291,6 @@ Correction bug de la fonction exporter liste des élèves au format xlsx depuis 
 
 Ajouter message d'alerte si le filtre de date dans le e-carnet conduit à 0 media.
 
-
- 
 ### Version 1.8.0v93 du 1er janvier 2020
 
 Le catalogue de référence est maintenant personnalisable grâce à une application windows et MacOs (voir notre site web). Le fichier résultant s'importe dans la tablette depuis "réglages/Gestion observables".
@@ -302,8 +305,6 @@ Remise en service du contrôle de version et de l'inscription à la newsletter.
 Les tutoriels sont redevenus accessibles depuis l'application.
 
 Correction du bug Supprimer document.
-
-
 
 ### Version 1.7.5v92
 
@@ -335,7 +336,7 @@ Information importante pour les utilisateurs actuels : lors du prochain lancemen
 
 Cette opération qui n'aura lieu qu'une seule fois peut prendre du temps (jusqu'à plusieurs dizaines de minutes selon le nombre de photos). Il est important d'attendre la fin du processus.
 
-Nouvelles fonctionnalités : 
+Nouvelles fonctionnalités :
 
 - Ajout nouveau pad pour signature des parents, directement depuis le e-carnet généré, dans la case prévue à cet effet. La signature des parents est uniquement visible dans le e-carnet qu'ils auront signé depuis la tablette de l'enseignant.
 
@@ -349,15 +350,14 @@ Nouvelles fonctionnalités :
 
 - Import du fichier de sauvegarde dans une autre tablette si besoin (transfert ou sauvegarde). Ne pas changer le nom du fichier : SAUVEGARDE_ECM.zip
 
-- Affichage d'une fenetre de 'logs' (journal) qui montre ce qui se passe, 
-affiche les éventuelles erreurs et produit un fichier journal
-qui peut être facilement consultable et envoyé par email pour support.
-L'affichage de ce popup journal est gérable dans Réglages/Journal.
-
+- Affichage d'une fenetre de 'logs' (journal) qui montre ce qui se passe,
+  affiche les éventuelles erreurs et produit un fichier journal
+  qui peut être facilement consultable et envoyé par email pour support.
+  L'affichage de ce popup journal est gérable dans Réglages/Journal.
 
 ### Version 1.2.0v23 du 6 mai 2018
 
-Principale nouveauté : association d'un observable à plusieurs élèves : 
+Principale nouveauté : association d'un observable à plusieurs élèves :
 
 - Sélection d'un sous ensemble des élèves en cliquant sur chaque icône
 
@@ -367,8 +367,7 @@ Principale nouveauté : association d'un observable à plusieurs élèves :
 
 ![Sélection de toute la classe](screenshots/2018-05-01-10-48-58.png)
 
-
-Autres évolutions : 
+Autres évolutions :
 
 - correction d'un problème pour certains utilisateurs des versions Androïd 7 et 8.
 
@@ -378,7 +377,7 @@ Autres évolutions :
 
 - Un fichier excel modèle peut être utilisé avec la fonction "importer fichier élèves" de la page "Réglages", section "Liste élèves". Ce fichier est disponible sur le site web de l'application, dans la page "Tutoriels". [Lien direct.](https://drive.google.com/open?id=17hz6V-6MhR8hFGeqliqq0jWQ8fMDR--W)
 
-![Import fichier modèle classe](screenshots/2018-05-01-11-16-16.png) 
+![Import fichier modèle classe](screenshots/2018-05-01-11-16-16.png)
 
 ![Exemple avec 40 élèves et 2 sections](screenshots/2018-05-01-11-17-19.png)
 
@@ -386,7 +385,7 @@ Autres évolutions :
 
 NB : cette version est compatible avec les versions Android >= 6.0
 
-Adaptations écran smartphone : 
+Adaptations écran smartphone :
 
 NB : Penser à tourner votre smartphone pour adapter la largeur de l'écran.
 
@@ -397,7 +396,6 @@ NB : Penser à tourner votre smartphone pour adapter la largeur de l'écran.
 ![Boutons de capture adaptés](screenshots/2018-05-06-09-24-53.png)
 
 ![Catalogue des observables](screenshots/2018-05-06-11-28-02.png)
-
 
 ### Version 1.1.14v21 du 2 avril 2018
 
@@ -415,7 +413,7 @@ Une barre de boutons permet de naviguer plus efficacement dans les différents m
 
 ![Barre de navigation page Réglages](screenshots/2018-04-03-07-06-36.png)
 
-#### Enregistrement de sélections personnalisées 
+#### Enregistrement de sélections personnalisées
 
 Dans la page "Observables", vous pouvez activer/désactiver chacun des observables pour simplifier l'affectation des observables aux médias.
 
@@ -427,11 +425,11 @@ La commande `Sauvegarder`permet maintenant de choisir une référence pour mémo
 
 #### Nouvelle version du catalogue des observables
 
-Ajout de la partie "Apprendre ensemble et vivre ensemble" : 
+Ajout de la partie "Apprendre ensemble et vivre ensemble" :
 
 ![Apprendre ensemble et vivre ensemble](screenshots/2018-03-26-07-52-03.png)
 
-#### Ajout module de choix de sélection personnalisée d'observables 
+#### Ajout module de choix de sélection personnalisée d'observables
 
 ![Sélection personnalisée d'observables](screenshots/2018-03-26-07-53-55.png)
 
@@ -441,9 +439,9 @@ Ajout de la partie "Apprendre ensemble et vivre ensemble" :
 
 Le texte exemple par défaut est supprimé, la saisie est simplifiée, elle est directe en cliquant sur l'icone `Tx` qui a été déplacé en première position.
 
-#### Modification du contenu du e-carnet 
+#### Modification du contenu du e-carnet
 
-3 blocs sont maintenant disponibles : 
+3 blocs sont maintenant disponibles :
 
 - Bilan périodique
 - Réussites régulières
@@ -470,13 +468,14 @@ Ce process est décrit dans la documentation, cf 4.5.4.
 #### Mise à jour de la rubrique Evolutions à venir
 
 ### Version 1.1.11v18 du 4 mars 2018
+
 #### Mise en oeuvre de la synthèse vocale
 
-  + Message de bienvenue au démarrage de l'application, pour témoigner de la présence de cette fonctionnalité de sysnthèse vocale ! Ce message est activable/désactivable dans le menu "réglages".
-  + En mode élève, un "Bonjour (prénom)" accueille l'élève qui vient de cliquer sur son icône. Ce message est aussi activable/désactivable dans le menu "réglages".
-  + Un bouton "Ecouter" permet à l'élève d'écouter le contenu du champ "notes" associé à chaque media.
-  + A chaque fois que l'élève saisi un commentaire, la synthèse vocale prononce de commentaire des que l'élève clique en dehors de la zone de texte.
-  + La vitesse de prononciation est réglable dans le menu "réglages".
+- Message de bienvenue au démarrage de l'application, pour témoigner de la présence de cette fonctionnalité de sysnthèse vocale ! Ce message est activable/désactivable dans le menu "réglages".
+- En mode élève, un "Bonjour (prénom)" accueille l'élève qui vient de cliquer sur son icône. Ce message est aussi activable/désactivable dans le menu "réglages".
+- Un bouton "Ecouter" permet à l'élève d'écouter le contenu du champ "notes" associé à chaque media.
+- A chaque fois que l'élève saisi un commentaire, la synthèse vocale prononce de commentaire des que l'élève clique en dehors de la zone de texte.
+- La vitesse de prononciation est réglable dans le menu "réglages".
 
 NB : La synthèse vocale est une fonctionnalité native des tablettes Android. Cette fonctionalité se paramètre dans la partie "paramètres" de la tablette.
 
@@ -494,6 +493,3 @@ NB : un appui long dans la zone d'édition déclenchera l'apparition du clavier.
 #### Ecran "Réglages"
 
 Trois nouveaux réglages apparaissent désormais dans la partie "Synthèse vocale".
-
-
-
