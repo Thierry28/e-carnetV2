@@ -200,7 +200,11 @@
 <li>Téléchargez le fichier <code>.dmg</code> ci-dessus.</li>
 <li>Ouvrez l'image disque.</li>
 <li>Glissez l'icône <strong>e-carnet</strong> dans votre dossier <strong>Applications</strong>.</li>
-<li>Lors du premier lancement, si macOS bloque l'ouverture (développeur non identifié), faites un clic droit sur l'application et choisissez <strong>Ouvrir</strong>.</li>
+<li>Lors du premier lancement, si macOS affiche un message indiquant que <strong>"e-carnet est endommagé"</strong> ou provient d'un <strong>"développeur non identifié"</strong> :
+   - <strong>Méthode 1</strong> : Faites un clic droit (ou Ctrl+clic) sur l'application dans votre dossier Applications et choisissez <strong>Ouvrir</strong>.
+   - <strong>Méthode 2 (Recommandée si le message "endommagé" persiste)</strong> : Ouvrez un <strong>Terminal</strong> (via Spotlight) et collez la commande suivante, puis appuyez sur Entrée :
+     <pre class="highlight"><code class="language-bash">xattr -cr /Applications/e-carnet.app</code></pre>
+   - Relancez ensuite l'application normalement.</li>
 <li>Vous devrez créer un nouveau dossier, par exemple "e-carnet" puis le sélectionner.</li>
 </ol>
 <h2 id="premier_lancement">Premier lancement<a class="headerlink" href="#premier_lancement" title="Permanent link">¶</a></h2>

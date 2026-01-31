@@ -8,8 +8,10 @@
 - **Stabilité renforcée** : Corrections suite aux tests automatisés.
 - **Téléchargements directs et aide** :
   - 🪟 [Version Windows](https://tja-solutions.com/RELEASES/WINDOWS/e-carnet%20Setup%202.3.8.exe) - [Voir l'aide](85-12-tutoUtiliserVersionWindows.md)
-  - 🍎 [Version MacOS (arm64)](https://tja-solutions.com/RELEASES/MACOS/e-carnet-2.3.8-arm64.dmg) - [Voir l'aide](85-13-tutoUtiliserVersionMacOS.md)
-  - 🐧 [Version Linux](https://tja-solutions.com/RELEASES/LINUX/e-carnet-2.3.8-arm64.AppImage) - [Voir l'aide](85-14-tutoUtiliserVersionLinux.md)
+    <!-- - 🍎 [Version MacOS (arm64)](https://tja-solutions.com/RELEASES/MACOS/e-carnet-2.3.8-arm64.dmg) - [Voir l'aide](85-13-tutoUtiliserVersionMacOS.md) -->
+    <!-- - 🐧 [Version Linux](https://tja-solutions.com/RELEASES/LINUX/e-carnet-2.3.8-arm64.AppImage) - [Voir l'aide](85-14-tutoUtiliserVersionLinux.md) -->
+  - 🍎 Version MacOS : en cours d'ajustement, bientôt disponible.
+  - 🐧 Version Linux : en cours d'ajustement, bientôt disponible.
   - 💡 [Pourquoi utiliser la version ordinateur ?](85-15-VersionsOrdinateur.md)
   <!-- - 🤖 [Version Android (APK)](https://tja-solutions.com/RELEASES/ANDROID/ecarnet.2.3.8.apk)
   - 📱 [Version iOS (IPA)](https://tja-solutions.com/RELEASES/IOS/e-carnet.ipa) -->

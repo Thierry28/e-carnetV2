@@ -26,3 +26,6 @@ Il n'y a pas de synchronisation automatique par Internet (pour garantir votre co
 3.  Utilisez la fonction **Restaurer** sur la version ordinateur.
 
 Vous pouvez ainsi commencer à prendre des photos en classe avec votre tablette, puis terminer la rédaction des bilans confortablement installé devant votre ordinateur !
+
+!!! info "Note pour les utilisateurs Mac"
+Si macOS affiche un message indiquant que l'application est "endommagée", c'est une sécurité liée au téléchargement. Consultez [le tutoriel MacOS](85-13-tutoUtiliserVersionMacOS.md) pour savoir comment la débloquer en une seconde.

@@ -11,7 +11,13 @@ L'application e-carnet est disponible pour Mac (processeurs Apple Silicon type M
 1. Téléchargez le fichier `.dmg` ci-dessus.
 2. Ouvrez l'image disque.
 3. Glissez l'icône **e-carnet** dans votre dossier **Applications**.
-4. Lors du premier lancement, si macOS bloque l'ouverture (développeur non identifié), faites un clic droit sur l'application et choisissez **Ouvrir**.
+4. Lors du premier lancement, si macOS affiche un message indiquant que **"e-carnet est endommagé"** ou provient d'un **"développeur non identifié"** :
+   - **Méthode 1** : Faites un clic droit (ou Ctrl+clic) sur l'application dans votre dossier Applications et choisissez **Ouvrir**.
+   - **Méthode 2 (Recommandée si le message "endommagé" persiste)** : Ouvrez un **Terminal** (via Spotlight) et collez la commande suivante, puis appuyez sur Entrée :
+     ```bash
+     xattr -cr /Applications/e-carnet.app
+     ```
+   - Relancez ensuite l'application normalement.
 5. Vous devrez créer un nouveau dossier, par exemple "e-carnet" puis le sélectionner.
 
 ## Premier lancement
