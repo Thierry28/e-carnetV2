@@ -40,6 +40,10 @@ Lors du premier lancement, l'application est vide. Vous pouvez :
 
 Pour transférer vos données vers une tablette :
 
-1. Effectuez une sauvegarde complète depuis les réglages.
-2. Transférez le fichier `SAUVEGARDE_ECM.zip` sur votre tablette.
-3. Utilisez la fonction "Restaurer une sauvegarde" sur la tablette.
+Le principe est le transfert des dossiers individuels de chaque élève sous forme d'un fichier epub par élève.
+
+Ces documents contiennent toutes les informations et medias associés à l'élève.
+
+1. Générer tous les fichiers epub (soit "Tous les fichiers", soit individuellement)
+2. Copier les fichiers dans un dossier de la tablette ou d'un autre ordinateur
+3. importer individuellement chaque dossier via la commande "importer epub"
