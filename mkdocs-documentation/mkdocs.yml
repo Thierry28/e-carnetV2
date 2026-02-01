@@ -149,7 +149,6 @@ markdown_extensions:
       guess_lang: false
   - markdown.extensions.toc:
       permalink: True
-      separator: "_"
   - pymdownx.extra
   - pymdownx.superfences:
       custom_fences:
