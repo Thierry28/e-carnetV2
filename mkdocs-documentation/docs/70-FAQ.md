@@ -4,24 +4,25 @@
 
 Vous avez déjà pris des photos, des vidéos, des enregistrements sonores, mais ... vous rencontrez des difficultés pour voir apparaître vos documents dans le e-carnet.
 
-Voici les 3 points à vérifier pour qu'une trace (photo, notes, ) apparaisse dans le e-carnet :
+Voici les 3 points à vérifier pour qu'une trace (photo, notes, ) apparaisse dans le e-carnet : 
 
 - la trace doit être associée à un observable pour être restituée dans les e-carnets ou e-journaux produits. A partir de la trace, vérifier que vous avez bien affecté un observable du référentiel.
+  
 - si une période de sélection a été définie dans les réglages, la date de la trace doit être comprise dans cette période. Cf Réglages/Paramètre ecarnet/Dates de début et fin de période.
 
-- Vous avez changé de référentiel entre le moment où vous avez pris les traces et le moment où vous voulez produire les e-carnets. En effet, chaque trace capturée l'est sur la base du référentiel courant au moment de la capture. Lors de la génération d'un e-carnet, le catalogue courant est parcouru, pour chaque observable le logiciel recherche l'existence d'une trace figurant dans la période courante, et si elle existe, la restitue. Si vous avez changé de référentiel, ce parcours ne va trouver aucune trace associée à ce nouveau référentiel.
+- Vous avez changé de référentiel entre le moment où vous avez pris les traces et le moment où vous voulez produire les e-carnets. En effet, chaque trace capturée l'est sur la base du référentiel courant au moment de la capture. Lors de la génération d'un e-carnet, le catalogue courant est parcouru, pour chaque observable le logiciel recherche l'existence d'une trace figurant dans la période courante, et si elle existe, la restitue. Si vous avez changé de référentiel, ce parcours ne va trouver aucune trace associée à ce nouveau référentiel. 
 
 Solution : produire un e-journal. Dans ce cas, la mécanique est différente. Le logiciel recherche tous les médias capturés dans la période courante et les restitue dans l'ordre chronologique en les attachant à l'observable du référentiel qui était en vigueur au moment de la capture. Donc, peu importe le référentiel d'observable en vigueur, le e-journal contiendra toutes les traces affectées à un observable au moins et pour laquelle la date de capture est comprise entre les 2 dates figurant dans réglages/e-carnet.
 
-Si le problème subsiste :
+Si le problème subsiste : 
 
 - mettre à jour votre application avec la dernière version,
 - changer les dates dans Réglages/Parametres e-carnet pour provoquer une mise à jour des valeurs dans la base de données
 - faire afficher la fenêtre de journal si vous l’aviez fermée (Réglages/Journal)
 - générer à nouveau vos e-carnets : surveiller dans la fenêtre journal ce qui pourra s’afficher. Depuis la version 1.8.2v95, des messages indiquent la période de sélection utilisée, le nombre de documents filtrés, et un message d’alerte apparaîtra si celui ci est à 0.
-- générer une sauvegarde et transmettre le fichier par transfert de fichiers ou sur via un lien sur un cloud à [support@tr-esolutions.com](mailto:support@tr-esolutions.com)
-- envoyer toute copie d'écran qui illustreraient le problème à [support@tr-esolutions.com](mailto:support@tr-esolutions.com)
-
+- générer une sauvegarde et transmettre le fichier par transfert de fichiers ou sur via un lien sur un cloud à [support@tr-esolutions.com](mailto://support@tr-esolutions.com)
+- envoyer toute copie d'écran qui illustreraient le problème à [support@tr-esolutions.com](mailto://support@tr-esolutions.com)
+  
 ## Comment supprimer une activité ?
 
 - Aller sur le document
@@ -30,7 +31,7 @@ Si le problème subsiste :
 - bouton supprimer document
 - bouton supprimer observables sur chaque observable associé au document
 
-Cf [Parametrage des utilisateurs de la tablette](25-Reglages.md#parametrage-des-utilisateurs-de-la-tablette)
+Cf [Parametrage des utilisateurs de la tablette](23-MesDocuments.md)
 
 ## Est-il possible de conserver l'historique dans les commentaires/appréciations de la fiche élève ?
 
@@ -40,81 +41,82 @@ Tout ce qui se retrouvera au dessus du dernier séparateur --- ne sera pas resti
 
 ![type:video](https://www.youtube.com/embed/5X26eP7_k7U)
 
-## Comment faire apparaitre le nom de 2 enseignant(e)s
+## Comment faire apparaitre le nom de 2 enseignant(e)s 
 
-Pour changer le/les noms qui apparaissent dans le e-carnet,
+Pour changer le/les noms qui apparaissent dans le e-carnet, 
 
-Changer le texte qui apparait dans la case enseignant 1
+Changer le texte qui apparait dans la case enseignant 1 
 
 En y mettant par Exemple : Mme A. Dupond, Mme B. Durand
 
 cf : [parametrage des utilisateurs de la tablette](25-Reglages.md#parametrage-des-utilisateurs-de-la-tablette)
 
-Puis activer le changement en allant dans « qui suis je » et choisir la nouvelle valeur
+Puis activer le changement en allant dans « qui suis je » et choisir la nouvelle valeur 
 [multi-utilisateur qui suis je](25-Reglages.md#multi-utilisateur_qui_suis-je)
 
-Pour avoir une double signature voici le process : 2 possibilités :
+Pour avoir une double signature voici le process : 2 possibilités : 
 
 - numérique : signer à 2 dans l’espace prévu à cet effet
-- scan depuis papier :
-  - signer un document papier, les 2 signatures cote à cote devant tenir dans un rectangle,
-  - scanner,
+- scan depuis papier : 
+  - signer un document papier, les 2 signatures cote à cote devant tenir dans un rectangle, 
+  - scanner, 
   - rogner un rectangle avec un logiciel de retouche d'iamge
   - et mettre le fichier sur la tablette.
   - Importer ensuite le fichier avec la commande "choisir fichier signature"
 
-C’est décrit ici :
+C’est décrit ici : 
 [parametrage des utilisateurs de la tablette](25-Reglages.md#parametrage-des-utilisateurs-de-la-tablette)
 
 ## Modifier un mot, une phrase, autre chose ... dans tous les e-carnets
 
-Par exemple,
+Par exemple, 
 
 Vous êtes plusieurs enseignant(e)s à figurer en tête du e-carnet.
 
 Vous voulez modifier le texte standard "Enseignant :" en "Enseignants :" ou "Enseignantes :".
 
-2 façon de procéder :
+2 façon de procéder : 
 
 - En utilisant la fonctionnalité prévue à cet effet : "Remplacements". Cf : [Activation de la fonction de personnalisation](25-Reglages.md#activation-de-la-fonction-de-personnalisation)
 
 - En utilisant un éditeur de texte et effectuer un chercher/remplacer "de masse" c'est à dire sur tous les fichiers du répertoire qui contient tous vos fichiers HTML des e-carnets.
-  Cf : [Modifier les documents en masse](85-20-tutoExperts.md#modifier_les_documents_en_masse)
+Cf : [Modifier les documents en masse](85-20-tutoExperts.md#modifier_les_documents_en_masse)
+
 
 ## Dans les fichiers en version pdf, les sauts de page coupent certaines images
 
 Le réglages de la mise en page en version pdf n'est pas simple ...
 
-2 solutions en attendant mieux :
-
+2 solutions en attendant mieux : 
 - Il faut "bricoler" le fichier html : le truc consiste à insérer des retours à la ligne pour décaler la coupure de page. Pour cela :
   - Ouvrir le fichier html dans un éditeur de texte de type note pad
   - Insérer des lignes contenant <br> qui signifie saut de ligne dans le format html
 
 - Envoyer le fichier au support@tr-esolutions.com qui fera la manip.
+  
 
 ## Faire apparaître le cadre pour le "Mot de la Direction"
 
-Dans les fichiers html des e-carnets,
+Dans les fichiers html des e-carnets, 
 
-Il faut remplacer :
+Il faut remplacer : 
 
-> eportfolio-evalDirection{display:none!important;}
+>eportfolio-evalDirection{display:none!important;}
 
 par
 
-> eportfolio-evalDirection{}
+>eportfolio-evalDirection{}
 
-Cette manipulation est gérée en automatique dans le e-carnet par :
+Cette manipulation est gérée en automatique dans le e-carnet par : 
 
 (extrait fichier remplacements.json)
 
-{
-"actif":"oui",
-"commentaire":"affichage cadre Evaluation Direction",
-"actuel": "eportfolio-evalDirection{display:none!important;}",
-"nouveau": "eportfolio-evalDirection{}"
-},
+ {
+    "actif":"oui",
+    "commentaire":"affichage cadre Evaluation Direction",
+    "actuel": "eportfolio-evalDirection{display:none!important;}", 
+    "nouveau": "eportfolio-evalDirection{}"
+  },
 
 Cf : [Activation de la fonction de personnalisation](25-Reglages.md#activation-de-la-fonction-de-personnalisation)
 
@@ -123,14 +125,13 @@ Cf : [Activation de la fonction de personnalisation](25-Reglages.md#activation-d
 Remplacer :
 
 >
-
 ```
 <p class=""><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAA30lEQVQ4jZ3S0UpCQRAG4O8ZlAN2nfkASr5BEITgXSg+QGhJ1E3QIV9AiUDwdb0YT5xstw7nv1h295/9Z2fm5zcGWOMTX9if9k+4SsT/wALvGKFTu+9iiBLz3OM17v7LgAlWqcxNHtdFZtVhIL6dwiueM9wH+sTXR5mgC/Qy3BiPRIc7maBb3GS4AjtiVDmUePuD338vLQUORAndFgIFtoTDhi0ErrEk7Flmgl7ElFLY4LI6zIU5mmKK+/PLVUORKR5y5Ew4bCyaVKEQNW9Smc/RFw7biREfRLeXajVXOAIXjCDuYb1anAAAAABJRU5ErkJggg=="/>  </p>
 ```
 
-Par
+Par 
 
-> (rien) , chaine vide ...
+>(rien) , chaine vide ...
 
 ## Peut on partager le e-carnet sur plusieurs appareils ?
 
@@ -142,9 +143,10 @@ Donc, non, la classe et les élève doivent être sur une unique tablette qui do
 
 Oui, pour cela il faut utiliser le dossier éléve au format "epub".
 
+
 ## Modifier la mise en page des photos dans le e-carnet : présentation horizontale
 
-(Niveau expert ...)
+(Niveau expert ...) 
 
 Voici une version du fichier remplacements.json qui peut être utilisé en remplacement du fichier par défaut situé dans le répertoire "réglages" du dossier e-carnet de maternelle"
 
@@ -157,14 +159,14 @@ Toutes les modifications, ou presques, sont envisageables. Ce mécanisme peut pe
   {
     "actif":"oui",
     "commentaire":"Preuves : suppression colonnes et affichage horizontal 1/3",
-    "actuel": "bloc-preuve {\n *(.*\n *.*)",
+    "actuel": "bloc-preuve {\n *(.*\n *.*)", 
     "nouveau": "bloc-preuve {\n"
   },
 
   {
     "actif":"oui",
     "commentaire":"Preuves : suppression colonnes et affichage horizontal 2/3",
-    "actuel": "vignette-portfolio{}",
+    "actuel": "vignette-portfolio{}", 
     "nouveau": "vignette-portfolio{width: 30%; display:inline-grid;}"
   },
 
@@ -297,7 +299,7 @@ Toutes les modifications, ou presques, sont envisageables. Ce mécanisme peut pe
   {
     "actif":"oui",
     "commentaire":"suppression complète cadre signature directeur",
-    "actuel": "signatureDirecteur{}",
+    "actuel": "signatureDirecteur{}", 
     "nouveau": "signatureDirecteur{display:none;}"
   },
 
@@ -347,9 +349,11 @@ Toutes les modifications, ou presques, sont envisageables. Ce mécanisme peut pe
 ]
 ```
 
-## Retrouver une mise en page du e-carnet "standard"
+## Retrouver une mise en page du e-carnet "standard" 
 
-Il est possible de « revenir en arrière après toute tentative de personnalisation des "remplacements" » en désactivant le bouton « remplacement » et en regénérant un nouvel e-carnet.
+Il est possible de « revenir en arrière après toute tentative de personnalisation des "remplacements"  » en désactivant le bouton « remplacement » et en regénérant un nouvel e-carnet.
+
+
 
 ## Créer un référentiel multi langue, exemple Français/Anglais
 
@@ -362,3 +366,4 @@ Voir : ![type:video](https://www.youtube.com/embed/mBkOB1D2Sjc)
 ## Comment partager les fichiers e-carnet avec photos, vidéos avec les parents
 
 Voir dans : [Comment partager les fichiers e-carnet avec photos, vidéos avec les parents](85-21-tutoPartageParents.md)
+

@@ -16,6 +16,11 @@
   <!-- - 🤖 [Version Android (APK)](https://tja-solutions.com/RELEASES/ANDROID/ecarnet.2.3.8.apk)
   - 📱 [Version iOS (IPA)](https://tja-solutions.com/RELEASES/IOS/e-carnet.ipa) -->
 
+#### Android-spécifique (v2.3.8) - Code version 51
+
+**Correction de bug**
+- ✅ **partage via QRCode** : correction de l'anomalie qui génrait message d'erreur
+
 ## Année 2025 : Évolutions majeures
 
 ### Catalogue et terminologie 2025
